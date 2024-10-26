@@ -1,0 +1,720 @@
+Prefix(:=<https://purl.obolibrary.org/obo/qualo.owl#>)
+Prefix(BFO:=<http://purl.obolibrary.org/obo/BFO_>)
+Prefix(OMO:=<http://purl.obolibrary.org/obo/OMO_>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(EDAM:=<http://edamontology.org/topic_>)
+Prefix(PATO:=<http://purl.obolibrary.org/obo/PATO_>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(skos:=<http://www.w3.org/2004/02/skos/core#>)
+Prefix(DISCO:=<http://purl.obolibrary.org/obo/DISCO_>)
+Prefix(QUALO:=<http://purl.obolibrary.org/obo/QUALO_>)
+Prefix(orcid:=<https://orcid.org/>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+Prefix(wikidata:=<http://wikidata.org/entity/>)
+Prefix(NCBITaxon:=<http://purl.obolibrary.org/obo/NCBITaxon_>)
+
+
+Ontology(<https://purl.obolibrary.org/obo/qualo.owl>
+Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>)
+Annotation(dcterms:description "An ontology representation qualifications, such as academic degrees")
+Annotation(dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/>)
+Annotation(dcterms:title "Qualification Ontology")
+Annotation(rdfs:comment "Built by https://github.com/biopragmatics/biosynonyms")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DISCO_0000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000053>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/QUALO_1000002>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-9439-5346>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0003-4423-4370>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003000>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003001>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003002>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003003>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003004>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003005>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003006>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003007>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003008>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003009>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003010>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003011>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003012>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/QUALO_1000001>))
+Declaration(AnnotationProperty(dcterms:contributor))
+Declaration(AnnotationProperty(dcterms:date))
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:source))
+Declaration(AnnotationProperty(dcterms:title))
+Declaration(AnnotationProperty(oboInOwl:hasBroadSynonym))
+Declaration(AnnotationProperty(oboInOwl:hasDbXref))
+Declaration(AnnotationProperty(oboInOwl:hasExactSynonym))
+Declaration(AnnotationProperty(oboInOwl:hasNarrowSynonym))
+Declaration(AnnotationProperty(oboInOwl:hasRelatedSynonym))
+Declaration(AnnotationProperty(oboInOwl:hasSynonym))
+Declaration(AnnotationProperty(oboInOwl:hasSynonymType))
+Declaration(AnnotationProperty(rdfs:comment))
+Declaration(AnnotationProperty(rdfs:label))
+Declaration(AnnotationProperty(rdfs:seeAlso))
+Declaration(AnnotationProperty(skos:exactMatch))
+Declaration(Datatype(xsd:date))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003000> (abbreviation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003000> "abbreviation")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003001> (ambiguous synonym)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003001> "ambiguous synonym")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003002> (dubious synonym)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003002> "dubious synonym")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003003> (layperson synonym)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003003> "layperson synonym")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003004> (plural form)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003004> "plural form")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003005> (UK spelling)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003005> "UK spelling")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003006> (misspelling)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003006> "misspelling")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003007> (misnomer)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003007> "misnomer")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003008> (previous name)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003008> "previous name")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003009> (legal name)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003009> "legal name")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003010> (International Nonproprietary Name)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003010> "International Nonproprietary Name")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003011> (latin term)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003011> "latin term")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003012> (acronym)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMO_0003012> "acronym")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/QUALO_1000001> (example holder)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_1000001> "example holder")
+AnnotationPropertyRange(<http://purl.obolibrary.org/obo/QUALO_1000001> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+AnnotationPropertyDomain(<http://purl.obolibrary.org/obo/QUALO_1000001> <http://purl.obolibrary.org/obo/QUALO_0000001>)
+
+# Annotation Property: dcterms:contributor (contributor)
+
+AnnotationAssertion(rdfs:label dcterms:contributor "contributor")
+
+# Annotation Property: dcterms:description (description)
+
+AnnotationAssertion(rdfs:label dcterms:description "description")
+
+# Annotation Property: dcterms:license (license)
+
+AnnotationAssertion(rdfs:label dcterms:license "license")
+
+# Annotation Property: dcterms:source (source)
+
+AnnotationAssertion(rdfs:label dcterms:source "source")
+
+# Annotation Property: oboInOwl:hasBroadSynonym (has broad synonym)
+
+AnnotationAssertion(rdfs:label oboInOwl:hasBroadSynonym "has broad synonym")
+
+# Annotation Property: oboInOwl:hasDbXref (has database cross-reference)
+
+AnnotationAssertion(rdfs:label oboInOwl:hasDbXref "has database cross-reference")
+
+# Annotation Property: oboInOwl:hasExactSynonym (has exact synonym)
+
+AnnotationAssertion(rdfs:label oboInOwl:hasExactSynonym "has exact synonym")
+
+# Annotation Property: oboInOwl:hasNarrowSynonym (has narrow synonym)
+
+AnnotationAssertion(rdfs:label oboInOwl:hasNarrowSynonym "has narrow synonym")
+
+# Annotation Property: oboInOwl:hasRelatedSynonym (has related synonym)
+
+AnnotationAssertion(rdfs:label oboInOwl:hasRelatedSynonym "has related synonym")
+
+# Annotation Property: oboInOwl:hasSynonym (has synonym)
+
+AnnotationAssertion(rdfs:label oboInOwl:hasSynonym "has synonym")
+
+# Annotation Property: oboInOwl:hasSynonymType (has synonym type)
+
+AnnotationAssertion(rdfs:label oboInOwl:hasSynonymType "has synonym type")
+
+# Annotation Property: rdfs:comment (comment)
+
+AnnotationAssertion(rdfs:label rdfs:comment "comment")
+
+# Annotation Property: rdfs:label (label)
+
+AnnotationAssertion(rdfs:label rdfs:label "label")
+
+# Annotation Property: rdfs:seeAlso (see also)
+
+AnnotationAssertion(rdfs:label rdfs:seeAlso "see also")
+
+# Annotation Property: skos:exactMatch (exact match)
+
+AnnotationAssertion(rdfs:label skos:exactMatch "exact match")
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000051> (has part)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000051> "has part")
+
+# Object Property: <http://purl.obolibrary.org/obo/QUALO_1000002> (for discipline)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_1000002> "for discipline")
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/QUALO_0000021>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000001>)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000001> (academic discipline)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000001> "academic discipline")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000001> owl:Thing)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000002> (mathematics)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000002> "mathematics")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000002> <http://purl.obolibrary.org/obo/DISCO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000003> (history)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000003> "history")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000003> <http://purl.obolibrary.org/obo/DISCO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000004> (geology)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000004> "geology")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000004> <http://purl.obolibrary.org/obo/DISCO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000005> (physics)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000005> "physics")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000005> <http://purl.obolibrary.org/obo/DISCO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000006> (chemistry)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000006> "chemistry")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000006> <http://purl.obolibrary.org/obo/DISCO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000007> (biology)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000007> "biology")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000007> <http://purl.obolibrary.org/obo/DISCO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000008> (nursing)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000008> "nursing")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000008> <http://purl.obolibrary.org/obo/DISCO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000009> (psychology)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000009> "psychology")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000009> <http://purl.obolibrary.org/obo/DISCO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000010> (engineering)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000010> "engineering")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000010> <http://purl.obolibrary.org/obo/DISCO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000011> (mechanical engineering)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000011> "mechanical engineering")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000011> <http://purl.obolibrary.org/obo/DISCO_0000010>)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000012> (electrical engineering)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000012> "electrical engineering")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000012> <http://purl.obolibrary.org/obo/DISCO_0000010>)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000013> (chemical engineering)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000013> "chemical engineering")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000013> <http://purl.obolibrary.org/obo/DISCO_0000010>)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000014> (computer science)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000014> "computer science")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000014> <http://purl.obolibrary.org/obo/DISCO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000015> (biochemistry)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000015> "biochemistry")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000015> <http://purl.obolibrary.org/obo/DISCO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000016> (geography)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000016> "geography")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000016> <http://purl.obolibrary.org/obo/DISCO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000017> (neuroscience)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000017> "neuroscience")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000017> <http://purl.obolibrary.org/obo/DISCO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000018> (microbiology)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000018> "microbiology")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000018> <http://purl.obolibrary.org/obo/DISCO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/DISCO_0000019> (biomedical science)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DISCO_0000019> "biomedical science")
+SubClassOf(<http://purl.obolibrary.org/obo/DISCO_0000019> <http://purl.obolibrary.org/obo/DISCO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9606> (Homo sapiens)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9606> "Homo sapiens")
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0000001> (quality)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000001> "quality")
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000001> (qualification)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000001> "qualification")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000001> wikidata:Q4218455)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000001> <http://purl.obolibrary.org/obo/PATO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000002> (academic degree)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000002> "academic degree")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000002> wikidata:Q189533)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000002> <http://purl.obolibrary.org/obo/QUALO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000003> (bachelor's degree)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000003> "Bachelorstudium"@de)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000003> "bachelor's degree")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000003> wikidata:Q163727)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000003> <http://purl.obolibrary.org/obo/QUALO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000004> (master's degree)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000004> "master's degree")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000004> wikidata:Q183816)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000004> <http://purl.obolibrary.org/obo/QUALO_0000007>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000005> (doctoral degree)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000005> "doctoral degree")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000005> wikidata:Q849697)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000005> <http://purl.obolibrary.org/obo/QUALO_0000007>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000006> (undergraduate degree)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000006> "undergraduate degree")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000006> wikidata:Q6008527)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000006> <http://purl.obolibrary.org/obo/QUALO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000007> (graduate degree)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000007> "graduate degree")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000007> wikidata:Q23015928)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000007> <http://purl.obolibrary.org/obo/QUALO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000008> (associate's degree)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000008> "associate's degree")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000008> wikidata:Q14625016)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000008> <http://purl.obolibrary.org/obo/QUALO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000009> (academic degree with honors)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000009> "academic degree with honors")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000009> <http://purl.obolibrary.org/obo/QUALO_0000022>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000010> (honarary academic degree)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000010> "honarary academic degree")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000010> wikidata:Q209896)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000010> <http://purl.obolibrary.org/obo/QUALO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000011> (bachelor's degree with honors)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000011> "bachelor's degree with honors")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000011> wikidata:Q10862985)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000011> <http://purl.obolibrary.org/obo/QUALO_0000003>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000011> <http://purl.obolibrary.org/obo/QUALO_0000009>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000012> (honorary bachelor's degree)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000012> "honorary bachelor's degree")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000012> wikidata:Q85877890)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000012> <http://purl.obolibrary.org/obo/QUALO_0000003>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000012> <http://purl.obolibrary.org/obo/QUALO_0000010>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000013> (honorary master's degree)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000013> "honorary master's degree")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000013> wikidata:Q11415560)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000013> <http://purl.obolibrary.org/obo/QUALO_0000004>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000013> <http://purl.obolibrary.org/obo/QUALO_0000010>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000014> (honorary doctoral degree)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000014> "honorary doctoral degree")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000014> wikidata:Q11415564)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000014> <http://purl.obolibrary.org/obo/QUALO_0000005>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000014> <http://purl.obolibrary.org/obo/QUALO_0000010>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000015> (master's degree with honors)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000015> "master's degree with honors")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000015> <http://purl.obolibrary.org/obo/QUALO_0000004>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000015> <http://purl.obolibrary.org/obo/QUALO_0000009>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000016> (doctor of philosophy)
+
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/QUALO_0000016> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000016> "doctor of philosophy")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000016> wikidata:Q752297)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000016> <http://purl.obolibrary.org/obo/QUALO_0000005>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000017> (honorary doctor of philosophy)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000017> "honorary doctor of philosophy")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000017> wikidata:Q17403203)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000017> <http://purl.obolibrary.org/obo/QUALO_0000014>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000017> <http://purl.obolibrary.org/obo/QUALO_0000016>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000018> (doctor of philosophy by discipline)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000018> "doctor of philosophy by discipline")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000018> <http://purl.obolibrary.org/obo/QUALO_0000016>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000018> <http://purl.obolibrary.org/obo/QUALO_0000021>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000019> (doctor of philosophy in mathematics)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000019> "doctor of philosophy in mathematics")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000019> wikidata:Q11408905)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000019> <http://purl.obolibrary.org/obo/QUALO_0000018>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000002>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000020> (doctor of philosophy in history)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000020> "doctor of philosophy in history")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000020> wikidata:Q66126198)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000020> <http://purl.obolibrary.org/obo/QUALO_0000018>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000003>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000021> (academic degree by discipline)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000021> "academic degree by discipline")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000021> <http://purl.obolibrary.org/obo/QUALO_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000001>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000022> (academic degree by distinction)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000022> "academic degree by distinction")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000022> <http://purl.obolibrary.org/obo/QUALO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000023> (academic degree by progression)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000023> "academic degree by progression")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000023> <http://purl.obolibrary.org/obo/QUALO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000024> (bachelor of science)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000024> "Bachelor's of Science"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000024> "Bachelors of Science"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000024> "bs"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000024> "bs c"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(oboInOwl:hasSynonymType <http://purl.obolibrary.org/obo/OMO_0003000>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000024> "bsc"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000024> "bsc candidate"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000024> "bachelor of science")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000024> <http://purl.obolibrary.org/obo/QUALO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000025> (bachelor of nursing)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000025> "bachelor of nursing")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000025> <http://purl.obolibrary.org/obo/QUALO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000026> (bachelor of veterinary science)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000026> "bachelor of veterinary science")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000026> <http://purl.obolibrary.org/obo/QUALO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000027> (bachelor of pharmacy)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000027> "bachelor of pharmacy")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000027> <http://purl.obolibrary.org/obo/QUALO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000028> (bachelor of engineering)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000028> "bachelor of engineering")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000028> <http://purl.obolibrary.org/obo/QUALO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000029> (bachelor of education)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000029> "bachelor of education")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000029> <http://purl.obolibrary.org/obo/QUALO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000030> (bachelor of architecture)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000030> "bachelor of architecture")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000030> <http://purl.obolibrary.org/obo/QUALO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000031> (bachelor of arts)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000031> "bachelor of arts")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000031> <http://purl.obolibrary.org/obo/QUALO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000032> (bachelor of law)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000032> "bachelor of law")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000032> <http://purl.obolibrary.org/obo/QUALO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000033> (bachelor of medicine; bachelor of surgery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000033> "bachelor of medicine; bachelor of surgery")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000033> <http://purl.obolibrary.org/obo/QUALO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000034> (bachelor of technology)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000034> "bachelor of technology")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000034> <http://purl.obolibrary.org/obo/QUALO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000035> (bachelor of science in nursing)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000035> "bachelor of science in nursing")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000035> <http://purl.obolibrary.org/obo/QUALO_0000024>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000008>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000036> (bachelor of science in biology)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000036> "bachelor of science in biology")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000036> <http://purl.obolibrary.org/obo/QUALO_0000024>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000007>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000037> (bachelor of science in chemistry)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000037> "bachelor of science in chemistry")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000037> <http://purl.obolibrary.org/obo/QUALO_0000024>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000006>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000038> (bachelor of science in engineering)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000038> "bachelor of science in engineering")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000038> <http://purl.obolibrary.org/obo/QUALO_0000024>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000010>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000039> (bachelor of science in psychology)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000039> "Licenciada en Psicología"@es)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000039> "Licenciado en Psicología"@es)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000039> "bachelor of science in psychology")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000039> <http://purl.obolibrary.org/obo/QUALO_0000024>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000009>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000040> (bachelor of science in geography)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000040> "bachelor of science in geography")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000040> <http://purl.obolibrary.org/obo/QUALO_0000024>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000016>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000041> (bachelor of science in biochemistry)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000041> "bachelor of science in biochemistry")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000041> <http://purl.obolibrary.org/obo/QUALO_0000024>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000015>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000042> (bachelor of science in physics)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000042> "bachelor of science in physics")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000042> <http://purl.obolibrary.org/obo/QUALO_0000024>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000005>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000043> (bachelor of science in computer science)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000043> "bachelor of science in computer science")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000043> <http://purl.obolibrary.org/obo/QUALO_0000024>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000014>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000044> (bachelor of science in geology)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000044> "bachelor of science in geology")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000044> <http://purl.obolibrary.org/obo/QUALO_0000024>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000004>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000045> (bachelor of science in mechanical engineering)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000045> "bachelor of science in mechanical engineering")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000045> <http://purl.obolibrary.org/obo/QUALO_0000038>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000011>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000046> (bachelor of science in electrical engineering)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000046> "bachelor of science in electrical engineering")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000046> <http://purl.obolibrary.org/obo/QUALO_0000038>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000012>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000047> (bachelor of science in neuroscience)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000047> "bachelor of science in neuroscience")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000047> <http://purl.obolibrary.org/obo/QUALO_0000024>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000017>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000048> (bachelor of science in microbiology)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000048> "bachelor of science in microbiology")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000048> <http://purl.obolibrary.org/obo/QUALO_0000024>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000018>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000049> (bachelor of science in mathematics)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000049> "bachelor of science in mathematics")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000049> <http://purl.obolibrary.org/obo/QUALO_0000024>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000002>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000050> (bachelor of science in chemical engineering)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000050> "bachelor of science in chemical engineering")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000050> <http://purl.obolibrary.org/obo/QUALO_0000038>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000013>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000051> (bachelor of science in biomedical science)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000051> "bachelor of science in biomedical science")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000051> <http://purl.obolibrary.org/obo/QUALO_0000024>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000019>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000052> (combine degree)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000052> "combine degree")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000052> <http://purl.obolibrary.org/obo/QUALO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000053> (doctor of medicine–doctor of philosophy)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-26"^^xsd:date) Annotation(oboInOwl:hasSynonymType <http://purl.obolibrary.org/obo/OMO_0003012>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000053> "MD/PhD"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000053> "doctor of medicine–doctor of philosophy")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000053> <http://purl.obolibrary.org/obo/QUALO_0000052>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <https://orcid.org/0000-0001-9439-5346> (Benjamin M. Gyori)
+
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0001-9439-5346> "Benjamin M. Gyori"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0001-9439-5346>)
+
+# Individual: <https://orcid.org/0000-0003-4423-4370> (Charles Tapley Hoyt)
+
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0003-4423-4370> "Charles Tapley Hoyt"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0003-4423-4370>)
+
+
+)

@@ -21,6 +21,8 @@ HERE = Path(__file__).parent.resolve()
 EXPORT_DIR = HERE.joinpath("export")
 EXPORT_DIR.mkdir(exist_ok=True)
 EXPORT_PATH = EXPORT_DIR.joinpath("qualo.ttl")
+EXPORT_OWL_PATH = EXPORT_DIR.joinpath("qualo.owl")
+EXPORT_OFN_PATH = EXPORT_DIR.joinpath("qualo.ofn")
 
 DATA_DIR = HERE.joinpath("data")
 TERMS_PATH = DATA_DIR.joinpath("terms.tsv")
@@ -110,13 +112,12 @@ def _main() -> None:
     # TODO get prefixes from other places
     prefixes.update(_get_synonym_prefixes(synonym_index))
 
-    mappings_df = pd.read_csv(MAPPINGS_PATH, sep='\t')
-    for c in ['predicate_id', 'object_id', 'contributor']:
+    mappings_df = pd.read_csv(MAPPINGS_PATH, sep="\t")
+    for c in ["predicate_id", "object_id", "contributor"]:
         mappings_df[c] = mappings_df[c].map(Reference.from_curie, na_action="ignore")
 
     mdfg = {
-        Reference.from_curie(k): sdf
-        for k, sdf in mappings_df.groupby('subject_id')
+        Reference.from_curie(k): sdf for k, sdf in mappings_df.groupby("subject_id")
     }
 
     with open(EXPORT_PATH, "w") as file:
@@ -145,10 +146,13 @@ def _main() -> None:
                 if axiom := get_axiom_str(k, synonym):
                     file.write(axiom)
 
-            if (sdf:=mdfg.get(k)) is not None:
-                for p, o, c,d in sdf[['predicate_id', 'object_id', 'contributor', 'date']].values:
+            if (sdf := mdfg.get(k)) is not None:
+                for p, o, c, d in sdf[
+                    ["predicate_id", "object_id", "contributor", "date"]
+                ].values:
                     file.write(f"{k.curie} {p.curie} {o.curie} .\n")
-                    file.write(dedent(f"""\
+                    file.write(
+                        dedent(f"""\
                     [
                         a owl:Axiom ;
                         owl:annotatedSource {k.curie} ;
@@ -157,10 +161,14 @@ def _main() -> None:
                         dcterms:contributor {c.curie} ;
                         dcterms:date "{d}"^^xsd:date .
                     ] .
-                    """))
+                    """)
+                    )
+
 
 if __name__ == "__main__":
     _main()
 
-    # import bioontologies.robot
-    # bioontologies.robot.convert(TTL_PATH, OWL_PATH)
+    import bioontologies.robot
+
+    bioontologies.robot.convert(EXPORT_PATH, EXPORT_OWL_PATH)
+    bioontologies.robot.convert(EXPORT_PATH, EXPORT_OFN_PATH)
