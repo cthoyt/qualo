@@ -1,0 +1,74 @@
+curie	label	parent_1	parent_1_label	parent_2	parent_2_label	discipline	discipline_label
+PATO:0000001	quality						
+QUALO:0000001	qualification	PATO:0000001	quality				
+QUALO:0000002	academic degree	QUALO:0000001	qualification				
+QUALO:0000003	bachelor's degree	QUALO:0000006	undergraduate degree				
+QUALO:0000004	master's degree	QUALO:0000007	graduate degree				
+QUALO:0000005	doctoral degree	QUALO:0000007	graduate degree				
+QUALO:0000006	undergraduate degree	QUALO:0000023	degree by progression				
+QUALO:0000007	graduate degree	QUALO:0000023	degree by progression				
+QUALO:0000008	associate's degree	QUALO:0000006	undergraduate degree				
+QUALO:0000009	academic degree with honors	QUALO:0000022	degree by distinction				
+QUALO:0000010	honarary academic degree	QUALO:0000001	qualification				
+QUALO:0000011	bachelor's degree with honors	QUALO:0000009	academic degree with honors	QUALO:0000003	bachelor's degree		
+QUALO:0000012	honorary bachelor's degree	QUALO:0000010	honarary degree	QUALO:0000003	bachelor's degree		
+QUALO:0000013	honorary master's degree	QUALO:0000010	honarary degree	QUALO:0000004	master's degree		
+QUALO:0000014	honorary doctoral degree	QUALO:0000010	honarary degree	QUALO:0000005	doctoral degree		
+QUALO:0000015	master's degree with honors	QUALO:0000009	academic degree with honors	QUALO:0000004	master's degree		
+QUALO:0000016	doctor of philosophy	QUALO:0000005	doctoral degree				
+QUALO:0000017	honorary doctor of philosophy	QUALO:0000014	honorary doctoral degree	QUALO:0000016	doctor of philosophy		
+QUALO:0000018	doctor of philosophy by discipline	QUALO:0000016	doctor of philosophy	QUALO:0000021	degree by discipline		
+QUALO:0000019	doctor of philosophy in mathematics	QUALO:0000018	doctor of philosophy by subject			DISCO:0000002	mathematics
+QUALO:0000020	doctor of philosophy in history	QUALO:0000018	doctor of philosophy by subject			DISCO:0000003	history
+QUALO:0000021	academic degree by discipline	QUALO:0000002	academic degree			DISCO:0000001	academic discipline
+QUALO:0000022	academic degree by distinction	QUALO:0000002	academic degree				
+QUALO:0000023	academic degree by progression	QUALO:0000002	academic degree				
+QUALO:0000024	bachelor of science	QUALO:0000003	bachelor's degree				
+QUALO:0000025	bachelor of nursing	QUALO:0000003	bachelor's degree				
+QUALO:0000026	bachelor of veterinary science	QUALO:0000003	bachelor's degree				
+QUALO:0000027	bachelor of pharmacy	QUALO:0000003	bachelor's degree				
+QUALO:0000028	bachelor of engineering	QUALO:0000003	bachelor's degree				
+QUALO:0000029	bachelor of education	QUALO:0000003	bachelor's degree				
+QUALO:0000030	bachelor of architecture	QUALO:0000003	bachelor's degree				
+QUALO:0000031	bachelor of arts	QUALO:0000003	bachelor's degree				
+QUALO:0000032	bachelor of law	QUALO:0000003	bachelor's degree				
+QUALO:0000033	bachelor of medicine; bachelor of surgery	QUALO:0000003	bachelor's degree				
+QUALO:0000034	bachelor of technology	QUALO:0000003	bachelor's degree				
+QUALO:0000035	bachelor of science in nursing	QUALO:0000024	bachelor of science			DISCO:0000008	nursing
+QUALO:0000036	bachelor of science in biology	QUALO:0000024	bachelor of science			DISCO:0000007	biology
+QUALO:0000037	bachelor of science in chemistry	QUALO:0000024	bachelor of science			DISCO:0000006	chemistry
+QUALO:0000038	bachelor of science in engineering	QUALO:0000024	bachelor of science			DISCO:0000010	engineering
+QUALO:0000039	bachelor of science in psychology	QUALO:0000024	bachelor of science			DISCO:0000009	psychology
+QUALO:0000040	bachelor of science in geography	QUALO:0000024	bachelor of science			DISCO:0000016	geography
+QUALO:0000041	bachelor of science in biochemistry	QUALO:0000024	bachelor of science			DISCO:0000015	biochemistry
+QUALO:0000042	bachelor of science in physics	QUALO:0000024	bachelor of science			DISCO:0000005	physics
+QUALO:0000043	bachelor of science in computer science	QUALO:0000024	bachelor of science			DISCO:0000014	computer science
+QUALO:0000044	bachelor of science in geology	QUALO:0000024	bachelor of science			DISCO:0000004	geology
+QUALO:0000045	bachelor of science in mechanical engineering	QUALO:0000038	bachelor of science in engineering			DISCO:0000011	mechanical engineering
+QUALO:0000046	bachelor of science in electrical engineering	QUALO:0000038	bachelor of science in engineering			DISCO:0000012	electrical engineering
+QUALO:0000047	bachelor of science in neuroscience	QUALO:0000024	bachelor of science			DISCO:0000017	neuroscience
+QUALO:0000048	bachelor of science in microbiology	QUALO:0000024	bachelor of science			DISCO:0000018	microbiology
+QUALO:0000049	bachelor of science in mathematics	QUALO:0000024	bachelor of science			DISCO:0000002	mathematics
+QUALO:0000050	bachelor of science in chemical engineering	QUALO:0000038	bachelor of science in engineering			DISCO:0000013	chemical engineering
+QUALO:0000051	bachelor of science in biomedical science	QUALO:0000024	bachelor of science			DISCO:0000019	biomedical science
+QUALO:0000052	combine degree	QUALO:0000002	academic degree				
+QUALO:0000053	doctor of medicine–doctor of philosophy	QUALO:0000052	combine degree
+DISCO:0000001	academic discipline	owl:Thing
+DISCO:0000002	mathematics	DISCO:0000001	academic discipline
+DISCO:0000003	history	DISCO:0000001	academic discipline
+DISCO:0000004	geology	DISCO:0000001	academic discipline
+DISCO:0000005	physics	DISCO:0000001	academic discipline
+DISCO:0000006	chemistry	DISCO:0000001	academic discipline
+DISCO:0000007	biology	DISCO:0000001	academic discipline
+DISCO:0000008	nursing	DISCO:0000001	academic discipline
+DISCO:0000009	psychology	DISCO:0000001	academic discipline
+DISCO:0000010	engineering	DISCO:0000001	academic discipline
+DISCO:0000011	mechanical engineering	DISCO:0000010	engineering
+DISCO:0000012	electrical engineering	DISCO:0000010	engineering
+DISCO:0000013	chemical engineering	DISCO:0000010	engineering
+DISCO:0000014	computer science	DISCO:0000001	academic discipline
+DISCO:0000015	biochemistry	DISCO:0000001	academic discipline
+DISCO:0000016	geography	DISCO:0000001	academic discipline
+DISCO:0000017	neuroscience	DISCO:0000001	academic discipline
+DISCO:0000018	microbiology	DISCO:0000001	academic discipline
+DISCO:0000019	biomedical science	DISCO:0000001	academic discipline

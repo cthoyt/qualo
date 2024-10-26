@@ -1,0 +1,11 @@
+curie	label	scope	text	language	type	contributor	date
+QUALO:0000003	bachelor of science	oboInOwl:hasExactSynonym	Bachelorstudium	de		0000-0003-4423-4370
+QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	bsc	en	OMO:0003000	0000-0003-4423-4370
+QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	bs	en		0000-0003-4423-4370
+QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	bs c	en		0000-0003-4423-4370
+QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	bsc candidate	en		0000-0003-4423-4370
+QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	Bachelors of Science	en		0000-0003-4423-4370
+QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	Bachelor's of Science	en		0000-0003-4423-4370
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasExactSynonym	Licenciada en Psicología	es		0000-0003-4423-4370
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasExactSynonym	Licenciado en Psicología	es		0000-0003-4423-4370
+QUALO:0000053	doctor of medicine–doctor of philosophy	oboInOwl:hasExactSynonym	MD/PhD	en	OMO:0003012	0000-0003-4423-4370	2024-10-26
