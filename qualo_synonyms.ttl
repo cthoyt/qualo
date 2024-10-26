@@ -1,0 +1,348 @@
+@prefix BFO: <http://purl.obolibrary.org/obo/BFO_> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix DISCO: <http://purl.obolibrary.org/obo/DISCO_> .
+@prefix EDAM: <http://edamontology.org/topic_> .
+@prefix NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix OMO: <http://purl.obolibrary.org/obo/OMO_> .
+@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix PATO: <http://purl.obolibrary.org/obo/PATO_> .
+@prefix QUALO: <http://purl.obolibrary.org/obo/QUALO_> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://purl.obolibrary.org/obo/qualo.owl> a owl:Ontology ;
+    dcterms:title "Qualification Ontology" ;
+    dcterms:description "An ontology representation qualifications, such as academic degrees" ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    rdfs:comment "Built by https://github.com/biopragmatics/biosynonyms"^^xsd:string ;
+    dcterms:contributor orcid:0000-0003-4423-4370 .
+
+PATO:0000001 rdfs:label "quality" .
+
+DISCO:0000001 a owl:Class ; rdfs:label "academic discipline" .
+
+QUALO:1000001 a owl:AnnotationProperty;
+    rdfs:label "example holder"^^xsd:string ;
+    rdfs:range NCBITaxon:9606 ;
+    rdfs:domain QUALO:0000001 .
+
+QUALO:1000002 a owl:ObjectProperty;
+    rdfs:label "for discipline"^^xsd:string ;
+    rdfs:range DISCO:0000001 ;
+    rdfs:domain QUALO:0000021 .
+
+
+rdfs:label   a owl:AnnotationProperty; rdfs:label "label"^^xsd:string .
+rdfs:seeAlso a owl:AnnotationProperty; rdfs:label "see also"^^xsd:string .
+rdfs:comment a owl:AnnotationProperty; rdfs:label "comment"^^xsd:string .
+
+oboInOwl:hasSynonym a owl:AnnotationProperty;
+    rdfs:label "has synonym"^^xsd:string .
+
+oboInOwl:hasExactSynonym a owl:AnnotationProperty;
+    rdfs:label "has exact synonym"^^xsd:string .
+
+oboInOwl:hasNarrowSynonym a owl:AnnotationProperty;
+    rdfs:label "has narrow synonym"^^xsd:string .
+
+oboInOwl:hasBroadSynonym a owl:AnnotationProperty;
+    rdfs:label "has broad synonym"^^xsd:string .
+
+oboInOwl:hasRelatedSynonym a owl:AnnotationProperty;
+    rdfs:label "has related synonym"^^xsd:string .
+
+oboInOwl:hasSynonymType a owl:AnnotationProperty;
+    rdfs:label "has synonym type"^^xsd:string .
+
+oboInOwl:hasDbXref a owl:AnnotationProperty;
+    rdfs:label "has database cross-reference"^^xsd:string .
+
+skos:exactMatch a owl:AnnotationProperty; rdfs:label "exact match"^^xsd:string .
+
+dcterms:contributor a owl:AnnotationProperty; rdfs:label "contributor"^^xsd:string .
+dcterms:source      a owl:AnnotationProperty; rdfs:label "source"^^xsd:string .
+dcterms:license     a owl:AnnotationProperty; rdfs:label "license"^^xsd:string .
+dcterms:description a owl:AnnotationProperty; rdfs:label "description"^^xsd:string .
+
+BFO:0000051 a owl:ObjectProperty; rdfs:label "has part"^^xsd:string .
+
+NCBITaxon:9606 a owl:Class ;
+    rdfs:label "Homo sapiens" .
+
+orcid:0000-0003-4423-4370 a NCBITaxon:9606 ;
+    rdfs:label "Charles Tapley Hoyt"@en .
+
+orcid:0000-0001-9439-5346 a NCBITaxon:9606 ;
+    rdfs:label "Benjamin M. Gyori"@en .
+
+# See new OMO synonyms at
+# https://github.com/information-artifact-ontology/ontology-metadata/blob/master/src/templates/annotation_properties.tsv
+
+OMO:0003000 a owl:AnnotationProperty;
+    rdfs:label "abbreviation"^^xsd:string .
+
+OMO:0003001 a owl:AnnotationProperty;
+    rdfs:label "ambiguous synonym"^^xsd:string .
+
+OMO:0003002 a owl:AnnotationProperty;
+    rdfs:label "dubious synonym"^^xsd:string .
+
+OMO:0003003 a owl:AnnotationProperty;
+    rdfs:label "layperson synonym"^^xsd:string .
+
+OMO:0003004 a owl:AnnotationProperty;
+    rdfs:label "plural form"^^xsd:string .
+
+OMO:0003005 a owl:AnnotationProperty;
+    rdfs:label "UK spelling"^^xsd:string .
+
+OMO:0003006 a owl:AnnotationProperty;
+    rdfs:label "misspelling"^^xsd:string .
+
+OMO:0003007 a owl:AnnotationProperty;
+    rdfs:label "misnomer"^^xsd:string .
+
+OMO:0003008 a owl:AnnotationProperty;
+    rdfs:label "previous name"^^xsd:string .
+
+OMO:0003009 a owl:AnnotationProperty;
+    rdfs:label "legal name"^^xsd:string .
+
+OMO:0003010 a owl:AnnotationProperty;
+    rdfs:label "International Nonproprietary Name"^^xsd:string .
+
+OMO:0003011 a owl:AnnotationProperty;
+    rdfs:label "latin term"^^xsd:string .
+
+OMO:0003012 a owl:AnnotationProperty;
+    rdfs:label "acronym"^^xsd:string .
+
+
+QUALO:0000003 a owl:Class ;
+    oboInOwl:hasExactSynonym "Bachelorstudium"@de ;
+    rdfs:label "bachelor's degree" .
+
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Bachelorstudium"@de ;
+    dcterms:contributor orcid:0000-0003-4423-4370 .
+] .
+
+QUALO:0000024 a owl:Class ;
+    oboInOwl:hasExactSynonym "bsc"@en ;
+    oboInOwl:hasExactSynonym "bs"@en ;
+    oboInOwl:hasExactSynonym "bs c"@en ;
+    oboInOwl:hasExactSynonym "bsc candidate"@en ;
+    oboInOwl:hasExactSynonym "Bachelors of Science"@en ;
+    oboInOwl:hasExactSynonym "Bachelor's of Science"@en ;
+    rdfs:label "bachelor of science" .
+
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000024 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "bsc"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    oboInOwl:hasSynonymType OMO:0003000 .
+] .
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000024 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "bs"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 .
+] .
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000024 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "bs c"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 .
+] .
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000024 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "bsc candidate"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 .
+] .
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000024 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Bachelors of Science"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 .
+] .
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000024 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Bachelor's of Science"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 .
+] .
+
+QUALO:0000039 a owl:Class ;
+    oboInOwl:hasExactSynonym "Licenciada en PsicologÃ­a"@es ;
+    oboInOwl:hasExactSynonym "Licenciado en PsicologÃ­a"@es ;
+    rdfs:label "bachelor of science in psychology" .
+
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000039 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Licenciada en PsicologÃ­a"@es ;
+    dcterms:contributor orcid:0000-0003-4423-4370 .
+] .
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000039 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Licenciado en PsicologÃ­a"@es ;
+    dcterms:contributor orcid:0000-0003-4423-4370 .
+] .
+QUALO:0000001 rdfs:subClassOf PATO:0000001 ; rdfs:label "qualification" .
+QUALO:0000002 rdfs:subClassOf QUALO:0000001 ; rdfs:label "academic degree" .
+QUALO:0000003 rdfs:subClassOf QUALO:0000006 ; rdfs:label "bachelor's degree" .
+QUALO:0000004 rdfs:subClassOf QUALO:0000007 ; rdfs:label "master's degree" .
+QUALO:0000005 rdfs:subClassOf QUALO:0000007 ; rdfs:label "doctoral degree" .
+QUALO:0000006 rdfs:subClassOf QUALO:0000023 ; rdfs:label "undergraduate degree" .
+QUALO:0000007 rdfs:subClassOf QUALO:0000023 ; rdfs:label "graduate degree" .
+QUALO:0000008 rdfs:subClassOf QUALO:0000006 ; rdfs:label "associate's degree" .
+QUALO:0000009 rdfs:subClassOf QUALO:0000022 ; rdfs:label "academic degree with honors" .
+QUALO:0000010 rdfs:subClassOf QUALO:0000001 ; rdfs:label "honarary academic degree" .
+QUALO:0000011 rdfs:subClassOf QUALO:0000009 ; rdfs:label "bachelor's degree with honors" .
+QUALO:0000011 rdfs:subClassOf QUALO:0000003 .
+QUALO:0000012 rdfs:subClassOf QUALO:0000010 ; rdfs:label "honorary bachelor's degree" .
+QUALO:0000012 rdfs:subClassOf QUALO:0000003 .
+QUALO:0000013 rdfs:subClassOf QUALO:0000010 ; rdfs:label "honorary master's degree" .
+QUALO:0000013 rdfs:subClassOf QUALO:0000004 .
+QUALO:0000014 rdfs:subClassOf QUALO:0000010 ; rdfs:label "honorary doctoral degree" .
+QUALO:0000014 rdfs:subClassOf QUALO:0000005 .
+QUALO:0000015 rdfs:subClassOf QUALO:0000009 ; rdfs:label "master's degree with honors" .
+QUALO:0000015 rdfs:subClassOf QUALO:0000004 .
+QUALO:0000016 rdfs:subClassOf QUALO:0000005 ; rdfs:label "doctor of philosophy" .
+QUALO:0000017 rdfs:subClassOf QUALO:0000014 ; rdfs:label "honorary doctor of philosophy" .
+QUALO:0000017 rdfs:subClassOf QUALO:0000016 .
+QUALO:0000018 rdfs:subClassOf QUALO:0000016 ; rdfs:label "doctor of philosophy by discipline" .
+QUALO:0000018 rdfs:subClassOf QUALO:0000021 .
+QUALO:0000019 rdfs:subClassOf QUALO:0000018 ; rdfs:label "doctor of philosophy in mathematics" .
+QUALO:0000020 rdfs:subClassOf QUALO:0000018 ; rdfs:label "doctor of philosophy in history" .
+QUALO:0000021 rdfs:subClassOf QUALO:0000002 ; rdfs:label "academic degree by discipline" .
+QUALO:0000022 rdfs:subClassOf QUALO:0000002 ; rdfs:label "academic degree by distinction" .
+QUALO:0000023 rdfs:subClassOf QUALO:0000002 ; rdfs:label "academic degree by progression" .
+QUALO:0000024 rdfs:subClassOf QUALO:0000003 ; rdfs:label "bachelor of science" .
+QUALO:0000025 rdfs:subClassOf QUALO:0000003 ; rdfs:label "bachelor of nursing" .
+QUALO:0000026 rdfs:subClassOf QUALO:0000003 ; rdfs:label "bachelor of veterinary science" .
+QUALO:0000027 rdfs:subClassOf QUALO:0000003 ; rdfs:label "bachelor of pharmacy" .
+QUALO:0000028 rdfs:subClassOf QUALO:0000003 ; rdfs:label "bachelor of engineering" .
+QUALO:0000029 rdfs:subClassOf QUALO:0000003 ; rdfs:label "bachelor of education" .
+QUALO:0000030 rdfs:subClassOf QUALO:0000003 ; rdfs:label "bachelor of architecture" .
+QUALO:0000031 rdfs:subClassOf QUALO:0000003 ; rdfs:label "bachelor of arts" .
+QUALO:0000032 rdfs:subClassOf QUALO:0000003 ; rdfs:label "bachelor of law" .
+QUALO:0000033 rdfs:subClassOf QUALO:0000003 ; rdfs:label "bachelor of medicine; bachelor of surgery" .
+QUALO:0000034 rdfs:subClassOf QUALO:0000003 ; rdfs:label "bachelor of technology" .
+QUALO:0000035 rdfs:subClassOf QUALO:0000024 ; rdfs:label "bachelor of science in nursing" .
+QUALO:0000036 rdfs:subClassOf QUALO:0000024 ; rdfs:label "bachelor of science in biology" .
+QUALO:0000037 rdfs:subClassOf QUALO:0000024 ; rdfs:label "bachelor of science in chemistry" .
+QUALO:0000038 rdfs:subClassOf QUALO:0000024 ; rdfs:label "bachelor of science in engineering" .
+QUALO:0000039 rdfs:subClassOf QUALO:0000024 ; rdfs:label "bachelor of science in psychology" .
+QUALO:0000040 rdfs:subClassOf QUALO:0000024 ; rdfs:label "bachelor of science in geography" .
+QUALO:0000041 rdfs:subClassOf QUALO:0000024 ; rdfs:label "bachelor of science in biochemistry" .
+QUALO:0000042 rdfs:subClassOf QUALO:0000024 ; rdfs:label "bachelor of science in physics" .
+QUALO:0000043 rdfs:subClassOf QUALO:0000024 ; rdfs:label "bachelor of science in computer science" .
+QUALO:0000044 rdfs:subClassOf QUALO:0000024 ; rdfs:label "bachelor of science in geology" .
+QUALO:0000045 rdfs:subClassOf QUALO:0000038 ; rdfs:label "bachelor of science in mechanical engineering" .
+QUALO:0000046 rdfs:subClassOf QUALO:0000038 ; rdfs:label "bachelor of science in electrical engineering" .
+QUALO:0000047 rdfs:subClassOf QUALO:0000024 ; rdfs:label "bachelor of science in neuroscience" .
+QUALO:0000048 rdfs:subClassOf QUALO:0000024 ; rdfs:label "bachelor of science in microbiology" .
+QUALO:0000049 rdfs:subClassOf QUALO:0000024 ; rdfs:label "bachelor of science in mathematics" .
+QUALO:0000050 rdfs:subClassOf QUALO:0000038 ; rdfs:label "bachelor of science in chemical engineering" .
+QUALO:0000051 rdfs:subClassOf QUALO:0000024 ; rdfs:label "bachelor of science in biomedical science" .
+QUALO:0000052 rdfs:subClassOf QUALO:0000002 ; rdfs:label "combine degree" .
+QUALO:0000053 rdfs:subClassOf QUALO:0000052 ; rdfs:label "MD/PhD" .
+DISCO:0000001 rdfs:subClassOf owl:Thing ; rdfs:label "academic discipline" .
+DISCO:0000002 rdfs:subClassOf DISCO:0000001 ; rdfs:label "mathematics" .
+DISCO:0000003 rdfs:subClassOf DISCO:0000001 ; rdfs:label "history" .
+DISCO:0000004 rdfs:subClassOf DISCO:0000001 ; rdfs:label "geology" .
+DISCO:0000005 rdfs:subClassOf DISCO:0000001 ; rdfs:label "physics" .
+DISCO:0000006 rdfs:subClassOf DISCO:0000001 ; rdfs:label "chemistry" .
+DISCO:0000007 rdfs:subClassOf DISCO:0000001 ; rdfs:label "biology" .
+DISCO:0000008 rdfs:subClassOf DISCO:0000001 ; rdfs:label "nursing" .
+DISCO:0000009 rdfs:subClassOf DISCO:0000001 ; rdfs:label "psychology" .
+DISCO:0000010 rdfs:subClassOf DISCO:0000001 ; rdfs:label "engineering" .
+DISCO:0000011 rdfs:subClassOf DISCO:0000010 ; rdfs:label "mechanical engineering" .
+DISCO:0000012 rdfs:subClassOf DISCO:0000010 ; rdfs:label "electrical engineering" .
+DISCO:0000013 rdfs:subClassOf DISCO:0000010 ; rdfs:label "chemical engineering" .
+DISCO:0000014 rdfs:subClassOf DISCO:0000001 ; rdfs:label "computer science" .
+DISCO:0000015 rdfs:subClassOf DISCO:0000001 ; rdfs:label "biochemistry" .
+DISCO:0000016 rdfs:subClassOf DISCO:0000001 ; rdfs:label "geography" .
+DISCO:0000017 rdfs:subClassOf DISCO:0000001 ; rdfs:label "neuroscience" .
+DISCO:0000018 rdfs:subClassOf DISCO:0000001 ; rdfs:label "microbiology" .
+DISCO:0000019 rdfs:subClassOf DISCO:0000001 ; rdfs:label "biomedical science" .
+QUALO:0000016 oboInOwl:hasDbXref orcid:0000-0003-4423-4370 .
+orcid:0000-0003-4423-4370 a NCBITaxon:9606; rdfs:label "Charles Tapley Hoyt" .
+PATO:0000001 skos:exactMatch Q1207505 .
+QUALO:0000001 skos:exactMatch Q4218455 .
+QUALO:0000002 skos:exactMatch Q189533 .
+QUALO:0000003 skos:exactMatch Q163727 .
+QUALO:0000004 skos:exactMatch Q183816 .
+QUALO:0000005 skos:exactMatch Q849697 .
+QUALO:0000006 skos:exactMatch Q6008527 .
+QUALO:0000007 skos:exactMatch Q23015928 .
+QUALO:0000008 skos:exactMatch Q14625016 .
+QUALO:0000010 skos:exactMatch Q209896 .
+QUALO:0000011 skos:exactMatch Q10862985 .
+QUALO:0000012 skos:exactMatch Q85877890 .
+QUALO:0000013 skos:exactMatch Q11415560 .
+QUALO:0000014 skos:exactMatch Q11415564 .
+QUALO:0000016 skos:exactMatch Q752297 .
+QUALO:0000017 skos:exactMatch Q17403203 .
+QUALO:0000019 skos:exactMatch Q11408905 .
+QUALO:0000020 skos:exactMatch Q66126198 .
+DISCO:0000001 skos:exactMatch Q11862829 .
+DISCO:0000002 skos:exactMatch Q395 .
+DISCO:0000003 skos:exactMatch Q1066186 .
+QUALO:0000019 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000002 ] .
+DISCO:0000002 a owl:Class; rdfs:label "mathematics" .
+QUALO:0000020 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000003 ] .
+DISCO:0000003 a owl:Class; rdfs:label "history" .
+QUALO:0000021 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000001 ] .
+DISCO:0000001 a owl:Class; rdfs:label "academic discipline" .
+QUALO:0000035 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000008 ] .
+DISCO:0000008 a owl:Class; rdfs:label "nursing" .
+QUALO:0000036 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000007 ] .
+DISCO:0000007 a owl:Class; rdfs:label "biology" .
+QUALO:0000037 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000006 ] .
+DISCO:0000006 a owl:Class; rdfs:label "chemistry" .
+QUALO:0000038 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000010 ] .
+DISCO:0000010 a owl:Class; rdfs:label "engineering" .
+QUALO:0000039 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000009 ] .
+DISCO:0000009 a owl:Class; rdfs:label "psychology" .
+QUALO:0000040 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000016 ] .
+DISCO:0000016 a owl:Class; rdfs:label "geography" .
+QUALO:0000041 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000015 ] .
+DISCO:0000015 a owl:Class; rdfs:label "biochemistry" .
+QUALO:0000042 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000005 ] .
+DISCO:0000005 a owl:Class; rdfs:label "physics" .
+QUALO:0000043 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000014 ] .
+DISCO:0000014 a owl:Class; rdfs:label "computer science" .
+QUALO:0000044 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000004 ] .
+DISCO:0000004 a owl:Class; rdfs:label "geology" .
+QUALO:0000045 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000011 ] .
+DISCO:0000011 a owl:Class; rdfs:label "mechanical engineering" .
+QUALO:0000046 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000012 ] .
+DISCO:0000012 a owl:Class; rdfs:label "electrical engineering" .
+QUALO:0000047 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000017 ] .
+DISCO:0000017 a owl:Class; rdfs:label "neuroscience" .
+QUALO:0000048 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000018 ] .
+DISCO:0000018 a owl:Class; rdfs:label "microbiology" .
+QUALO:0000049 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000002 ] .
+DISCO:0000002 a owl:Class; rdfs:label "mathematics" .
+QUALO:0000050 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000013 ] .
+DISCO:0000013 a owl:Class; rdfs:label "chemical engineering" .
+QUALO:0000051 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000019 ] .
+DISCO:0000019 a owl:Class; rdfs:label "biomedical science" .
