@@ -6,6 +6,7 @@ from pathlib import Path
 from textwrap import dedent
 from typing import Mapping, Optional, Union
 
+import gilda
 from curies import Reference
 from biosynonyms import parse_synonyms, group_synonyms
 from biosynonyms.generate_owl import (
@@ -14,7 +15,7 @@ from biosynonyms.generate_owl import (
     write_prefix_map,
     _get_prefixes as _get_synonym_prefixes,
 )
-from biosynonyms.resources import _clean_str
+from biosynonyms.resources import _clean_str, _gilda_term
 import pandas as pd
 
 HERE = Path(__file__).parent.resolve()
@@ -71,6 +72,25 @@ QUALO:1000002 a owl:ObjectProperty;
     rdfs:domain QUALO:0000021 .
 """
 )
+
+
+def get_grounder():
+    import gilda
+
+    return gilda.Grounder(_get_terms())
+
+
+def _get_terms() -> list[gilda.Term]:
+    df = pd.read_csv(TERMS_PATH, sep="\t")
+    df["curie"] = df["curie"].map(Reference.from_curie)
+    names = dict(df[["curie", "label"]].values)
+    rv = []
+    rv.extend(s.as_gilda_term() for s in parse_synonyms(SYNONYMS_PATH, names=names))
+    rv.extend(
+        _gilda_term(text=name, reference=reference, source="qualo", status="name")
+        for reference, name in names.items()
+    )
+    return rv
 
 
 def _main() -> None:
