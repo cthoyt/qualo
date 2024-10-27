@@ -702,14 +702,102 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000007"/>
+        <oboInOwl:hasExactSynonym xml:lang="it">Maestria</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">Maestría</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Master</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Master Degree</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Master Degree Candidate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Master Student</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Master&apos;s</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Master&apos;s Student</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Masters degree</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="pt">Mestra</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="pt">Mestrando</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="tk">Tezli Yüksek Lisans</oboInOwl:hasExactSynonym>
         <rdfs:label>master&apos;s degree</rdfs:label>
         <skos:exactMatch rdf:resource="http://wikidata.org/entity/Q183816"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="it">Maestria</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-26</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="es">Maestría</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-26</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">Master</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-26</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Master Degree</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-26</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Master Degree Candidate</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-26</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Master Student</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-26</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Master&apos;s</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-26</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Master&apos;s Student</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-26</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Masters degree</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-26</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="pt">Mestra</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-26</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="pt">Mestrando</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-26</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="tk">Tezli Yüksek Lisans</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-26</dcterms:date>
     </owl:Axiom>
@@ -903,26 +991,39 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000005"/>
+        <oboInOwl:hasCloseSynonym xml:lang="en">Magister</oboInOwl:hasCloseSynonym>
         <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <oboInOwl:hasExactSynonym xml:lang="en">Doctor (PhD)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Doctor of Philosophy (PhD)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Doctor of Phylosophy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Doctora</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Doctoral</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Doctoral Candidate</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Doctoral Program</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Doctoral Researcher</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Doctoral Student</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="es">Doctorando</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Doctorat</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Doctorate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Doctorate (PhD)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Doctorate degree</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Doctorate of Philosophy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Doutor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="pt">Doutora</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Doutorado</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="pt">Doutoramento</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="pt">Doutoranda</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="pt">Doutorando</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Dr.</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Dr. phil.</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="de">Dr. rer. nat.</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="de">Dr. rer. nat. (PhD)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Joint PhD</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Ph.D.</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Ph.D.,</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Ph.D./Dr.</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Ph.D/Dr</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="de">PhD (Dr. rer. nat.)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD (in progress)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD Fellow</oboInOwl:hasExactSynonym>
@@ -930,6 +1031,7 @@
         <oboInOwl:hasExactSynonym xml:lang="en">PhD Scholar</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD Thesis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD degree</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD student</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD studies</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD thesis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">doctorofphilosophy</oboInOwl:hasExactSynonym>
@@ -937,9 +1039,17 @@
         <oboInOwl:hasExactSynonym xml:lang="en">ph d</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">phd candidate</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">phd researcher</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="zh">博士研究生</oboInOwl:hasExactSynonym>
         <rdfs:label>doctor of philosophy</rdfs:label>
         <skos:exactMatch rdf:resource="http://wikidata.org/entity/Q752297"/>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Magister</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -950,10 +1060,24 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Doctor of Philosophy (PhD)</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">Doctor of Phylosophy</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003006"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Doctora</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
@@ -979,6 +1103,13 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Doctoral Researcher</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">Doctoral Student</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
@@ -993,7 +1124,21 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Doctorat</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">Doctorate</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Doctorate (PhD)</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
     </owl:Axiom>
@@ -1008,6 +1153,41 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">Doctorate of Philosophy</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Doutor</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="pt">Doutora</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Doutorado</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="pt">Doutoramento</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="pt">Doutoranda</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
     </owl:Axiom>
@@ -1049,6 +1229,13 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Joint PhD</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">Ph.D.</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
@@ -1071,6 +1258,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">Ph.D/Dr</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
     </owl:Axiom>
@@ -1126,6 +1320,13 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD student</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">PhD studies</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
@@ -1169,6 +1370,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">phd researcher</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="zh">博士研究生</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
     </owl:Axiom>
@@ -1259,9 +1467,25 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DISCO_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD History</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in History</oboInOwl:hasExactSynonym>
         <rdfs:label>doctor of philosophy in history</rdfs:label>
         <skos:exactMatch rdf:resource="http://wikidata.org/entity/Q66126198"/>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000020"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD History</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000020"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in History</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000020"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
@@ -1309,15 +1533,22 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000003"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">B.S. degree</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="pt">Bacharel em Ciências Biológicas</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Bachelor&apos;s of Science</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Bachelors of Science</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">bachelorofscience</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">bs</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">bs c</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">bsc</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">bsc candidate</oboInOwl:hasExactSynonym>
         <rdfs:label>bachelor of science</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000024"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="pt">Bacharel em Ciências Biológicas</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000024"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -1328,12 +1559,6 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000024"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">Bachelors of Science</owl:annotatedTarget>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000024"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget xml:lang="en">bachelorofscience</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1361,6 +1586,12 @@
         <owl:annotatedTarget xml:lang="en">bsc candidate</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000024"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">B.S. degree</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+    </owl:Axiom>
     
 
 
@@ -1368,8 +1599,40 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000003"/>
+        <oboInOwl:hasExactSynonym xml:lang="pt">Bacharel em Enfermagem</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="pt">Bacharelado em Enfermagem</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="pt">Graduação em Enfermagem</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">Licenciada en Enfermería</oboInOwl:hasExactSynonym>
         <rdfs:label>bachelor of nursing</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000025"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="pt">Bacharel em Enfermagem</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000025"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="pt">Bacharelado em Enfermagem</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000025"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="pt">Graduação em Enfermagem</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000025"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="es">Licenciada en Enfermería</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -1386,8 +1649,40 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000003"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">B. Pharmacy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">B.Pharm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">B.Pharmacy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Bachelor in Pharmacy</oboInOwl:hasExactSynonym>
         <rdfs:label>bachelor of pharmacy</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000027"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">B. Pharmacy</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000027"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">B.Pharm</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000027"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">B.Pharmacy</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000027"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Bachelor in Pharmacy</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -1494,8 +1789,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000003"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">B.Arch</oboInOwl:hasExactSynonym>
         <rdfs:label>bachelor of architecture</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000030"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">B.Arch</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -1507,6 +1810,7 @@
         <oboInOwl:hasExactSynonym xml:lang="en">Artium Baccalaureus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Bachelor of Arts (B.A.)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Bachelors of Arts</oboInOwl:hasExactSynonym>
         <rdfs:label>bachelor of arts</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1537,6 +1841,13 @@
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000031"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Bachelors of Arts</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -1554,6 +1865,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000003"/>
         <oboInOwl:hasExactSynonym xml:lang="en">Bachelor of Medicine, Bachelor of Surgery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">MBBCh</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">MBBS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">MBChB</oboInOwl:hasExactSynonym>
         <rdfs:label>bachelor of medicine; bachelor of surgery</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1562,6 +1876,27 @@
         <owl:annotatedTarget xml:lang="en">Bachelor of Medicine, Bachelor of Surgery</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-26</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000033"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">MBBCh</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000033"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">MBBS</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000033"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">MBChB</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
     </owl:Axiom>
     
 
@@ -1608,29 +1943,9 @@
         <oboInOwl:hasExactSynonym xml:lang="en">Bachelor in Biology</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Degree in Biology</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="es">Licenciada en Biología</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">BSc Microbiology</oboInOwl:hasNarrowSynonym>
         <rdfs:label>bachelor of science in biology</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000036"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget xml:lang="en">Bachelor in Biology</owl:annotatedTarget>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000036"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget xml:lang="en">Degree in Biology</owl:annotatedTarget>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000036"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget xml:lang="es">Licenciada en Biología</owl:annotatedTarget>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000036"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -1663,6 +1978,34 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000036"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">BSc Biomedical Sciences</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000036"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Bachelor in Biology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000036"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Degree in Biology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000036"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="es">Licenciada en Biología</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000036"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget xml:lang="en">BSc Microbiology</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
     </owl:Axiom>
@@ -1839,8 +2182,32 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DISCO_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym xml:lang="en">B.S. Computer Science</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">BS Computer Science</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">BSc Computer Science</oboInOwl:hasExactSynonym>
         <rdfs:label>bachelor of science in computer science</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000043"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">B.S. Computer Science</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000043"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">BS Computer Science</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000043"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">BSc Computer Science</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -2064,8 +2431,56 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">Executive LL.M.</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Executive LLM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">LL.M.</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">LLM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="pt">Mestrado em Direito</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="pt">Mestre em Direito</oboInOwl:hasExactSynonym>
         <rdfs:label>master of law</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000054"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Executive LL.M.</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000054"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Executive LLM</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000054"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">LL.M.</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000054"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">LLM</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000054"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="pt">Mestrado em Direito</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000054"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="pt">Mestre em Direito</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -2082,8 +2497,24 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">Executive MBA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">MBA</oboInOwl:hasExactSynonym>
         <rdfs:label>master of business administration</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000056"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Executive MBA</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000056"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">MBA</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -2244,8 +2675,56 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">M.Ed.</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">Maestría en Educación</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">Magister en Educación</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="pt">Mestrado em Educação</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="pt">Mestre em Educação</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">me</oboInOwl:hasExactSynonym>
         <rdfs:label>master of education</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000058"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">M.Ed.</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000058"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="es">Maestría en Educación</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000058"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="es">Magister en Educación</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000058"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="pt">Mestrado em Educação</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000058"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="pt">Mestre em Educação</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000058"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">me</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -2253,8 +2732,24 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">MEng</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">MSc Eng</oboInOwl:hasExactSynonym>
         <rdfs:label>master of engineering</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000059"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">MEng</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000059"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">MSc Eng</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -2262,8 +2757,32 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">MA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Master of Art</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Masters of Arts</oboInOwl:hasExactSynonym>
         <rdfs:label>master of arts</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000060"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">MA</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000060"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Master of Art</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000060"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Masters of Arts</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -2271,8 +2790,40 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">Master in Public Health</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Masters of Public Health</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">mph</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">MPH in Epidemiology</oboInOwl:hasNarrowSynonym>
         <rdfs:label>master of public health</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000061"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Master in Public Health</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000061"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Masters of Public Health</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000061"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">mph</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000061"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget xml:lang="en">MPH in Epidemiology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -2280,8 +2831,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">M.Pharm</oboInOwl:hasExactSynonym>
         <rdfs:label>master of pharmacy</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000062"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">M.Pharm</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -2372,8 +2931,72 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000005"/>
+        <oboInOwl:hasExactSynonym xml:lang="es">Doctor en Ciencias de la Educación</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">Doctor en Educación</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">Doctora en Educación</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">Doctorado en Educación</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="pt">Doutorado em Educação</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Ed.D.</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD Education</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Education</oboInOwl:hasExactSynonym>
         <rdfs:label>doctor of education</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000066"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="es">Doctor en Ciencias de la Educación</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000066"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="es">Doctor en Educación</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000066"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="es">Doctora en Educación</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000066"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="es">Doctorado en Educación</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000066"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="pt">Doutorado em Educação</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000066"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Ed.D.</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000066"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD Education</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000066"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Education</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -2384,6 +3007,7 @@
         <oboInOwl:hasExactSynonym xml:lang="es">Doctor en Derecho</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">J.D.</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Juris Doctor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Law</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">doctoroflaw</oboInOwl:hasExactSynonym>
         <rdfs:label>doctor of law</rdfs:label>
     </owl:Class>
@@ -2405,6 +3029,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000067"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">Juris Doctor</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000067"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Law</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
     </owl:Axiom>
@@ -2512,8 +3143,32 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000070">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000005"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">DVM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="pt">Medicina Veterinária</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Veterinarian</oboInOwl:hasExactSynonym>
         <rdfs:label>doctor of veterinary medicine</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000070"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">DVM</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000070"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="pt">Medicina Veterinária</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000070"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Veterinarian</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -2521,8 +3176,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000071">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000004"/>
+        <oboInOwl:hasExactSynonym xml:lang="pt">Mestrado em Enfermagem</oboInOwl:hasExactSynonym>
         <rdfs:label>master of nursing</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000071"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="pt">Mestrado em Enfermagem</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -2570,6 +3233,10 @@
         <oboInOwl:hasExactSynonym xml:lang="en">BSc Honours</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BSc Hons</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">BSc(Hons)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Bachelor of Science (Honours)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Bachelor of Science with Honours</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Honours Bachelor of Science</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">bsc (honors)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">bsc (honours)</oboInOwl:hasExactSynonym>
         <rdfs:label>bachelor of science with honors</rdfs:label>
     </owl:Class>
@@ -2598,6 +3265,38 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000076"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Bachelor of Science (Honours)</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003005"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000076"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Bachelor of Science with Honours</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003005"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000076"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Honours Bachelor of Science</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003005"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000076"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">bsc (honors)</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003005"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000076"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">bsc (honours)</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
@@ -2620,6 +3319,7 @@
         <oboInOwl:hasExactSynonym xml:lang="en">Ph.D. in Chemistry</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD (Chemistry)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD Chemistry</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Chemical Sciences</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD in Chemistry</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD in chemistry</oboInOwl:hasExactSynonym>
         <rdfs:label>doctor of philosophy in chemistry</rdfs:label>
@@ -2656,6 +3356,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000077"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">PhD Chemistry</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000077"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Chemical Sciences</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
     </owl:Axiom>
@@ -2814,18 +3521,27 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DISCO_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasCloseSynonym xml:lang="en">PhD in Biomedicine</oboInOwl:hasCloseSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Ph.D. Biology</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Ph.D. in Biology</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD Biological Sciences</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD Biology</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD Biomedical Sciences</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD in Biology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Biomedical Sciences</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym xml:lang="en">PhD Microbiology</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym xml:lang="en">PhD in Biological Sciences</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym xml:lang="en">PhD in Microbiology</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym xml:lang="en">PhD in Molecular Biology</oboInOwl:hasNarrowSynonym>
         <rdfs:label>doctor of philosophy in biology</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000082"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Biomedicine</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000082"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -2870,6 +3586,13 @@
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000082"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Biomedical Sciences</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000082"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget xml:lang="en">PhD Microbiology</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
@@ -2903,8 +3626,24 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000083">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000018"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD Ecology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Ecology</oboInOwl:hasExactSynonym>
         <rdfs:label>doctor of philosophy in ecology</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000083"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD Ecology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000083"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Ecology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -2912,8 +3651,24 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000084">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000018"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD Immunology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Immunology</oboInOwl:hasExactSynonym>
         <rdfs:label>doctor of philosophy in immunology</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000084"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD Immunology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000084"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Immunology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -2921,8 +3676,24 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000018"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD Environmental Science</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Environmental Sciences</oboInOwl:hasExactSynonym>
         <rdfs:label>doctor of philosophy in environmental sciences</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000085"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD Environmental Science</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000085"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Environmental Sciences</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -2939,8 +3710,48 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000018"/>
+        <oboInOwl:hasExactSynonym xml:lang="de">Dr. rer. pol.</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Ph.D. in Economics</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD (Economics)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD Economics</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Economics</oboInOwl:hasExactSynonym>
         <rdfs:label>doctor of philosophy in economics</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000087"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="de">Dr. rer. pol.</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000087"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Ph.D. in Economics</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000087"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD (Economics)</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000087"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD Economics</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000087"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Economics</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -3130,8 +3941,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000077"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Physical Chemistry</oboInOwl:hasExactSynonym>
         <rdfs:label>doctor of philosophy in physical chemistry</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000094"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Physical Chemistry</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -3139,8 +3958,32 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000018"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD Linguistics</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Linguistics</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">PhD in Applied Linguistics</oboInOwl:hasNarrowSynonym>
         <rdfs:label>doctor of philosophy in linguistics</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000095"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD Linguistics</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000095"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Linguistics</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000095"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Applied Linguistics</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -3157,8 +4000,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000097">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000018"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in English Literature</oboInOwl:hasExactSynonym>
         <rdfs:label>doctor of philosophy in english literature</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000097"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in English Literature</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -3199,8 +4050,40 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000018"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD Neuroscience</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD Neurosciences</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Neuroscience</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Neurosciences</oboInOwl:hasExactSynonym>
         <rdfs:label>doctor of philosophy in neuroscience</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000099"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD Neuroscience</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000099"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD Neurosciences</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000099"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Neuroscience</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000099"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Neurosciences</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -3208,8 +4091,24 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000018"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD Epidemiology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Epidemiology</oboInOwl:hasExactSynonym>
         <rdfs:label>doctor of philosophy in epidemiology</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000100"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD Epidemiology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000100"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Epidemiology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     
 
 
@@ -3217,9 +4116,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000018"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD Geology</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD in Geology</oboInOwl:hasExactSynonym>
         <rdfs:label>doctor of philosophy in geology</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000101"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD Geology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000101"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -3372,6 +4279,7 @@
         <oboInOwl:hasExactSynonym xml:lang="en">PhD Materials Engineering</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD in Material Engineering</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD in Materials Engineering</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">PhD in Materials Science and Engineering</oboInOwl:hasNarrowSynonym>
         <rdfs:label>doctor of philosophy in materials engineering</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3399,6 +4307,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000107"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">PhD in Materials Engineering</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000107"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Materials Science and Engineering</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
     </owl:Axiom>
@@ -3491,10 +4406,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000109"/>
+        <oboInOwl:hasCloseSynonym xml:lang="en">PhD in Astronomy</oboInOwl:hasCloseSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD Astrophysics</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PhD in Astrophysics</oboInOwl:hasExactSynonym>
         <rdfs:label>doctor of philosophy in astrophysics</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000110"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Astronomy</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000110"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -3570,6 +4493,383 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000112"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">MSc Physics</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/QUALO_0000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000018"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD Biotechnology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Biotechnology</oboInOwl:hasExactSynonym>
+        <rdfs:label>doctor of philosophy in biotechnology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000113"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD Biotechnology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000113"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Biotechnology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/QUALO_0000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000018"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD Public Health</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Public Health</oboInOwl:hasExactSynonym>
+        <rdfs:label>doctor of philosophy in public health</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000114"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD Public Health</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000114"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Public Health</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/QUALO_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000031"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">BA Economics</oboInOwl:hasExactSynonym>
+        <rdfs:label>bachelor of arts in economics</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000115"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">BA Economics</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/QUALO_0000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000057"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">MSc Economics</oboInOwl:hasExactSynonym>
+        <rdfs:label>master of science in economics</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000116"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">MSc Economics</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/QUALO_0000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000052"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">M.Sc., Ph.D.</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">MS/PhD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">MS/PhD Student</oboInOwl:hasExactSynonym>
+        <rdfs:label>master of science and doctor of philosophy</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000117"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">M.Sc., Ph.D.</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000117"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">MS/PhD</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000117"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">MS/PhD Student</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/QUALO_0000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000018"/>
+        <oboInOwl:hasExactSynonym xml:lang="es">Doctora en Psicología</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD Psychology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Psychology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">Ph.D. in Clinical Psychology</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">PhD Clinical Psychology</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">PhD in Clinical Psychology</oboInOwl:hasNarrowSynonym>
+        <rdfs:label>doctor of philosophy in psychology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000118"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="es">Doctora en Psicología</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000118"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD Psychology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000118"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Psychology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000118"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Ph.D. in Clinical Psychology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000118"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD Clinical Psychology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000118"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Clinical Psychology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/QUALO_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000057"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">MSc Computer Science</oboInOwl:hasExactSynonym>
+        <rdfs:label>master of science in computer science</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000119"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">MSc Computer Science</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/QUALO_0000120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000018"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">Ph.D. in Sociology</oboInOwl:hasExactSynonym>
+        <rdfs:label>doctor of philosophy in sociology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000120"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Ph.D. in Sociology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/QUALO_0000121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000057"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">MS Biology</oboInOwl:hasExactSynonym>
+        <rdfs:label>master of science in biology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000121"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">MS Biology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/QUALO_0000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000057"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">MSc Biotechnology</oboInOwl:hasExactSynonym>
+        <rdfs:label>master of science in biotechnology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000122"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">MSc Biotechnology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/QUALO_0000123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000077"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Organic Chemistry</oboInOwl:hasExactSynonym>
+        <rdfs:label>doctor of philosophy in organic chemistry</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000123"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Organic Chemistry</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/QUALO_0000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000018"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD Political Science</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Political Science</oboInOwl:hasExactSynonym>
+        <rdfs:label>doctor of philosophy in political science</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000124"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD Political Science</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000124"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Political Science</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/QUALO_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000018"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD Philosophy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PhD in Philosophy</oboInOwl:hasExactSynonym>
+        <rdfs:label>doctor of philosophy in philosophy</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000125"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD Philosophy</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000125"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PhD in Philosophy</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/QUALO_0000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000057"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">M.Phil</oboInOwl:hasExactSynonym>
+        <rdfs:label>master of science in philosophy</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000126"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">M.Phil</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/QUALO_0000127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000031"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">BA English</oboInOwl:hasExactSynonym>
+        <rdfs:label>bachelor of arts in english</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000127"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">BA English</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/QUALO_0000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000031"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">BA Psychology</oboInOwl:hasExactSynonym>
+        <rdfs:label>bachelor of arts in psychology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000128"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">BA Psychology</owl:annotatedTarget>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/QUALO_0000129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/QUALO_0000129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000057"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">MSc Epidemiology</oboInOwl:hasExactSynonym>
+        <rdfs:label>master of science in epidemiology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/QUALO_0000129"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">MSc Epidemiology</owl:annotatedTarget>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-27</dcterms:date>
     </owl:Axiom>

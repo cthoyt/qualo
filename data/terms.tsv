@@ -112,6 +112,23 @@ QUALO:0000109	doctor of philosophy in physics	QUALO:0000018	doctor of philosophy
 QUALO:0000110	doctor of philosophy in astrophysics	QUALO:0000109	doctor of philosophy in physics
 QUALO:0000111	doctor of philosophy in theoretical physics	QUALO:0000109	doctor of philosophy in physics
 QUALO:0000112	master of science in physics	QUALO:0000057	master of science			DISCO:0000005	physics
+QUALO:0000113	doctor of philosophy in biotechnology	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000114	doctor of philosophy in public health	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000115	bachelor of arts in economics	QUALO:0000031	bachelor of arts
+QUALO:0000116	master of science in economics	QUALO:0000057	master of science
+QUALO:0000117	master of science and doctor of philosophy	QUALO:0000052	combine degree
+QUALO:0000118	doctor of philosophy in psychology	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000119	master of science in computer science	QUALO:0000057	master of science
+QUALO:0000120	doctor of philosophy in sociology	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000121	master of science in biology	QUALO:0000057	master of science
+QUALO:0000122	master of science in biotechnology	QUALO:0000057	master of science
+QUALO:0000123	doctor of philosophy in organic chemistry	QUALO:0000077	doctor of philosophy in chemistry
+QUALO:0000124	doctor of philosophy in political science	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000125	doctor of philosophy in philosophy	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000126	master of science in philosophy	QUALO:0000057	master of science
+QUALO:0000127	bachelor of arts in english	QUALO:0000031	bachelor of arts
+QUALO:0000128	bachelor of arts in psychology	QUALO:0000031	bachelor of arts
+QUALO:0000129	master of science in epidemiology	QUALO:0000057	master of science
 DISCO:0000001	academic discipline	owl:Thing
 DISCO:0000002	mathematics	DISCO:0000001	academic discipline
 DISCO:0000003	history	DISCO:0000001	academic discipline

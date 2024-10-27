@@ -158,6 +158,23 @@ Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000109>))
 Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000110>))
 Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000111>))
 Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000112>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000113>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000114>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000115>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000116>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000117>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000118>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000119>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000120>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000121>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000122>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000123>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000124>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000125>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000126>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000127>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000128>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUALO_0000129>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/QUALO_1000002>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-9439-5346>))
@@ -475,7 +492,18 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000003> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000004> (master's degree)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-26"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000004> "Maestria"@it)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-26"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000004> "Maestría"@es)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-26"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000004> "Master"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-26"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000004> "Master Degree"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-26"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000004> "Master Degree Candidate"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-26"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000004> "Master Student"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-26"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000004> "Master's"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-26"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000004> "Master's Student"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-26"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000004> "Masters degree"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-26"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000004> "Mestra"@pt)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-26"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000004> "Mestrando"@pt)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-26"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000004> "Tezli Yüksek Lisans"@tk)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000004> "master's degree")
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000004> wikidata:Q183816)
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000004> <http://purl.obolibrary.org/obo/QUALO_0000007>)
@@ -551,26 +579,39 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000015> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000016> (doctor of philosophy)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasCloseSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Magister"@en)
 AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/QUALO_0000016> <https://orcid.org/0000-0003-4423-4370>)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doctor (PhD)"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doctor of Philosophy (PhD)"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) Annotation(oboInOwl:hasSynonymType <http://purl.obolibrary.org/obo/OMO_0003006>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doctor of Phylosophy"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doctora")
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doctoral"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doctoral Candidate"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doctoral Program"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doctoral Researcher"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doctoral Student"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doctorando"@es)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doctorat")
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doctorate"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doctorate (PhD)"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doctorate degree"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doctorate of Philosophy"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doutor")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doutora"@pt)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doutorado")
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doutoramento"@pt)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doutoranda"@pt)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Doutorando"@pt)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Dr."@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Dr. phil."@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Dr. rer. nat."@de)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Dr. rer. nat. (PhD)"@de)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Joint PhD"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Ph.D."@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Ph.D.,"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Ph.D./Dr."@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "Ph.D/Dr"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "PhD"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "PhD (Dr. rer. nat.)"@de)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "PhD (in progress)"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "PhD Fellow"@en)
@@ -578,6 +619,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "PhD Scholar"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "PhD Thesis"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "PhD degree"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "PhD student"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "PhD studies"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "PhD thesis"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "doctorofphilosophy"@en)
@@ -585,6 +627,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "ph d"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "phd candidate"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "phd researcher"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000016> "博士研究生"@zh)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000016> "doctor of philosophy")
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000016> wikidata:Q752297)
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000016> <http://purl.obolibrary.org/obo/QUALO_0000005>)
@@ -613,6 +656,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000019> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000020> (doctor of philosophy in history)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000020> "PhD History"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000020> "PhD in History"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000020> "doctor of philosophy in history")
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <http://purl.obolibrary.org/obo/QUALO_0000020> wikidata:Q66126198)
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000020> <http://purl.obolibrary.org/obo/QUALO_0000018>)
@@ -636,9 +681,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000023> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000024> (bachelor of science)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000024> "B.S. degree"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000024> "Bacharel em Ciências Biológicas"@pt)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000024> "Bachelor's of Science"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000024> "Bachelors of Science"@en)
-AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000024> "bachelorofscience"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000024> "bs"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000024> "bs c"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(oboInOwl:hasSynonymType <http://purl.obolibrary.org/obo/OMO_0003000>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000024> "bsc"@en)
@@ -648,6 +694,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000024> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000025> (bachelor of nursing)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000025> "Bacharel em Enfermagem"@pt)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000025> "Bacharelado em Enfermagem"@pt)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000025> "Graduação em Enfermagem"@pt)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000025> "Licenciada en Enfermería"@es)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000025> "bachelor of nursing")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000025> <http://purl.obolibrary.org/obo/QUALO_0000003>)
 
@@ -658,6 +708,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000026> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000027> (bachelor of pharmacy)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000027> "B. Pharmacy"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000027> "B.Pharm"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000027> "B.Pharmacy"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000027> "Bachelor in Pharmacy"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000027> "bachelor of pharmacy")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000027> <http://purl.obolibrary.org/obo/QUALO_0000003>)
 
@@ -683,6 +737,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000029> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000030> (bachelor of architecture)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000030> "B.Arch"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000030> "bachelor of architecture")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000030> <http://purl.obolibrary.org/obo/QUALO_0000003>)
 
@@ -692,6 +747,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000031> "Artium Baccalaureus"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000031> "BA"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000031> "Bachelor of Arts (B.A.)"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000031> "Bachelors of Arts"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000031> "bachelor of arts")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000031> <http://purl.obolibrary.org/obo/QUALO_0000003>)
 
@@ -703,6 +759,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000032> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000033> (bachelor of medicine; bachelor of surgery)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-26"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000033> "Bachelor of Medicine, Bachelor of Surgery"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000033> "MBBCh"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000033> "MBBS"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000033> "MBChB"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000033> "bachelor of medicine; bachelor of surgery")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000033> <http://purl.obolibrary.org/obo/QUALO_0000003>)
 
@@ -727,6 +786,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000036> "Bachelor in Biology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000036> "Degree in Biology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000036> "Licenciada en Biología"@es)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasNarrowSynonym <http://purl.obolibrary.org/obo/QUALO_0000036> "BSc Microbiology"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000036> "bachelor of science in biology")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000036> <http://purl.obolibrary.org/obo/QUALO_0000024>)
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000007>))
@@ -778,6 +838,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000042> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000043> (bachelor of science in computer science)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000043> "B.S. Computer Science"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000043> "BS Computer Science"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000043> "BSc Computer Science"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000043> "bachelor of science in computer science")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000043> <http://purl.obolibrary.org/obo/QUALO_0000024>)
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000014>))
@@ -851,6 +914,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000053> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000054> (master of law)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000054> "Executive LL.M."@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000054> "Executive LLM"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000054> "LL.M."@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000054> "LLM"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000054> "Mestrado em Direito"@pt)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000054> "Mestre em Direito"@pt)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000054> "master of law")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000054> <http://purl.obolibrary.org/obo/QUALO_0000004>)
 
@@ -861,6 +930,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000055> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000056> (master of business administration)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000056> "Executive MBA"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000056> "MBA"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000056> "master of business administration")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000056> <http://purl.obolibrary.org/obo/QUALO_0000004>)
 
@@ -889,26 +960,42 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000057> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000058> (master of education)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000058> "M.Ed."@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000058> "Maestría en Educación"@es)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000058> "Magister en Educación"@es)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000058> "Mestrado em Educação"@pt)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000058> "Mestre em Educação"@pt)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000058> "me"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000058> "master of education")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000058> <http://purl.obolibrary.org/obo/QUALO_0000004>)
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000059> (master of engineering)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000059> "MEng"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000059> "MSc Eng"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000059> "master of engineering")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000059> <http://purl.obolibrary.org/obo/QUALO_0000004>)
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000060> (master of arts)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000060> "MA"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000060> "Master of Art"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000060> "Masters of Arts"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000060> "master of arts")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000060> <http://purl.obolibrary.org/obo/QUALO_0000004>)
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000061> (master of public health)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000061> "Master in Public Health"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000061> "Masters of Public Health"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000061> "mph"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasNarrowSynonym <http://purl.obolibrary.org/obo/QUALO_0000061> "MPH in Epidemiology"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000061> "master of public health")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000061> <http://purl.obolibrary.org/obo/QUALO_0000004>)
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000062> (master of pharmacy)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000062> "M.Pharm"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000062> "master of pharmacy")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000062> <http://purl.obolibrary.org/obo/QUALO_0000004>)
 
@@ -936,6 +1023,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000065> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000066> (doctor of education)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000066> "Doctor en Ciencias de la Educación"@es)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000066> "Doctor en Educación"@es)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000066> "Doctora en Educación"@es)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000066> "Doctorado en Educación"@es)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000066> "Doutorado em Educação"@pt)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000066> "Ed.D."@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000066> "PhD Education"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000066> "PhD in Education"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000066> "doctor of education")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000066> <http://purl.obolibrary.org/obo/QUALO_0000005>)
 
@@ -944,6 +1039,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000066> <http://purl.obolibrar
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000067> "Doctor en Derecho"@es)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000067> "J.D."@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000067> "Juris Doctor"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000067> "PhD in Law"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000067> "doctoroflaw"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000067> "doctor of law")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000067> <http://purl.obolibrary.org/obo/QUALO_0000005>)
@@ -969,11 +1065,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000069> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000070> (doctor of veterinary medicine)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000070> "DVM"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000070> "Medicina Veterinária"@pt)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000070> "Veterinarian"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000070> "doctor of veterinary medicine")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000070> <http://purl.obolibrary.org/obo/QUALO_0000005>)
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000071> (master of nursing)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000071> "Mestrado em Enfermagem"@pt)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000071> "master of nursing")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000071> <http://purl.obolibrary.org/obo/QUALO_0000004>)
 
@@ -1002,6 +1102,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000075> <http://purl.obolibrar
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) Annotation(oboInOwl:hasSynonymType <http://purl.obolibrary.org/obo/OMO_0003005>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000076> "BSc Honours"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000076> "BSc Hons"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000076> "BSc(Hons)"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) Annotation(oboInOwl:hasSynonymType <http://purl.obolibrary.org/obo/OMO_0003005>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000076> "Bachelor of Science (Honours)"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) Annotation(oboInOwl:hasSynonymType <http://purl.obolibrary.org/obo/OMO_0003005>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000076> "Bachelor of Science with Honours"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) Annotation(oboInOwl:hasSynonymType <http://purl.obolibrary.org/obo/OMO_0003005>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000076> "Honours Bachelor of Science"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) Annotation(oboInOwl:hasSynonymType <http://purl.obolibrary.org/obo/OMO_0003005>) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000076> "bsc (honors)"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000076> "bsc (honours)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000076> "bachelor of science with honors")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000076> <http://purl.obolibrary.org/obo/QUALO_0000011>)
@@ -1014,6 +1118,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000077> "Ph.D. in Chemistry"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000077> "PhD (Chemistry)"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000077> "PhD Chemistry"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000077> "PhD in Chemical Sciences"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000077> "PhD in Chemistry"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000077> "PhD in chemistry"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000077> "doctor of philosophy in chemistry")
@@ -1055,12 +1160,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000081> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000082> (doctor of philosophy in biology)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasCloseSynonym <http://purl.obolibrary.org/obo/QUALO_0000082> "PhD in Biomedicine"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000082> "Ph.D. Biology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000082> "Ph.D. in Biology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000082> "PhD Biological Sciences"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000082> "PhD Biology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000082> "PhD Biomedical Sciences"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000082> "PhD in Biology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000082> "PhD in Biomedical Sciences"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasNarrowSynonym <http://purl.obolibrary.org/obo/QUALO_0000082> "PhD Microbiology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasNarrowSynonym <http://purl.obolibrary.org/obo/QUALO_0000082> "PhD in Biological Sciences"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasNarrowSynonym <http://purl.obolibrary.org/obo/QUALO_0000082> "PhD in Microbiology"@en)
@@ -1071,16 +1178,22 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000082> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000083> (doctor of philosophy in ecology)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000083> "PhD Ecology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000083> "PhD in Ecology"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000083> "doctor of philosophy in ecology")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000083> <http://purl.obolibrary.org/obo/QUALO_0000018>)
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000084> (doctor of philosophy in immunology)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000084> "PhD Immunology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000084> "PhD in Immunology"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000084> "doctor of philosophy in immunology")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000084> <http://purl.obolibrary.org/obo/QUALO_0000018>)
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000085> (doctor of philosophy in environmental sciences)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000085> "PhD Environmental Science"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000085> "PhD in Environmental Sciences"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000085> "doctor of philosophy in environmental sciences")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000085> <http://purl.obolibrary.org/obo/QUALO_0000018>)
 
@@ -1091,6 +1204,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000086> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000087> (doctor of philosophy in economics)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000087> "Dr. rer. pol."@de)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000087> "Ph.D. in Economics"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000087> "PhD (Economics)"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000087> "PhD Economics"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000087> "PhD in Economics"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000087> "doctor of philosophy in economics")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000087> <http://purl.obolibrary.org/obo/QUALO_0000018>)
 
@@ -1142,11 +1260,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000093> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000094> (doctor of philosophy in physical chemistry)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000094> "PhD in Physical Chemistry"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000094> "doctor of philosophy in physical chemistry")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000094> <http://purl.obolibrary.org/obo/QUALO_0000077>)
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000095> (doctor of philosophy in linguistics)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000095> "PhD Linguistics"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000095> "PhD in Linguistics"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasNarrowSynonym <http://purl.obolibrary.org/obo/QUALO_0000095> "PhD in Applied Linguistics"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000095> "doctor of philosophy in linguistics")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000095> <http://purl.obolibrary.org/obo/QUALO_0000018>)
 
@@ -1157,6 +1279,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000096> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000097> (doctor of philosophy in english literature)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000097> "PhD in English Literature"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000097> "doctor of philosophy in english literature")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000097> <http://purl.obolibrary.org/obo/QUALO_0000018>)
 
@@ -1170,16 +1293,23 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000098> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000099> (doctor of philosophy in neuroscience)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000099> "PhD Neuroscience"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000099> "PhD Neurosciences"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000099> "PhD in Neuroscience"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000099> "PhD in Neurosciences"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000099> "doctor of philosophy in neuroscience")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000099> <http://purl.obolibrary.org/obo/QUALO_0000018>)
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000100> (doctor of philosophy in epidemiology)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000100> "PhD Epidemiology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000100> "PhD in Epidemiology"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000100> "doctor of philosophy in epidemiology")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000100> <http://purl.obolibrary.org/obo/QUALO_0000018>)
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000101> (doctor of philosophy in geology)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000101> "PhD Geology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000101> "PhD in Geology"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000101> "doctor of philosophy in geology")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000101> <http://purl.obolibrary.org/obo/QUALO_0000018>)
@@ -1227,6 +1357,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000107> "PhD Materials Engineering"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000107> "PhD in Material Engineering"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000107> "PhD in Materials Engineering"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasNarrowSynonym <http://purl.obolibrary.org/obo/QUALO_0000107> "PhD in Materials Science and Engineering"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000107> "doctor of philosophy in materials engineering")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000107> <http://purl.obolibrary.org/obo/QUALO_0000088>)
 
@@ -1250,6 +1381,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000109> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/QUALO_0000110> (doctor of philosophy in astrophysics)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasCloseSynonym <http://purl.obolibrary.org/obo/QUALO_0000110> "PhD in Astronomy"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000110> "PhD Astrophysics"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000110> "PhD in Astrophysics"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000110> "doctor of philosophy in astrophysics")
@@ -1270,6 +1402,119 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000112> "master of science in physics")
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000112> <http://purl.obolibrary.org/obo/QUALO_0000057>)
 SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000112> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/QUALO_1000002> <http://purl.obolibrary.org/obo/DISCO_0000005>))
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000113> (doctor of philosophy in biotechnology)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000113> "PhD Biotechnology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000113> "PhD in Biotechnology"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000113> "doctor of philosophy in biotechnology")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000113> <http://purl.obolibrary.org/obo/QUALO_0000018>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000114> (doctor of philosophy in public health)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000114> "PhD Public Health"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000114> "PhD in Public Health"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000114> "doctor of philosophy in public health")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000114> <http://purl.obolibrary.org/obo/QUALO_0000018>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000115> (bachelor of arts in economics)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000115> "BA Economics"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000115> "bachelor of arts in economics")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000115> <http://purl.obolibrary.org/obo/QUALO_0000031>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000116> (master of science in economics)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000116> "MSc Economics"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000116> "master of science in economics")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000116> <http://purl.obolibrary.org/obo/QUALO_0000057>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000117> (master of science and doctor of philosophy)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000117> "M.Sc., Ph.D."@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000117> "MS/PhD"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000117> "MS/PhD Student"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000117> "master of science and doctor of philosophy")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000117> <http://purl.obolibrary.org/obo/QUALO_0000052>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000118> (doctor of philosophy in psychology)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000118> "Doctora en Psicología"@es)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000118> "PhD Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000118> "PhD in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasNarrowSynonym <http://purl.obolibrary.org/obo/QUALO_0000118> "Ph.D. in Clinical Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasNarrowSynonym <http://purl.obolibrary.org/obo/QUALO_0000118> "PhD Clinical Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasNarrowSynonym <http://purl.obolibrary.org/obo/QUALO_0000118> "PhD in Clinical Psychology"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000118> "doctor of philosophy in psychology")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000118> <http://purl.obolibrary.org/obo/QUALO_0000018>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000119> (master of science in computer science)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000119> "MSc Computer Science"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000119> "master of science in computer science")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000119> <http://purl.obolibrary.org/obo/QUALO_0000057>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000120> (doctor of philosophy in sociology)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000120> "Ph.D. in Sociology"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000120> "doctor of philosophy in sociology")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000120> <http://purl.obolibrary.org/obo/QUALO_0000018>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000121> (master of science in biology)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000121> "MS Biology"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000121> "master of science in biology")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000121> <http://purl.obolibrary.org/obo/QUALO_0000057>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000122> (master of science in biotechnology)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000122> "MSc Biotechnology"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000122> "master of science in biotechnology")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000122> <http://purl.obolibrary.org/obo/QUALO_0000057>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000123> (doctor of philosophy in organic chemistry)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000123> "PhD in Organic Chemistry"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000123> "doctor of philosophy in organic chemistry")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000123> <http://purl.obolibrary.org/obo/QUALO_0000077>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000124> (doctor of philosophy in political science)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000124> "PhD Political Science"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000124> "PhD in Political Science"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000124> "doctor of philosophy in political science")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000124> <http://purl.obolibrary.org/obo/QUALO_0000018>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000125> (doctor of philosophy in philosophy)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000125> "PhD Philosophy"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000125> "PhD in Philosophy"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000125> "doctor of philosophy in philosophy")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000125> <http://purl.obolibrary.org/obo/QUALO_0000018>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000126> (master of science in philosophy)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000126> "M.Phil"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000126> "master of science in philosophy")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000126> <http://purl.obolibrary.org/obo/QUALO_0000057>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000127> (bachelor of arts in english)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000127> "BA English"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000127> "bachelor of arts in english")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000127> <http://purl.obolibrary.org/obo/QUALO_0000031>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000128> (bachelor of arts in psychology)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000128> "BA Psychology"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000128> "bachelor of arts in psychology")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000128> <http://purl.obolibrary.org/obo/QUALO_0000031>)
+
+# Class: <http://purl.obolibrary.org/obo/QUALO_0000129> (master of science in epidemiology)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/QUALO_0000129> "MSc Epidemiology"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUALO_0000129> "master of science in epidemiology")
+SubClassOf(<http://purl.obolibrary.org/obo/QUALO_0000129> <http://purl.obolibrary.org/obo/QUALO_0000057>)
 
 
 ############################
