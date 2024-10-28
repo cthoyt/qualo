@@ -46,7 +46,7 @@ dependencies = [
     "click",
     "gilda",
     "pandas",
-    "biosynonyms",
+    "biosynonyms>=0.1.0",
     "curies",
 ]
 
