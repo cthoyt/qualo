@@ -46,7 +46,6 @@ license = { file = "LICENSE" }
 requires-python = ">=3.10"
 dependencies = [
     "click",
-    "gilda",
     "pandas",
     "biosynonyms>=0.1.0",
     "curies",
@@ -57,10 +56,13 @@ tests = [
     "pytest",
     "coverage",
 ]
+nlp = [
+    "gilda",
+]
 docs = [
     "sphinx>=8",
     "sphinx-rtd-theme>=3.0",
-    "sphinx-click", 
+    "sphinx-click",
     "sphinx_automodapi",
     # Include if your project uses Pydantic:
     # "autodoc_pydantic",
