@@ -1,6 +1,6 @@
 @prefix BFO: <http://purl.obolibrary.org/obo/BFO_> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix DISCO: <http://purl.obolibrary.org/obo/DISCO_> .
+@prefix DISCO: <https://w3id.org/disco/> .
 @prefix EDAM: <http://edamontology.org/topic_> .
 @prefix NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_> .
 @prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
@@ -8,12 +8,12 @@
 @prefix orcid: <https://orcid.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix PATO: <http://purl.obolibrary.org/obo/PATO_> .
-@prefix QUALO: <http://purl.obolibrary.org/obo/QUALO_> .
+@prefix QUALO: <https://w3id.org/qualo/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wikidata: <http://wikidata.org/entity/> .
 
-<https://purl.obolibrary.org/obo/qualo.owl> a owl:Ontology ;
+<https://w3id.org/qualo/qualo.ttl> a owl:Ontology ;
     dcterms:title "Qualification Ontology" ;
     dcterms:description "An ontology representation qualifications, such as academic degrees" ;
     dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -33,6 +33,12 @@ QUALO:1000002 a owl:ObjectProperty;
     rdfs:label "for discipline"^^xsd:string ;
     rdfs:range DISCO:0000001 ;
     rdfs:domain QUALO:0000021 .
+
+QUALO:1000003 a owl:AnnotationProperty;
+    rdfs:label "example conferrer"^^xsd:string ;
+    skos:exactMatch wikidata:P1027 ;
+    owl:equivalentProperty wikidata:P1027 ;
+    rdfs:domain QUALO:0000001 .
 rdfs:label   a owl:AnnotationProperty; rdfs:label "label"^^xsd:string .
 rdfs:seeAlso a owl:AnnotationProperty; rdfs:label "see also"^^xsd:string .
 rdfs:comment a owl:AnnotationProperty; rdfs:label "comment"^^xsd:string .

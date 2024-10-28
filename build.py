@@ -6,6 +6,7 @@ from pathlib import Path
 from textwrap import dedent
 from typing import Mapping, Optional, Union
 
+import click
 import gilda
 from curies import Reference
 from biosynonyms import parse_synonyms, group_synonyms
@@ -29,7 +30,12 @@ DATA_DIR = HERE.joinpath("data")
 TERMS_PATH = DATA_DIR.joinpath("terms.tsv")
 SYNONYMS_PATH = DATA_DIR.joinpath("synonyms.tsv")
 MAPPINGS_PATH = DATA_DIR.joinpath("mappings.sssom.tsv")
-EXAMPLES_PATH = DATA_DIR.joinpath("examples.tsv")
+EXAMPLES_PATH = DATA_DIR.joinpath("holders.tsv")
+CONFERRERS_PATH = DATA_DIR.joinpath("conferrers.tsv")
+
+QUALO_ONTOLOGY_IRI = "https://w3id.org/qualo/qualo.ttl"
+QUALO_BASE_IRI = "https://w3id.org/qualo/"
+DISCO_BASE_IRI = "https://w3id.org/disco/"
 
 
 def _restriction(prop: str, target: str) -> str:
@@ -49,8 +55,8 @@ def get_remote_curie_map(
 
 
 METADATA = dedent(
-    """\
-<https://purl.obolibrary.org/obo/qualo.owl> a owl:Ontology ;
+    f"""\
+<{QUALO_ONTOLOGY_IRI}> a owl:Ontology ;
     dcterms:title "Qualification Ontology" ;
     dcterms:description "An ontology representation qualifications, such as academic degrees" ;
     dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -70,6 +76,12 @@ QUALO:1000002 a owl:ObjectProperty;
     rdfs:label "for discipline"^^xsd:string ;
     rdfs:range DISCO:0000001 ;
     rdfs:domain QUALO:0000021 .
+
+QUALO:1000003 a owl:AnnotationProperty;
+    rdfs:label "example conferrer"^^xsd:string ;
+    skos:exactMatch wikidata:P1027 ;
+    owl:equivalentProperty wikidata:P1027 ;
+    rdfs:domain QUALO:0000001 .
 """
 )
 
@@ -93,6 +105,7 @@ def _get_terms() -> list[gilda.Term]:
     return rv
 
 
+@click.command()
 def _main() -> None:
     """
     See:
@@ -121,8 +134,8 @@ def _main() -> None:
     disciplines = dict(df[df["discipline"].notna()][["curie", "discipline"]].values)
 
     prefix_map = {
-        "QUALO": "http://purl.obolibrary.org/obo/QUALO_",
-        "DISCO": "http://purl.obolibrary.org/obo/DISCO_",
+        "QUALO": QUALO_BASE_IRI,
+        "DISCO": DISCO_BASE_IRI,
         "PATO": "http://purl.obolibrary.org/obo/PATO_",
         "EDAM": "http://edamontology.org/topic_",
         "wikidata": "http://wikidata.org/entity/",
@@ -188,7 +201,10 @@ def _main() -> None:
 if __name__ == "__main__":
     _main()
 
-    import bioontologies.robot
-
-    bioontologies.robot.convert(EXPORT_PATH, EXPORT_OWL_PATH)
-    bioontologies.robot.convert(EXPORT_PATH, EXPORT_OFN_PATH)
+    try:
+        import bioontologies.robot
+    except ImportError:
+        click.secho("bioontologies is not installed, can't convert to OWL and OFN")
+    else:
+        bioontologies.robot.convert(EXPORT_PATH, EXPORT_OWL_PATH)
+        bioontologies.robot.convert(EXPORT_PATH, EXPORT_OFN_PATH)
