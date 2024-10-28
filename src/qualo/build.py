@@ -10,6 +10,7 @@ from textwrap import dedent
 import click
 import gilda
 import pandas as pd
+import regex
 from biosynonyms import group_synonyms, parse_synonyms
 from biosynonyms.generate_owl import (
     PREAMBLE,
@@ -23,8 +24,8 @@ from biosynonyms.resources import _clean_str, _gilda_term
 from curies import Reference
 
 __all__ = [
-    "get_qualification_name",
-    "ground_qualification",
+    "get_name",
+    "ground",
 ]
 
 HERE = Path(__file__).parent.resolve()
@@ -84,11 +85,16 @@ QUALO:1000003 a owl:AnnotationProperty;
 """
 )
 
+ID_REGEX = regex.compile(r"^\d{7}$")
 
-def get_qualification_name(reference: str | Reference) -> str:
+
+def get_name(reference: str | Reference) -> str:
     """Get the qualification name, by CURIE."""
     if isinstance(reference, str):
-        reference = Reference.from_curie(reference)
+        if ID_REGEX.match(reference):
+            reference = Reference(prefix="QUALO", identifier=reference)
+        else:
+            reference = Reference.from_curie(reference)
     if reference.prefix != "QUALO":
         raise ValueError
     return _get_names()[reference.identifier]
@@ -101,7 +107,7 @@ def _get_names() -> dict[Reference, str]:
     return dict(df[["curie", "label"]].values)
 
 
-def ground_qualification(text: str) -> Reference | None:
+def ground(text: str) -> Reference | None:
     """Ground a qualification to the CURIE."""
     grounder = get_gilda_grounder()
     match = grounder.ground_best(text)

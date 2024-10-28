@@ -55,16 +55,31 @@ which is ambiguous. Future versions of this resource could include additional qu
 - `examples.tsv` has for each qualification one or more example people
 - `conferrers.tsv` has for each qualification one or more example conferrers (i.e., a university that confers the degree)
 
+## Usage
+
+There are two user-facing functions:
+
+```python
+import qualo
+
+>>> qualo.get_name("0000041")
+'bachelor of science in biochemistry'
+
+>>> qualo.get_name("QUALO:0000041")
+'bachelor of science in biochemistry'
+
+>>> qualo.ground("bachelor of science in biochemistry")
+Reference(prefix="QUALO", identifier="0000041")
+```
+
 ## 🚀 Installation
 
-<!-- Uncomment this section after your first ``tox -e finish``
 The most recent release can be installed from
 [PyPI](https://pypi.org/project/qualo/) with:
 
 ```shell
 pip install qualo
 ```
--->
 
 The most recent code and data can be installed directly from GitHub with:
 
