@@ -129,6 +129,29 @@ QUALO:0000126	master of science in philosophy	QUALO:0000057	master of science
 QUALO:0000127	bachelor of arts in english	QUALO:0000031	bachelor of arts
 QUALO:0000128	bachelor of arts in psychology	QUALO:0000031	bachelor of arts
 QUALO:0000129	master of science in epidemiology	QUALO:0000057	master of science
+QUALO:0000130	bachelor of science in biotechnology	QUALO:0000024	bachelor of science
+QUALO:0000131	doctor of philosophy in anthropology	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000132	doctor of philosophy in finance	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000133	doctor of philosophy in archeology	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000134	doctor of philosophy in accounting	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000135	doctor of philosophy in business administration	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000136	doctor of philosophy in architecture	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000137	doctor of philosophy in earth sciences	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000138	doctor of philosophy in medicine	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000139	doctor of philosophy in information technology	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000140	doctor of philosophy in management	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000141	bachelor of science in geology	QUALO:0000024	bachelor of science
+QUALO:0000142	bachelor of science in neuroscience	QUALO:0000024	bachelor of science
+QUALO:0000143	doctor of philosophy in philology	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000144	doctor of philosophy in molecular medicine	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000145	doctor of philosophy in pharmacology	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000146	doctor of philosophy in genetics	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000147	doctor of philosophy in pharmacy	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000148	doctor of philosophy in health sciences	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000149	bachelor of science in accounting	QUALO:0000024	bachelor of science
+QUALO:0000150	bachelor of science in nursing	QUALO:0000024	bachelor of science
+QUALO:0000151	bachelor of arts in philosophy	QUALO:0000031	bachelor of arts
+QUALO:0000152	bachelor of arts in history	QUALO:0000031	bachelor of arts
 DISCO:0000001	academic discipline	owl:Thing
 DISCO:0000002	mathematics	DISCO:0000001	academic discipline
 DISCO:0000003	history	DISCO:0000001	academic discipline
