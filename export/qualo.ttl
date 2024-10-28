@@ -163,12 +163,156 @@ QUALO:0000003 oboInOwl:hasExactSynonym "bachelor"@en .
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-26"^^xsd:date .
 ] .
+QUALO:0000003 oboInOwl:hasExactSynonym "Bachiller" . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Bachiller" ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-28"^^xsd:date .
+] .
+QUALO:0000003 oboInOwl:hasRelatedSynonym "License" . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+    owl:annotatedTarget "License" ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-28"^^xsd:date .
+] .
+QUALO:0000003 oboInOwl:hasRelatedSynonym "Licence" . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+    owl:annotatedTarget "Licence" ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-28"^^xsd:date .
+] .
+QUALO:0000003 oboInOwl:hasRelatedSynonym "Graduando"@pt . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+    owl:annotatedTarget "Graduando"@pt ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-28"^^xsd:date .
+] .
+QUALO:0000003 oboInOwl:hasRelatedSynonym "Graduanda"@pt . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+    owl:annotatedTarget "Graduanda"@pt ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-28"^^xsd:date .
+] .
+QUALO:0000003 oboInOwl:hasRelatedSynonym "Degree"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+    owl:annotatedTarget "Degree"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000003 oboInOwl:hasRelatedSynonym "Graduated"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+    owl:annotatedTarget "Graduated"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000003 oboInOwl:hasRelatedSynonym "Graduate"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+    owl:annotatedTarget "Graduate"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000003 oboInOwl:hasRelatedSynonym "Graduation"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+    owl:annotatedTarget "Graduation"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000003 oboInOwl:hasExactSynonym "Licenciado"@es . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Licenciado"@es ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000003 oboInOwl:hasExactSynonym "Licenciada"@es . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Licenciada"@es ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000003 oboInOwl:hasExactSynonym "Pregrado"@es . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Pregrado"@es ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
 QUALO:0000003 oboInOwl:hasExactSynonym "Graduado"@es . 
 [
     a owl:Axiom ;
     owl:annotatedSource QUALO:0000003 ;
     owl:annotatedProperty oboInOwl:hasExactSynonym ;
     owl:annotatedTarget "Graduado"@es ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000003 oboInOwl:hasExactSynonym "Graduação"@pt . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Graduação"@pt ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000003 oboInOwl:hasExactSynonym "Graduada"@pt . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Graduada"@pt ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000003 oboInOwl:hasExactSynonym "Bachalor"@de . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Bachalor"@de ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000003 oboInOwl:hasExactSynonym "Bachlor" . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Bachlor" ;
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-27"^^xsd:date .
 ] .
@@ -289,6 +433,15 @@ QUALO:0000003 oboInOwl:hasExactSynonym "Licenciatura"@pt .
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-27"^^xsd:date .
 ] .
+QUALO:0000003 oboInOwl:hasRelatedSynonym "Laurea"@it . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000003 ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+    owl:annotatedTarget "Laurea"@it ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
 QUALO:0000003 skos:exactMatch wikidata:Q163727 .
 [
     a owl:Axiom ;
@@ -310,11 +463,47 @@ QUALO:0000004 oboInOwl:hasExactSynonym "Master"@en .
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-26"^^xsd:date .
 ] .
-QUALO:0000004 oboInOwl:hasExactSynonym "Master Student"@en . 
+QUALO:0000004 oboInOwl:hasExactSynonym "магистр"@ru . 
 [
     a owl:Axiom ;
     owl:annotatedSource QUALO:0000004 ;
     owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "магистр"@ru ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-26"^^xsd:date .
+] .
+QUALO:0000004 oboInOwl:hasExactSynonym "магістр"@uk . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000004 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "магістр"@uk ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-26"^^xsd:date .
+] .
+QUALO:0000004 oboInOwl:hasExactSynonym "硕士研究生"@zh . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000004 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "硕士研究生"@zh ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-26"^^xsd:date .
+] .
+QUALO:0000004 oboInOwl:hasExactSynonym "Master 2"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000004 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Master 2"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-26"^^xsd:date .
+] .
+QUALO:0000004 oboInOwl:hasRelatedSynonym "Master Student"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000004 ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
     owl:annotatedTarget "Master Student"@en ;
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-26"^^xsd:date .
@@ -328,12 +517,39 @@ QUALO:0000004 oboInOwl:hasExactSynonym "Masters degree"@en .
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-26"^^xsd:date .
 ] .
-QUALO:0000004 oboInOwl:hasExactSynonym "Master's Student"@en . 
+QUALO:0000004 oboInOwl:hasRelatedSynonym "Master's Student"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000004 ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+    owl:annotatedTarget "Master's Student"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-26"^^xsd:date .
+] .
+QUALO:0000004 oboInOwl:hasExactSynonym "Maestro"@it . 
 [
     a owl:Axiom ;
     owl:annotatedSource QUALO:0000004 ;
     owl:annotatedProperty oboInOwl:hasExactSynonym ;
-    owl:annotatedTarget "Master's Student"@en ;
+    owl:annotatedTarget "Maestro"@it ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-26"^^xsd:date .
+] .
+QUALO:0000004 oboInOwl:hasExactSynonym "Mestrado"@pt . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000004 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Mestrado"@pt ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-26"^^xsd:date .
+] .
+QUALO:0000004 oboInOwl:hasExactSynonym "Mestranda"@pt . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000004 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Mestranda"@pt ;
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-26"^^xsd:date .
 ] .
@@ -771,6 +987,42 @@ QUALO:0000016 oboInOwl:hasExactSynonym "PhD Thesis"@en .
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-27"^^xsd:date .
 ] .
+QUALO:0000016 oboInOwl:hasExactSynonym "Doktor"@de . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000016 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Doktor"@de ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000016 oboInOwl:hasRelatedSynonym "Doktora" . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000016 ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+    owl:annotatedTarget "Doktora" ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000016 oboInOwl:hasRelatedSynonym "Doctorant"@es . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000016 ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+    owl:annotatedTarget "Doctorant"@es ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000016 oboInOwl:hasExactSynonym "Doctorado"@pt . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000016 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Doctorado"@pt ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
 QUALO:0000016 oboInOwl:hasExactSynonym "Dottorato di Ricerca"@it . 
 [
     a owl:Axiom ;
@@ -843,11 +1095,11 @@ QUALO:0000016 oboInOwl:hasExactSynonym "PhD"@en .
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-27"^^xsd:date .
 ] .
-QUALO:0000016 oboInOwl:hasCloseSynonym "Magister"@en . 
+QUALO:0000016 oboInOwl:hasRelatedSynonym "Magister"@en . 
 [
     a owl:Axiom ;
     owl:annotatedSource QUALO:0000016 ;
-    owl:annotatedProperty oboInOwl:hasCloseSynonym ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
     owl:annotatedTarget "Magister"@en ;
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-27"^^xsd:date .
@@ -1298,6 +1550,15 @@ QUALO:0000028 oboInOwl:hasExactSynonym "B.Eng."@en .
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-27"^^xsd:date .
 ] .
+QUALO:0000028 oboInOwl:hasRelatedSynonym "Dipl.-Ing."@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000028 ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+    owl:annotatedTarget "Dipl.-Ing."@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
 
 QUALO:0000029 a owl:Class; rdfs:label "bachelor of education" .
 QUALO:0000029 rdfs:subClassOf QUALO:0000003 .
@@ -1511,6 +1772,15 @@ QUALO:0000034 oboInOwl:hasExactSynonym "B.Tech"@en .
 QUALO:0000035 a owl:Class; rdfs:label "bachelor of science in nursing" .
 QUALO:0000035 rdfs:subClassOf QUALO:0000024 .
 QUALO:0000035 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000008 ] .
+QUALO:0000035 oboInOwl:hasExactSynonym "BScN"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000035 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "BScN"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
 
 QUALO:0000036 a owl:Class; rdfs:label "bachelor of science in biology" .
 QUALO:0000036 rdfs:subClassOf QUALO:0000024 .
@@ -1812,6 +2082,24 @@ QUALO:0000043 oboInOwl:hasExactSynonym "Bacharel em Ciência da Computação"@pt
 QUALO:0000044 a owl:Class; rdfs:label "bachelor of science in geology" .
 QUALO:0000044 rdfs:subClassOf QUALO:0000024 .
 QUALO:0000044 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000004 ] .
+QUALO:0000044 oboInOwl:hasExactSynonym "B.S. Geology"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000044 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "B.S. Geology"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000044 oboInOwl:hasExactSynonym "BSc Geology"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000044 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "BSc Geology"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
 
 QUALO:0000045 a owl:Class; rdfs:label "bachelor of science in mechanical engineering" .
 QUALO:0000045 rdfs:subClassOf QUALO:0000038 .
@@ -1851,6 +2139,15 @@ QUALO:0000046 oboInOwl:hasExactSynonym "BS Electrical Engineering"@en .
 QUALO:0000047 a owl:Class; rdfs:label "bachelor of science in neuroscience" .
 QUALO:0000047 rdfs:subClassOf QUALO:0000024 .
 QUALO:0000047 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000017 ] .
+QUALO:0000047 oboInOwl:hasExactSynonym "B.S. Neuroscience"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000047 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "B.S. Neuroscience"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
 
 QUALO:0000048 a owl:Class; rdfs:label "bachelor of science in microbiology" .
 QUALO:0000048 rdfs:subClassOf QUALO:0000024 .
@@ -2215,6 +2512,15 @@ QUALO:0000057 oboInOwl:hasExactSynonym "ms c"@en .
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-27"^^xsd:date .
 ] .
+QUALO:0000057 oboInOwl:hasExactSynonym "M.Si"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000057 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "M.Si"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
 QUALO:0000057 skos:exactMatch wikidata:Q950900 .
 [
     a owl:Axiom ;
@@ -2404,20 +2710,20 @@ QUALO:0000063 oboInOwl:hasExactSynonym "Doctor of Pharmacy (PharmD)"@en .
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-27"^^xsd:date .
 ] .
-QUALO:0000063 oboInOwl:hasCloseSynonym "PhD in Pharmacy"@en . 
+QUALO:0000063 oboInOwl:hasRelatedSynonym "PhD in Pharmacy"@en . 
 [
     a owl:Axiom ;
     owl:annotatedSource QUALO:0000063 ;
-    owl:annotatedProperty oboInOwl:hasCloseSynonym ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
     owl:annotatedTarget "PhD in Pharmacy"@en ;
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-27"^^xsd:date .
 ] .
-QUALO:0000063 oboInOwl:hasCloseSynonym "PhD Pharmacy"@en . 
+QUALO:0000063 oboInOwl:hasRelatedSynonym "PhD Pharmacy"@en . 
 [
     a owl:Axiom ;
     owl:annotatedSource QUALO:0000063 ;
-    owl:annotatedProperty oboInOwl:hasCloseSynonym ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
     owl:annotatedTarget "PhD Pharmacy"@en ;
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-27"^^xsd:date .
@@ -2452,6 +2758,24 @@ QUALO:0000065 oboInOwl:hasExactSynonym "D.Sc."@en .
     owl:annotatedSource QUALO:0000065 ;
     owl:annotatedProperty oboInOwl:hasExactSynonym ;
     owl:annotatedTarget "D.Sc."@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000065 oboInOwl:hasRelatedSynonym "PhD in Science"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000065 ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+    owl:annotatedTarget "PhD in Science"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000065 oboInOwl:hasRelatedSynonym "PhD in Sciences"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000065 ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+    owl:annotatedTarget "PhD in Sciences"@en ;
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-27"^^xsd:date .
 ] .
@@ -2581,12 +2905,57 @@ QUALO:0000067 oboInOwl:hasExactSynonym "PhD in Law"@en .
 
 QUALO:0000068 a owl:Class; rdfs:label "doctor of medicine" .
 QUALO:0000068 rdfs:subClassOf QUALO:0000005 .
+QUALO:0000068 oboInOwl:hasExactSynonym "Doctor"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000068 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Doctor"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000068 oboInOwl:hasExactSynonym "Doctor degree"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000068 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Doctor degree"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000068 oboInOwl:hasExactSynonym "Doctor's degree"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000068 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Doctor's degree"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
 QUALO:0000068 oboInOwl:hasExactSynonym "Medical Doctor (MD)"@en . 
 [
     a owl:Axiom ;
     owl:annotatedSource QUALO:0000068 ;
     owl:annotatedProperty oboInOwl:hasExactSynonym ;
     owl:annotatedTarget "Medical Doctor (MD)"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000068 oboInOwl:hasNarrowSynonym "Resident Physician"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000068 ;
+    owl:annotatedProperty oboInOwl:hasNarrowSynonym ;
+    owl:annotatedTarget "Resident Physician"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000068 oboInOwl:hasRelatedSynonym "Medical Student"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000068 ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
+    owl:annotatedTarget "Medical Student"@en ;
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-27"^^xsd:date .
 ] .
@@ -2605,6 +2974,69 @@ QUALO:0000068 oboInOwl:hasExactSynonym "Doctor of Medicine (MD)"@en .
     owl:annotatedSource QUALO:0000068 ;
     owl:annotatedProperty oboInOwl:hasExactSynonym ;
     owl:annotatedTarget "Doctor of Medicine (MD)"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000068 oboInOwl:hasNarrowSynonym "Médico Cirujano"@es . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000068 ;
+    owl:annotatedProperty oboInOwl:hasNarrowSynonym ;
+    owl:annotatedTarget "Médico Cirujano"@es ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000068 oboInOwl:hasExactSynonym "Doctor en Medicina"@es . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000068 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Doctor en Medicina"@es ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000068 oboInOwl:hasNarrowSynonym "FRCPC"@es . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000068 ;
+    owl:annotatedProperty oboInOwl:hasNarrowSynonym ;
+    owl:annotatedTarget "FRCPC"@es ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000068 oboInOwl:hasExactSynonym "Médica"@es . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000068 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Médica"@es ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000068 oboInOwl:hasExactSynonym "Médico"@es . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000068 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Médico"@es ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000068 oboInOwl:hasExactSynonym "Medico"@pt . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000068 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Medico"@pt ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000068 oboInOwl:hasExactSynonym "Medicina"@pt . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000068 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Medicina"@pt ;
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-27"^^xsd:date .
 ] .
@@ -2722,6 +3154,15 @@ QUALO:0000072 oboInOwl:hasExactSynonym "M.Tech"@en .
 
 QUALO:0000073 a owl:Class; rdfs:label "master of philosophy" .
 QUALO:0000073 rdfs:subClassOf QUALO:0000004 .
+QUALO:0000073 oboInOwl:hasExactSynonym "MPhil"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000073 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "MPhil"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
 
 QUALO:0000074 a owl:Class; rdfs:label "master of applied science" .
 QUALO:0000074 rdfs:subClassOf QUALO:0000004 .
@@ -3012,11 +3453,11 @@ QUALO:0000081 oboInOwl:hasExactSynonym "PhD Computer Science"@en .
 QUALO:0000082 a owl:Class; rdfs:label "doctor of philosophy in biology" .
 QUALO:0000082 rdfs:subClassOf QUALO:0000018 .
 QUALO:0000082 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty QUALO:1000002 ; owl:someValuesFrom DISCO:0000007 ] .
-QUALO:0000082 oboInOwl:hasCloseSynonym "PhD in Biomedicine"@en . 
+QUALO:0000082 oboInOwl:hasRelatedSynonym "PhD in Biomedicine"@en . 
 [
     a owl:Axiom ;
     owl:annotatedSource QUALO:0000082 ;
-    owl:annotatedProperty oboInOwl:hasCloseSynonym ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
     owl:annotatedTarget "PhD in Biomedicine"@en ;
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-27"^^xsd:date .
@@ -3906,11 +4347,11 @@ QUALO:0000110 oboInOwl:hasExactSynonym "PhD Astrophysics"@en .
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-27"^^xsd:date .
 ] .
-QUALO:0000110 oboInOwl:hasCloseSynonym "PhD in Astronomy"@en . 
+QUALO:0000110 oboInOwl:hasRelatedSynonym "PhD in Astronomy"@en . 
 [
     a owl:Axiom ;
     owl:annotatedSource QUALO:0000110 ;
-    owl:annotatedProperty oboInOwl:hasCloseSynonym ;
+    owl:annotatedProperty oboInOwl:hasRelatedSynonym ;
     owl:annotatedTarget "PhD in Astronomy"@en ;
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-27"^^xsd:date .
@@ -4493,39 +4934,6 @@ QUALO:0000140 oboInOwl:hasExactSynonym "PhD Management"@en .
     dcterms:date "2024-10-27"^^xsd:date .
 ] .
 
-QUALO:0000141 a owl:Class; rdfs:label "bachelor of science in geology" .
-QUALO:0000141 rdfs:subClassOf QUALO:0000024 .
-QUALO:0000141 oboInOwl:hasExactSynonym "B.S. Geology"@en . 
-[
-    a owl:Axiom ;
-    owl:annotatedSource QUALO:0000141 ;
-    owl:annotatedProperty oboInOwl:hasExactSynonym ;
-    owl:annotatedTarget "B.S. Geology"@en ;
-    dcterms:contributor orcid:0000-0003-4423-4370 ;
-    dcterms:date "2024-10-27"^^xsd:date .
-] .
-QUALO:0000141 oboInOwl:hasExactSynonym "BSc Geology"@en . 
-[
-    a owl:Axiom ;
-    owl:annotatedSource QUALO:0000141 ;
-    owl:annotatedProperty oboInOwl:hasExactSynonym ;
-    owl:annotatedTarget "BSc Geology"@en ;
-    dcterms:contributor orcid:0000-0003-4423-4370 ;
-    dcterms:date "2024-10-27"^^xsd:date .
-] .
-
-QUALO:0000142 a owl:Class; rdfs:label "bachelor of science in neuroscience" .
-QUALO:0000142 rdfs:subClassOf QUALO:0000024 .
-QUALO:0000142 oboInOwl:hasExactSynonym "B.S. Neuroscience"@en . 
-[
-    a owl:Axiom ;
-    owl:annotatedSource QUALO:0000142 ;
-    owl:annotatedProperty oboInOwl:hasExactSynonym ;
-    owl:annotatedTarget "B.S. Neuroscience"@en ;
-    dcterms:contributor orcid:0000-0003-4423-4370 ;
-    dcterms:date "2024-10-27"^^xsd:date .
-] .
-
 QUALO:0000143 a owl:Class; rdfs:label "doctor of philosophy in philology" .
 QUALO:0000143 rdfs:subClassOf QUALO:0000018 .
 QUALO:0000143 oboInOwl:hasExactSynonym "PhD in Philology"@en . 
@@ -4610,18 +5018,6 @@ QUALO:0000149 oboInOwl:hasExactSynonym "Bacharel em Ciências Contábeis"@pt .
     dcterms:date "2024-10-27"^^xsd:date .
 ] .
 
-QUALO:0000150 a owl:Class; rdfs:label "bachelor of science in nursing" .
-QUALO:0000150 rdfs:subClassOf QUALO:0000024 .
-QUALO:0000150 oboInOwl:hasExactSynonym "BScN"@en . 
-[
-    a owl:Axiom ;
-    owl:annotatedSource QUALO:0000150 ;
-    owl:annotatedProperty oboInOwl:hasExactSynonym ;
-    owl:annotatedTarget "BScN"@en ;
-    dcterms:contributor orcid:0000-0003-4423-4370 ;
-    dcterms:date "2024-10-27"^^xsd:date .
-] .
-
 QUALO:0000151 a owl:Class; rdfs:label "bachelor of arts in philosophy" .
 QUALO:0000151 rdfs:subClassOf QUALO:0000031 .
 QUALO:0000151 oboInOwl:hasExactSynonym "Licenciado en Filosofía"@es . 
@@ -4662,6 +5058,282 @@ QUALO:0000152 oboInOwl:hasExactSynonym "Licenciado en Historia"@es .
     owl:annotatedTarget "Licenciado en Historia"@es ;
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-10-27"^^xsd:date .
+] .
+
+QUALO:0000153 a owl:Class; rdfs:label "doctor of philosophy in statistics" .
+QUALO:0000153 rdfs:subClassOf QUALO:0000018 .
+QUALO:0000153 oboInOwl:hasExactSynonym "PhD in Statistics"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000153 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD in Statistics"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000153 oboInOwl:hasExactSynonym "PhD Statistics"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000153 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD Statistics"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+
+QUALO:0000154 a owl:Class; rdfs:label "doctor of philosophy in communication" .
+QUALO:0000154 rdfs:subClassOf QUALO:0000018 .
+QUALO:0000154 oboInOwl:hasExactSynonym "PhD in Communication"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000154 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD in Communication"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+
+QUALO:0000155 a owl:Class; rdfs:label "doctor of philosophy in marketing" .
+QUALO:0000155 rdfs:subClassOf QUALO:0000018 .
+QUALO:0000155 oboInOwl:hasExactSynonym "PhD in Marketing"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000155 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD in Marketing"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000155 oboInOwl:hasExactSynonym "PhD Marketing"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000155 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD Marketing"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+
+QUALO:0000156 a owl:Class; rdfs:label "doctor of philosophy in management" .
+QUALO:0000156 rdfs:subClassOf QUALO:0000018 .
+QUALO:0000156 oboInOwl:hasExactSynonym "PhD in Management"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000156 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD in Management"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+
+QUALO:0000157 a owl:Class; rdfs:label "doctor of philosophy in materials science" .
+QUALO:0000157 rdfs:subClassOf QUALO:0000018 .
+QUALO:0000157 oboInOwl:hasExactSynonym "PhD in Materials Science"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000157 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD in Materials Science"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+
+QUALO:0000158 a owl:Class; rdfs:label "master of philosophy and doctor of philosophy" .
+QUALO:0000158 rdfs:subClassOf QUALO:0000052 .
+QUALO:0000158 oboInOwl:hasExactSynonym "MPhil/PhD"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000158 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "MPhil/PhD"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+
+QUALO:0000159 a owl:Class; rdfs:label "doctor of philosophy in social sciences" .
+QUALO:0000159 rdfs:subClassOf QUALO:0000018 .
+QUALO:0000159 oboInOwl:hasExactSynonym "PhD in Social Sciences"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000159 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD in Social Sciences"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000159 oboInOwl:hasExactSynonym "PhD in Social Science"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000159 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD in Social Science"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000159 oboInOwl:hasExactSynonym "PhD Social Sciences"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000159 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD Social Sciences"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000159 oboInOwl:hasExactSynonym "PhD Social Science"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000159 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD Social Science"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000159 oboInOwl:hasExactSynonym "doctor of philosophy in social science"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000159 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "doctor of philosophy in social science"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+
+QUALO:0000160 a owl:Class; rdfs:label "doctor of philosophy in international relations" .
+QUALO:0000160 rdfs:subClassOf QUALO:0000018 .
+QUALO:0000160 oboInOwl:hasExactSynonym "PhD in International Relations"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000160 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD in International Relations"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000160 oboInOwl:hasExactSynonym "PhD in International Relation"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000160 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD in International Relation"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000160 oboInOwl:hasExactSynonym "PhD International Relations"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000160 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD International Relations"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+QUALO:0000160 oboInOwl:hasExactSynonym "PhD International Relation"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000160 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD International Relation"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-27"^^xsd:date .
+] .
+
+QUALO:0000161 a owl:Class; rdfs:label "doctor of philosophy in medical sciences" .
+QUALO:0000161 rdfs:subClassOf QUALO:0000018 .
+QUALO:0000161 oboInOwl:hasExactSynonym "PhD in Medical Sciences"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000161 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD in Medical Sciences"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-28"^^xsd:date .
+] .
+QUALO:0000161 oboInOwl:hasExactSynonym "PhD in Medical Science"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000161 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD in Medical Science"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-28"^^xsd:date .
+] .
+QUALO:0000161 oboInOwl:hasExactSynonym "PhD Medical Science"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000161 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD Medical Science"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-28"^^xsd:date .
+] .
+QUALO:0000161 oboInOwl:hasExactSynonym "PhD Medical Sciences"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000161 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "PhD Medical Sciences"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-28"^^xsd:date .
+] .
+
+QUALO:0000162 a owl:Class; rdfs:label "master of science in health psychology" .
+QUALO:0000162 rdfs:subClassOf QUALO:0000057 .
+QUALO:0000162 oboInOwl:hasExactSynonym "MSc Health Psychology"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000162 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "MSc Health Psychology"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-28"^^xsd:date .
+] .
+
+QUALO:0000163 a owl:Class; rdfs:label "diplom" .
+QUALO:0000163 rdfs:subClassOf QUALO:0000007 .
+QUALO:0000163 skos:exactMatch wikidata:Q5978719 .
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000163 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedTarget wikidata:Q5978719 ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-28"^^xsd:date .
+] .
+
+QUALO:0000164 a owl:Class; rdfs:label "vordiplom" .
+QUALO:0000164 rdfs:subClassOf QUALO:0000006 .
+QUALO:0000164 skos:exactMatch wikidata:Q1227202 .
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000164 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedTarget wikidata:Q1227202 ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-28"^^xsd:date .
+] .
+
+QUALO:0000165 a owl:Class; rdfs:label "bachelor of science in psychology with honors" .
+QUALO:0000165 rdfs:subClassOf QUALO:0000011, QUALO:0000039 .
+QUALO:0000165 oboInOwl:hasExactSynonym "BSc (Hons) Psychology"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000165 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "BSc (Hons) Psychology"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-28"^^xsd:date .
+] .
+
+QUALO:0000166 a owl:Class; rdfs:label "bachelor of arts in business administration" .
+QUALO:0000166 rdfs:subClassOf QUALO:0000031 .
+QUALO:0000166 oboInOwl:hasExactSynonym "Bacharel em Administração"@pt . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000166 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Bacharel em Administração"@pt ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-10-28"^^xsd:date .
 ] .
 
 DISCO:0000001 a owl:Class; rdfs:label "academic discipline" .

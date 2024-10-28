@@ -59,10 +59,12 @@ def main():
         if not term:
             print(k, "TOP LEVEL NEEDS GROUNDING")
         for s in synonyms:
-            term = grounder.ground_best(s)
-            if not term:
+            matches = grounder.ground(s)
+            if not matches:
                 print(k, "=>", s)
                 n_misses += 1
+            elif len(matches) > 1:
+                print("PROB!", s)
             else:
                 n_hits += 1
     total = n_hits + n_misses

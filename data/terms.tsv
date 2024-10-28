@@ -140,8 +140,6 @@ QUALO:0000137	doctor of philosophy in earth sciences	QUALO:0000018	doctor of phi
 QUALO:0000138	doctor of philosophy in medicine	QUALO:0000018	doctor of philosophy by subject
 QUALO:0000139	doctor of philosophy in information technology	QUALO:0000018	doctor of philosophy by subject
 QUALO:0000140	doctor of philosophy in management	QUALO:0000018	doctor of philosophy by subject
-QUALO:0000141	bachelor of science in geology	QUALO:0000024	bachelor of science
-QUALO:0000142	bachelor of science in neuroscience	QUALO:0000024	bachelor of science
 QUALO:0000143	doctor of philosophy in philology	QUALO:0000018	doctor of philosophy by subject
 QUALO:0000144	doctor of philosophy in molecular medicine	QUALO:0000018	doctor of philosophy by subject
 QUALO:0000145	doctor of philosophy in pharmacology	QUALO:0000018	doctor of philosophy by subject
@@ -149,9 +147,22 @@ QUALO:0000146	doctor of philosophy in genetics	QUALO:0000018	doctor of philosoph
 QUALO:0000147	doctor of philosophy in pharmacy	QUALO:0000018	doctor of philosophy by subject
 QUALO:0000148	doctor of philosophy in health sciences	QUALO:0000018	doctor of philosophy by subject
 QUALO:0000149	bachelor of science in accounting	QUALO:0000024	bachelor of science
-QUALO:0000150	bachelor of science in nursing	QUALO:0000024	bachelor of science
 QUALO:0000151	bachelor of arts in philosophy	QUALO:0000031	bachelor of arts
 QUALO:0000152	bachelor of arts in history	QUALO:0000031	bachelor of arts
+QUALO:0000153	doctor of philosophy in statistics	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000154	doctor of philosophy in communication	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000155	doctor of philosophy in marketing	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000156	doctor of philosophy in management	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000157	doctor of philosophy in materials science	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000158	master of philosophy and doctor of philosophy	QUALO:0000052	combine degree
+QUALO:0000159	doctor of philosophy in social sciences	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000160	doctor of philosophy in international relations	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000161	doctor of philosophy in medical sciences	QUALO:0000018	doctor of philosophy by subject
+QUALO:0000162	master of science in health psychology	QUALO:0000057	master of science
+QUALO:0000163	diplom	QUALO:0000007	graduate degree
+QUALO:0000164	vordiplom	QUALO:0000006	undergraduate degree
+QUALO:0000165	bachelor of science in psychology with honors	QUALO:0000039	bachelor of science in psychology	QUALO:0000011	bachelor's degree with honors
+QUALO:0000166	bachelor of arts in business administration	QUALO:0000031	bachelor of arts
 DISCO:0000001	academic discipline	owl:Thing
 DISCO:0000002	mathematics	DISCO:0000001	academic discipline
 DISCO:0000003	history	DISCO:0000001	academic discipline
