@@ -1,5 +1,4 @@
 curie	label	parent_1	parent_1_label	parent_2	parent_2_label
-PATO:0000001	quality				
 QUALO:0000001	qualification	PATO:0000001	quality		
 QUALO:0000002	academic degree	QUALO:0000001	qualification		
 QUALO:0000003	bachelor's degree	QUALO:0000006	undergraduate degree		
@@ -50,7 +49,7 @@ QUALO:0000047	bachelor of science in neuroscience	QUALO:0000024	bachelor of scie
 QUALO:0000048	bachelor of science in microbiology	QUALO:0000024	bachelor of science		
 QUALO:0000049	bachelor of science in mathematics	QUALO:0000024	bachelor of science		
 QUALO:0000050	bachelor of science in chemical engineering	QUALO:0000038	bachelor of science in engineering		
-QUALO:0000052	combine degree	QUALO:0000002	academic degree
+QUALO:0000052	combine degree	QUALO:0000002	academic degree		
 QUALO:0000053	doctor of medicine–doctor of philosophy	QUALO:0000052	combine degree		
 QUALO:0000054	master of law	QUALO:0000004			
 QUALO:0000055	master of library and information science	QUALO:0000004			
