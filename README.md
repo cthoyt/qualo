@@ -5,14 +5,14 @@ An ontology of qualifications and distinctions that uses the
 term [`quality` (PATO:0000001)](https://bioregistry.io/PATO:0000001?provider=ols)
 as a root term.
 
-The original motivation for this resource was to standardize education labels in ORCID
-(see https://doi.org/10.5281/zenodo.10137939).
+The original motivation for this resource was to standardize education qualifications such as 
+bachelor's degrees, master's degrees, and doctorates of philosophy appearing in the education 
+section of ORCID records (see https://doi.org/10.5281/zenodo.10137939).
+
 Therefore, the first version of this resource focuses on academic qualifications, namely,
 degrees conferred by universities. The [Bologna Process](https://en.wikipedia.org/wiki/Bologna_Process)
 did a lot of work to standardize academic qualifications, but there is still a wide vocabulary used, some of
-which is ambiguous.
-
-Future versions of this resource could include additional qualifications.
+which is ambiguous. Future versions of this resource could include additional qualifications.
 
 ## Data
 
@@ -21,7 +21,3 @@ Future versions of this resource could include additional qualifications.
 - `mappings.sssom.tsv` follows the [SSSOM format](https://mapping-commons.github.io/sssom/)
 - `examples.tsv` has for each qualification one or more example people
 - `conferrers.tsv` has for each qualification one or more example conferrers (i.e., a university that confers the degree)
-
-## TODO
-
-- add test for duplicate labels
