@@ -1,0 +1,22 @@
+curie	label	discipline	discipline_label
+QUALO:0000019	doctor of philosophy in mathematics	mesh:D008433	mathematics
+QUALO:0000020	doctor of philosophy in history	mesh:D006664	history
+QUALO:0000035	bachelor of science in nursing	mesh:D009729	nursing
+QUALO:0000036	bachelor of science in biology	mesh:D001695	biology
+QUALO:0000037	bachelor of science in chemistry	mesh:D002621	chemistry
+QUALO:0000038	bachelor of science in engineering	mesh:D004738	engineering
+QUALO:0000039	bachelor of science in psychology	mesh:D011584	psychology
+QUALO:0000040	bachelor of science in geography	mesh:D005843	geography
+QUALO:0000041	bachelor of science in biochemistry	mesh:D001671	biochemistry
+QUALO:0000042	bachelor of science in physics	mesh:D010825	physics
+QUALO:0000044	bachelor of science in geology	mesh:D005844	geology
+QUALO:0000047	bachelor of science in neuroscience	mesh:D009488	neuroscience
+QUALO:0000048	bachelor of science in microbiology	mesh:D008829	microbiology
+QUALO:0000049	bachelor of science in mathematics	mesh:D008433	mathematics
+QUALO:0000050	bachelor of science in chemical engineering	mesh:D002616	chemical engineering
+QUALO:0000051	bachelor of science in biomedical science	mesh:D001695	biology
+QUALO:0000077	doctor of philosophy in chemistry	mesh:D002621	chemistry
+QUALO:0000078	master of science in chemistry	mesh:D002621	chemistry
+QUALO:0000080	bachelor of arts in biology	mesh:D001695	biology
+QUALO:0000082	doctor of philosophy in biology	mesh:D001695	biology
+QUALO:0000112	master of science in physics	mesh:D010825	physics

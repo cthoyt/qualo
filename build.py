@@ -32,10 +32,11 @@ SYNONYMS_PATH = DATA_DIR.joinpath("synonyms.tsv")
 MAPPINGS_PATH = DATA_DIR.joinpath("mappings.sssom.tsv")
 EXAMPLES_PATH = DATA_DIR.joinpath("holders.tsv")
 CONFERRERS_PATH = DATA_DIR.joinpath("conferrers.tsv")
+DISCIPLINES_PATH = DATA_DIR.joinpath("disciplines.tsv")
 
 QUALO_ONTOLOGY_IRI = "https://w3id.org/qualo/qualo.ttl"
 QUALO_BASE_IRI = "https://w3id.org/qualo/"
-DISCO_BASE_IRI = "https://w3id.org/disco/"
+DISCIPLINE_TERM = "QUALO:9999990"
 
 
 def _restriction(prop: str, target: str) -> str:
@@ -65,7 +66,7 @@ METADATA = dedent(
 
 PATO:0000001 rdfs:label "quality" .
 
-DISCO:0000001 a owl:Class ; rdfs:label "academic discipline" .
+{DISCIPLINE_TERM} a owl:Class ; rdfs:label "academic discipline" .
 
 QUALO:1000001 a owl:AnnotationProperty;
     rdfs:label "example holder"^^xsd:string ;
@@ -74,7 +75,7 @@ QUALO:1000001 a owl:AnnotationProperty;
 
 QUALO:1000002 a owl:ObjectProperty;
     rdfs:label "for discipline"^^xsd:string ;
-    rdfs:range DISCO:0000001 ;
+    rdfs:range {DISCIPLINE_TERM} ;
     rdfs:domain QUALO:0000021 .
 
 QUALO:1000003 a owl:AnnotationProperty;
@@ -113,7 +114,8 @@ def _main() -> None:
     - https://github.com/cthoyt/orcid_downloader/blob/main/src/orcid_downloader/standardize.py
     """
     df = pd.read_csv(TERMS_PATH, sep="\t")
-    for c in ["curie", "parent_1", "parent_2", "discipline"]:
+
+    for c in ["curie", "parent_1", "parent_2"]:
         df[c] = df[c].map(Reference.from_curie, na_action="ignore")
 
     names = dict(df[["curie", "label"]].values)
@@ -131,12 +133,15 @@ def _main() -> None:
     for parent, example in pd.read_csv(EXAMPLES_PATH, sep="\t", usecols=[0, 2]).values:
         examples[Reference.from_curie(parent)].append(Reference.from_curie(example))
 
-    disciplines = dict(df[df["discipline"].notna()][["curie", "discipline"]].values)
+    disciplines_df = pd.read_csv(DISCIPLINES_PATH, sep="\t")
+    for c in ["curie", "discipline"]:
+        disciplines_df[c] = disciplines_df[c].map(Reference.from_curie)
+    disciplines = dict(disciplines_df[["curie", "discipline"]].values)
 
     prefix_map = {
         "QUALO": QUALO_BASE_IRI,
-        "DISCO": DISCO_BASE_IRI,
         "PATO": "http://purl.obolibrary.org/obo/PATO_",
+        "mesh": "http://id.nlm.nih.gov/mesh/",
         "EDAM": "http://edamontology.org/topic_",
         "wikidata": "http://wikidata.org/entity/",
     }
@@ -158,6 +163,13 @@ def _main() -> None:
         file.write("\n")
         file.write(METADATA)
         file.write(PREAMBLE)
+
+        for k, label in (
+            disciplines_df[["discipline", "discipline_label"]].drop_duplicates().values
+        ):
+            file.write(
+                f'\n{k.curie} a owl:Class; rdfs:label "{_clean_str(label)}"; rdfs:subClassOf {DISCIPLINE_TERM} .\n'
+            )
 
         for k, label in df[["curie", "label"]].values:
             file.write(f'\n{k.curie} a owl:Class; rdfs:label "{_clean_str(label)}" .\n')
