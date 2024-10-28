@@ -28,6 +28,10 @@ __all__ = [
     "ground",
 ]
 
+PREFIX = "QUALO"
+URI_PREFIX = "https://w3id.org/qualo/"
+
+
 HERE = Path(__file__).parent.resolve()
 
 ROOT = HERE.parent.parent.resolve()
@@ -45,9 +49,8 @@ EXAMPLES_PATH = DATA_DIR.joinpath("holders.tsv")
 CONFERRERS_PATH = DATA_DIR.joinpath("conferrers.tsv")
 DISCIPLINES_PATH = DATA_DIR.joinpath("disciplines.tsv")
 
-QUALO_ONTOLOGY_IRI = "https://w3id.org/qualo/qualo.ttl"
-QUALO_BASE_IRI = "https://w3id.org/qualo/"
-DISCIPLINE_TERM = "QUALO:9999990"
+ONTOLOGY_IRI = "https://w3id.org/qualo/qualo.ttl"
+DISCIPLINE_TERM = f"{PREFIX}:9999990"
 
 
 def _restriction(prop: str, target: str) -> str:
@@ -56,7 +59,7 @@ def _restriction(prop: str, target: str) -> str:
 
 METADATA = dedent(
     f"""\
-<{QUALO_ONTOLOGY_IRI}> a owl:Ontology ;
+<{ONTOLOGY_IRI}> a owl:Ontology ;
     dcterms:title "Qualification Ontology" ;
     dcterms:description "An ontology representation qualifications, such as academic degrees" ;
     dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -67,21 +70,21 @@ PATO:0000001 rdfs:label "quality" .
 
 {DISCIPLINE_TERM} a owl:Class ; rdfs:label "academic discipline" .
 
-QUALO:1000001 a owl:AnnotationProperty;
+{PREFIX}:1000001 a owl:AnnotationProperty;
     rdfs:label "example holder"^^xsd:string ;
     rdfs:range NCBITaxon:9606 ;
-    rdfs:domain QUALO:0000001 .
+    rdfs:domain {PREFIX}:0000001 .
 
-QUALO:1000002 a owl:ObjectProperty;
+{PREFIX}:1000002 a owl:ObjectProperty;
     rdfs:label "for discipline"^^xsd:string ;
     rdfs:range {DISCIPLINE_TERM} ;
-    rdfs:domain QUALO:0000021 .
+    rdfs:domain {PREFIX}:0000001 .
 
-QUALO:1000003 a owl:AnnotationProperty;
+{PREFIX}:1000003 a owl:AnnotationProperty;
     rdfs:label "example conferrer"^^xsd:string ;
     skos:exactMatch wikidata:P1027 ;
     owl:equivalentProperty wikidata:P1027 ;
-    rdfs:domain QUALO:0000001 .
+    rdfs:domain {PREFIX}:0000001 .
 """
 )
 
@@ -92,17 +95,18 @@ def get_name(reference: str | Reference) -> str:
     """Get the qualification name, by CURIE."""
     if isinstance(reference, str):
         if ID_REGEX.match(reference):
-            reference = Reference(prefix="QUALO", identifier=reference)
+            reference = Reference(prefix=PREFIX, identifier=reference)
         else:
             reference = Reference.from_curie(reference)
-    if reference.prefix != "QUALO":
-        raise ValueError
-    return _get_names()[reference.identifier]
+    if reference.prefix != PREFIX:
+        raise ValueError(f"Invalid reference: {reference}")
+    return _get_names()[reference]
 
 
 @lru_cache
 def _get_names() -> dict[Reference, str]:
     df = pd.read_csv(TERMS_PATH, sep="\t")
+    df = df[df['curie'].str.startswith(f"{PREFIX}:")]
     df["curie"] = df["curie"].map(Reference.from_curie)
     return dict(df[["curie", "label"]].values)
 
@@ -113,7 +117,7 @@ def ground(text: str) -> Reference | None:
     match = grounder.ground_best(text)
     if match is None:
         return None
-    return Reference(prefix=match.term.id, identifier=match.term.id)
+    return Reference(prefix=match.term.db, identifier=match.term.id)
 
 
 @lru_cache
@@ -123,14 +127,13 @@ def get_gilda_grounder() -> "gilda.Grounder":
 
 
 def _get_terms() -> list[gilda.Term]:
-    df = pd.read_csv(TERMS_PATH, sep="\t")
-    df["curie"] = df["curie"].map(Reference.from_curie)
-    names = dict(df[["curie", "label"]].values)
+    names = _get_names()
     rv: list[gilda.Term] = []
     rv.extend(s.as_gilda_term() for s in parse_synonyms(SYNONYMS_PATH, names=names))
     rv.extend(
-        _gilda_term(text=name, reference=reference, source="qualo", status="name")
+        _gilda_term(text=name, reference=reference, source=PREFIX, status="name")
         for reference, name in names.items()
+        if reference.prefix == PREFIX
     )
     return rv
 
@@ -167,7 +170,7 @@ def main() -> None:  # noqa: C901
     disciplines = dict(disciplines_df[["curie", "discipline"]].values)
 
     prefix_map = {
-        "QUALO": QUALO_BASE_IRI,
+        PREFIX: URI_PREFIX,
         "PATO": "http://purl.obolibrary.org/obo/PATO_",
         "mesh": "http://id.nlm.nih.gov/mesh/",
         "EDAM": "http://edamontology.org/topic_",
@@ -206,7 +209,7 @@ def main() -> None:  # noqa: C901
                 x = ", ".join(parent.curie for parent in sorted(parents, key=attrgetter("curie")))
                 file.write(f"{k.curie} rdfs:subClassOf {x} .\n")
             if discipline := disciplines.get(k):
-                rr = _restriction("QUALO:1000002", discipline.curie)
+                rr = _restriction(f"{PREFIX}:1000002", discipline.curie)
                 file.write(f"{k.curie} rdfs:subClassOf {rr} .\n")
             for synonym in synonym_index.get(k, []):
                 file.write(f"{k.curie} {synonym.scope.curie} {synonym.text_for_turtle} . \n")
