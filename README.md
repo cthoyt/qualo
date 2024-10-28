@@ -19,5 +19,6 @@ which is ambiguous. Future versions of this resource could include additional qu
 - `terms.tsv` has terms and parent information
 - `synonyms.tsv` follows the [Biosynonyms format](https://github.com/biopragmatics/biosynonyms)
 - `mappings.sssom.tsv` follows the [SSSOM format](https://mapping-commons.github.io/sssom/)
+- `disciplines.tsv` has for each qualification one or more main subject(s)
 - `examples.tsv` has for each qualification one or more example people
 - `conferrers.tsv` has for each qualification one or more example conferrers (i.e., a university that confers the degree)
