@@ -1,26 +1,36 @@
 """Generation of qualo."""
 
+import subprocess
 from collections import defaultdict
+from functools import lru_cache
 from operator import attrgetter
 from pathlib import Path
 from textwrap import dedent
-from typing import Mapping, Optional, Union
 
 import click
 import gilda
-from curies import Reference
-from biosynonyms import parse_synonyms, group_synonyms
+import pandas as pd
+from biosynonyms import group_synonyms, parse_synonyms
 from biosynonyms.generate_owl import (
-    get_axiom_str,
     PREAMBLE,
+    get_axiom_str,
     write_prefix_map,
+)
+from biosynonyms.generate_owl import (
     _get_prefixes as _get_synonym_prefixes,
 )
 from biosynonyms.resources import _clean_str, _gilda_term
-import pandas as pd
+from curies import Reference
+
+__all__ = [
+    "get_qualification_name",
+    "ground_qualification",
+]
 
 HERE = Path(__file__).parent.resolve()
-EXPORT_DIR = HERE.joinpath("export")
+
+ROOT = HERE.parent.parent.resolve()
+EXPORT_DIR = ROOT.joinpath("export")
 EXPORT_DIR.mkdir(exist_ok=True)
 EXPORT_PATH = EXPORT_DIR.joinpath("qualo.ttl")
 EXPORT_OWL_PATH = EXPORT_DIR.joinpath("qualo.owl")
@@ -40,19 +50,7 @@ DISCIPLINE_TERM = "QUALO:9999990"
 
 
 def _restriction(prop: str, target: str) -> str:
-    return (
-        f"[ a owl:Restriction ; owl:onProperty {prop} ; owl:someValuesFrom {target} ]"
-    )
-
-
-def get_remote_curie_map(
-    path: Union[str, Path], key: str = "label", delimiter: Optional[str] = None
-) -> Mapping[Reference, str]:
-    """Get a one-to-one data column from a TSV for CURIEs."""
-    df = pd.read_csv(path, sep=delimiter or "\t")
-    return {
-        Reference.from_curie(curie): value for curie, value in df[["curie", key]].values
-    }
+    return f"[ a owl:Restriction ; owl:onProperty {prop} ; owl:someValuesFrom {target} ]"
 
 
 METADATA = dedent(
@@ -61,8 +59,8 @@ METADATA = dedent(
     dcterms:title "Qualification Ontology" ;
     dcterms:description "An ontology representation qualifications, such as academic degrees" ;
     dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    rdfs:comment "Built by https://github.com/biopragmatics/biosynonyms"^^xsd:string ;
-    dcterms:contributor orcid:0000-0003-4423-4370 .
+    rdfs:comment "Built by https://github.com/cthoyt/qualo"^^xsd:string ;
+    dcterms:creator orcid:0000-0003-4423-4370 .
 
 PATO:0000001 rdfs:label "quality" .
 
@@ -87,9 +85,34 @@ QUALO:1000003 a owl:AnnotationProperty;
 )
 
 
-def get_grounder():
-    import gilda
+def get_qualification_name(reference: str | Reference) -> str:
+    """Get the qualification name, by CURIE."""
+    if isinstance(reference, str):
+        reference = Reference.from_curie(reference)
+    if reference.prefix != "QUALO":
+        raise ValueError
+    return _get_names()[reference.identifier]
 
+
+@lru_cache
+def _get_names() -> dict[Reference, str]:
+    df = pd.read_csv(TERMS_PATH, sep="\t")
+    df["curie"] = df["curie"].map(Reference.from_curie)
+    return dict(df[["curie", "label"]].values)
+
+
+def ground_qualification(text: str) -> Reference | None:
+    """Ground a qualification to the CURIE."""
+    grounder = get_gilda_grounder()
+    match = grounder.ground_best(text)
+    if match is None:
+        return None
+    return Reference(prefix=match.term.id, identifier=match.term.id)
+
+
+@lru_cache
+def get_gilda_grounder() -> "gilda.Grounder":
+    """Get a Gilda grounder."""
     return gilda.Grounder(_get_terms())
 
 
@@ -97,7 +120,7 @@ def _get_terms() -> list[gilda.Term]:
     df = pd.read_csv(TERMS_PATH, sep="\t")
     df["curie"] = df["curie"].map(Reference.from_curie)
     names = dict(df[["curie", "label"]].values)
-    rv = []
+    rv: list[gilda.Term] = []
     rv.extend(s.as_gilda_term() for s in parse_synonyms(SYNONYMS_PATH, names=names))
     rv.extend(
         _gilda_term(text=name, reference=reference, source="qualo", status="name")
@@ -107,11 +130,10 @@ def _get_terms() -> list[gilda.Term]:
 
 
 @click.command()
-def _main() -> None:
-    """
-    See:
-    - https://docs.google.com/spreadsheets/d/1xW5VcBIjnDHDxVuEEMgdN0-5vnd7g7pKWbpqglx2fb8/edit?gid=0#gid=0
-    - https://github.com/cthoyt/orcid_downloader/blob/main/src/orcid_downloader/standardize.py
+def main() -> None:  # noqa: C901
+    """Build the Turtle ontology artifact.
+
+    .. seealso:: https://github.com/cthoyt/orcid_downloader/blob/main/src/orcid_downloader/standardize.py
     """
     df = pd.read_csv(TERMS_PATH, sep="\t")
 
@@ -154,9 +176,8 @@ def _main() -> None:
     for c in ["predicate_id", "object_id", "contributor"]:
         mappings_df[c] = mappings_df[c].map(Reference.from_curie, na_action="ignore")
 
-    mdfg = {
-        Reference.from_curie(k): sdf for k, sdf in mappings_df.groupby("subject_id")
-    }
+    mdfg = {Reference.from_curie(k): sdf for k, sdf in mappings_df.groupby("subject_id")}
+    mdfg_cols = ["predicate_id", "object_id", "contributor", "date"]
 
     with open(EXPORT_PATH, "w") as file:
         write_prefix_map(prefixes, file, prefix_map=prefix_map)
@@ -164,11 +185,11 @@ def _main() -> None:
         file.write(METADATA)
         file.write(PREAMBLE)
 
-        for k, label in (
-            disciplines_df[["discipline", "discipline_label"]].drop_duplicates().values
-        ):
+        for k, label in disciplines_df[["discipline", "discipline_label"]].drop_duplicates().values:
             file.write(
-                f'\n{k.curie} a owl:Class; rdfs:label "{_clean_str(label)}"; rdfs:subClassOf {DISCIPLINE_TERM} .\n'
+                f"\n{k.curie} a owl:Class; "
+                f'rdfs:label "{_clean_str(label)}"; '
+                f"rdfs:subClassOf {DISCIPLINE_TERM} .\n"
             )
 
         for k, label in df[["curie", "label"]].values:
@@ -176,25 +197,18 @@ def _main() -> None:
             for example in examples.get(k, []):
                 file.write(f"{k.curie} oboInOwl:hasDbXref {example.curie} .\n")
             if parents := all_parents.get(k, []):
-                x = ", ".join(
-                    parent.curie for parent in sorted(parents, key=attrgetter("curie"))
-                )
+                x = ", ".join(parent.curie for parent in sorted(parents, key=attrgetter("curie")))
                 file.write(f"{k.curie} rdfs:subClassOf {x} .\n")
             if discipline := disciplines.get(k):
-                file.write(
-                    f'{k.curie} rdfs:subClassOf {_restriction("QUALO:1000002", discipline.curie)} .\n'
-                )
+                rr = _restriction("QUALO:1000002", discipline.curie)
+                file.write(f"{k.curie} rdfs:subClassOf {rr} .\n")
             for synonym in synonym_index.get(k, []):
-                file.write(
-                    f"{k.curie} {synonym.scope.curie} {synonym.text_for_turtle} . \n"
-                )
+                file.write(f"{k.curie} {synonym.scope.curie} {synonym.text_for_turtle} . \n")
                 if axiom := get_axiom_str(k, synonym):
                     file.write(axiom)
 
             if (sdf := mdfg.get(k)) is not None:
-                for p, o, c, d in sdf[
-                    ["predicate_id", "object_id", "contributor", "date"]
-                ].values:
+                for p, o, contributor, d in sdf[mdfg_cols].values:
                     file.write(f"{k.curie} {p.curie} {o.curie} .\n")
                     file.write(
                         dedent(f"""\
@@ -203,20 +217,28 @@ def _main() -> None:
                         owl:annotatedSource {k.curie} ;
                         owl:annotatedProperty {p.curie} ;
                         owl:annotatedTarget {o.curie} ;
-                        dcterms:contributor {c.curie} ;
+                        dcterms:contributor {contributor.curie} ;
                         dcterms:date "{d}"^^xsd:date .
                     ] .
                     """)
                     )
-
-
-if __name__ == "__main__":
-    _main()
 
     try:
         import bioontologies.robot
     except ImportError:
         click.secho("bioontologies is not installed, can't convert to OWL and OFN")
     else:
-        bioontologies.robot.convert(EXPORT_PATH, EXPORT_OWL_PATH)
-        bioontologies.robot.convert(EXPORT_PATH, EXPORT_OFN_PATH)
+        try:
+            bioontologies.robot.convert(EXPORT_PATH, EXPORT_OWL_PATH)
+        except subprocess.CalledProcessError as e:
+            click.secho("Failed to create OWL")
+            click.echo(str(e))
+        try:
+            bioontologies.robot.convert(EXPORT_PATH, EXPORT_OFN_PATH)
+        except subprocess.CalledProcessError as e:
+            click.secho("Failed to create OFN")
+            click.echo(str(e))
+
+
+if __name__ == "__main__":
+    main()

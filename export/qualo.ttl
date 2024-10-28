@@ -8,12 +8,12 @@
 @prefix orcid: <https://orcid.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix PATO: <http://purl.obolibrary.org/obo/PATO_> .
-@prefix QUALO: <https://w3id.org/qualo/> .
+@prefix QUALO: <http://w3id.org/qualo/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wikidata: <http://wikidata.org/entity/> .
 
-<https://w3id.org/qualo/qualo.ttl> a owl:Ontology ;
+<http://w3id.org/qualo/qualo.ttl> a owl:Ontology ;
     dcterms:title "Qualification Ontology" ;
     dcterms:description "An ontology representation qualifications, such as academic degrees" ;
     dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
