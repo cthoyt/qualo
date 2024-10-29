@@ -1,13 +1,14 @@
-"""Curate new content."""
+"""Import the curated dictionary from :mod:`orcid_downloader`."""
 
 from typing import cast
 
 import click
 import pandas as pd
 import pystow
-from build import get_grounder
 from gilda import Grounder
 from orcid_downloader.standardize import REVERSE_REPLACEMENTS
+
+from qualo.api import get_grounder
 
 PATH = pystow.join(
     "orcid", "2023", "output", "roles", name="education_role_unstandardized_summary.tsv"
@@ -19,11 +20,11 @@ SKIP = {
     "Assistant Professor",
     "Associate Professor",
     "Department Head",
-    "Diploma",
+    "Diploma",  # FIXME add
     "Docent",
     "Engineer",
-    "Graduate Student",
-    "Habilitation",
+    "Graduate Student",  # FIXME add
+    "Habilitation",  # FIXME add
     "Intern",
     "Lawyer",
     "Lecturer",

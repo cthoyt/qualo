@@ -161,3 +161,11 @@ QUALO:0000163	diplom	QUALO:0000007	graduate degree
 QUALO:0000164	vordiplom	QUALO:0000006	undergraduate degree		
 QUALO:0000165	bachelor of science in psychology with honors	QUALO:0000039	bachelor of science in psychology	QUALO:0000011	bachelor's degree with honors
 QUALO:0000166	bachelor of arts in business administration	QUALO:0000031	bachelor of arts		
+QUALO:0000167	bachelor of medicine	QUALO:0000003	bachelor's degree		
+QUALO:0000168	master of medicine	QUALO:0000004	master's degree		
+QUALO:0000169	master of science in engineering	QUALO:0000057	master of science		
+QUALO:0000170	master of architecture	QUALO:0000004	master's degree		
+QUALO:0000171	bachelor of dental surgery	QUALO:0000003	bachelor's degree		
+QUALO:0000172	bachelor of arts in chemistry	QUALO:0000031	bachelor of arts		
+QUALO:0000173	master of science in biochemistry	QUALO:0000057	master of science		
+QUALO:0000174	bachelor of arts in in biochemistry	QUALO:0000031	bachelor of arts		

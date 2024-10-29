@@ -1,6 +1,6 @@
 """NLP tools for qualifications and distinctions."""
 
-from .build import get_name, ground
+from .api import get_name, ground
 
 __all__ = [
     "get_name",

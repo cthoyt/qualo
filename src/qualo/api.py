@@ -2,6 +2,7 @@
 
 import subprocess
 from collections import defaultdict
+from collections.abc import Sequence
 from functools import lru_cache
 from operator import attrgetter
 from pathlib import Path
@@ -20,17 +21,17 @@ from biosynonyms.generate_owl import (
 from biosynonyms.generate_owl import (
     _get_prefixes as _get_synonym_prefixes,
 )
-from biosynonyms.resources import _clean_str, _gilda_term
+from biosynonyms.resources import Synonym, _clean_str, _gilda_term
 from curies import Reference
 
 __all__ = [
     "get_name",
     "ground",
+    "get_gilda_grounder",
 ]
 
 PREFIX = "QUALO"
 URI_PREFIX = "https://w3id.org/qualo/"
-
 
 HERE = Path(__file__).parent.resolve()
 
@@ -44,6 +45,7 @@ EXPORT_OFN_PATH = EXPORT_DIR.joinpath("qualo.ofn")
 DATA_DIR = HERE.joinpath("data")
 TERMS_PATH = DATA_DIR.joinpath("terms.tsv")
 SYNONYMS_PATH = DATA_DIR.joinpath("synonyms.tsv")
+SYNONYMS_COLUMNS = ["curie", "label", "scope", "text", "language", "type", "contributor", "date"]
 MAPPINGS_PATH = DATA_DIR.joinpath("mappings.sssom.tsv")
 EXAMPLES_PATH = DATA_DIR.joinpath("holders.tsv")
 CONFERRERS_PATH = DATA_DIR.joinpath("conferrers.tsv")
@@ -106,7 +108,7 @@ def get_name(reference: str | Reference) -> str:
 @lru_cache
 def _get_names() -> dict[Reference, str]:
     df = pd.read_csv(TERMS_PATH, sep="\t")
-    df = df[df['curie'].str.startswith(f"{PREFIX}:")]
+    df = df[df["curie"].str.startswith(f"{PREFIX}:")]
     df["curie"] = df["curie"].map(Reference.from_curie)
     return dict(df[["curie", "label"]].values)
 
@@ -136,6 +138,47 @@ def _get_terms() -> list[gilda.Term]:
         if reference.prefix == PREFIX
     )
     return rv
+
+
+def lint_table(
+    path: Path,
+    *,
+    key: str | list[str],
+    duplicate_subsets: str | Sequence[str] | None = None,
+    casefold: str | None = None,
+    sep: str | None = "\t",
+) -> None:
+    """Lint a table."""
+    df = pd.read_csv(path, sep=sep)
+    df = df.sort_values(key)
+    if casefold:
+        df[f"{casefold}_cf"] = df[casefold].map(str.casefold)
+    if duplicate_subsets is not None:
+        duplicate_subsets = [f"{x}_cf" if x == casefold else x for x in duplicate_subsets]
+        df = df.drop_duplicates(duplicate_subsets)
+    if casefold:
+        del df[f"{casefold}_cf"]
+    df.to_csv(path, index=False, sep=sep)
+
+
+def lint_synonyms() -> None:
+    lint_table(
+        SYNONYMS_PATH,
+        key=["curie", "text", "language"],
+        duplicate_subsets=["curie", "text", "type", "language"],
+        casefold="text",
+    )
+
+
+def add_synonym(synonym: Synonym) -> None:
+    with SYNONYMS_PATH.open("a") as file:
+        dd = synonym.model_dump()
+        print(
+            *(dd[key] for key in SYNONYMS_COLUMNS),
+            sep="\t",
+            file=file,
+        )
+    lint_synonyms()
 
 
 @click.command()
