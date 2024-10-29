@@ -3,6 +3,7 @@
 from pathlib import Path
 
 import click
+from tabulate import tabulate
 
 import qualo
 
@@ -16,11 +17,13 @@ PATH = DATA.joinpath("roles_curate_first.tsv")
 def main() -> None:
     """Curate by list."""
     seen = set()
+    rows = []
+    llll = 5_000
     with PATH.open() as f:
         _ = next(f)
         lineno = 1
         for line in f:
-            if lineno > 10_000:
+            if lineno > llll:
                 break
             lineno += 1
             key, _, count = line.strip().partition("\t")
@@ -28,8 +31,13 @@ def main() -> None:
                 continue
             seen.add(key.casefold())
             ref = qualo.ground(key)
-            if ref is None:
-                click.echo(key)
+            if ref is not None:
+                continue
+            rows.append((count, key))
+
+    click.echo(f"{len(rows):,}/{llll:,} ({len(rows)/llll:.1%}) strings left to curate")
+
+    click.echo(tabulate(rows))
 
 
 if __name__ == "__main__":

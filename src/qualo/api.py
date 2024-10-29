@@ -28,6 +28,7 @@ __all__ = [
     "get_name",
     "ground",
     "get_gilda_grounder",
+    "get_synonyms",
 ]
 
 PREFIX = "QUALO"
@@ -128,10 +129,17 @@ def get_gilda_grounder() -> "gilda.Grounder":
     return gilda.Grounder(_get_terms())
 
 
+def get_synonyms(names: dict[Reference, str] | None = None) -> list[Synonym]:
+    """Get all synonyms."""
+    if names is None:
+        names = _get_names()
+    return parse_synonyms(SYNONYMS_PATH, names=names)
+
+
 def _get_terms() -> list[gilda.Term]:
     names = _get_names()
     rv: list[gilda.Term] = []
-    rv.extend(s.as_gilda_term() for s in parse_synonyms(SYNONYMS_PATH, names=names))
+    rv.extend(s.as_gilda_term() for s in get_synonyms(names=names))
     rv.extend(
         _gilda_term(text=name, reference=reference, source=PREFIX, status="name")
         for reference, name in names.items()

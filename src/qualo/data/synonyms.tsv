@@ -4,7 +4,7 @@ QUALO:0000003	bachelor's degree	oboInOwl:hasExactSynonym	Bacharel	pt		0000-0003-
 QUALO:0000003	bachelor's degree	oboInOwl:hasExactSynonym	Bacharelado	pt		0000-0003-4423-4370	2024-10-27
 QUALO:0000003	bachelor's degree	oboInOwl:hasExactSynonym	Bachelor degree	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000003	bachelor's degree	oboInOwl:hasExactSynonym	Bachelor's	en		0000-0003-4423-4370	2024-10-27
-QUALO:0000003	bachelor of science	oboInOwl:hasExactSynonym	Bachelorstudium	de		0000-0003-4423-4370	
+QUALO:0000003	bachelor's degree	oboInOwl:hasExactSynonym	Bachelorstudium	de		0000-0003-4423-4370	
 QUALO:0000003	bachelor's degree	oboInOwl:hasExactSynonym	Bachiller			0000-0003-4423-4370	2024-10-28
 QUALO:0000003	bachelor's degree	oboInOwl:hasExactSynonym	Bachlor			0000-0003-4423-4370	2024-10-27
 QUALO:0000003	bachelor's degree	oboInOwl:hasRelatedSynonym	Degree	en		0000-0003-4423-4370	2024-10-27
@@ -122,8 +122,12 @@ QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	B.S. degree	en		0000-
 QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	B.Sc	en		0000-0003-4423-4370	
 QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	BSc.	en		0000-0003-4423-4370	
 QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	Bacharel em Ciências Biológicas	pt		0000-0003-4423-4370	
+QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	Bachelor in Science	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	Bachelor of Science (B.Sc.)	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	Bachelor of Science (BSc)	en		0000-0003-4423-4370	2024-10-29
 QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	Bachelor's of Science	en		0000-0003-4423-4370	
 QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	Bachelors of Science	en		0000-0003-4423-4370	
+QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	Bachlor of Science	en		0000-0003-4423-4370	
 QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	bs	en		0000-0003-4423-4370	
 QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	bs c	en		0000-0003-4423-4370	
 QUALO:0000024	bachelor of science	oboInOwl:hasExactSynonym	bsc	en	OMO:0003000	0000-0003-4423-4370	
@@ -140,6 +144,9 @@ QUALO:0000027	bachelor of pharmacy	oboInOwl:hasExactSynonym	Bachelor in Pharmacy
 QUALO:0000028	bachelor of engineering	oboInOwl:hasExactSynonym	B.Eng	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000028	bachelor of engineering	oboInOwl:hasExactSynonym	B.Eng.	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000028	bachelor of engineering	oboInOwl:hasExactSynonym	BEng	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000028	bachelor of engineering	oboInOwl:hasExactSynonym	Bachelor of Engineering (B.E)	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000028	bachelor of engineering	oboInOwl:hasExactSynonym	Bachelor of Engineering (BE)	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000028	bachelor of engineering	oboInOwl:hasExactSynonym	Bachelors of Engineering	en		0000-0003-4423-4370	2024-10-30
 QUALO:0000028	bachelor of engineering	oboInOwl:hasRelatedSynonym	Dipl.-Ing.	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000029	bachelor of education	oboInOwl:hasExactSynonym	B.E.	en	OMO:0003000	0000-0003-4423-4370	2024-10-27
 QUALO:0000029	bachelor of education	oboInOwl:hasExactSynonym	B.Ed	en		0000-0003-4423-4370	2024-10-27
@@ -157,6 +164,7 @@ QUALO:0000031	bachelor of arts	oboInOwl:hasExactSynonym	Bachelor of Arts (B.A.)	
 QUALO:0000031	bachelor of arts	oboInOwl:hasExactSynonym	Bachelors of Arts	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000032	bachelor of law	oboInOwl:hasExactSynonym	Bacharel em Direito	pt		0000-0003-4423-4370	2024-10-27
 QUALO:0000032	bachelor of law	oboInOwl:hasExactSynonym	Bacharelado em Direito	pt		0000-0003-4423-4370	2024-10-27
+QUALO:0000033	bachelor of medicine; bachelor of surgery	oboInOwl:hasExactSynonym	Bachelor of Medicine and Bachelor of Surgery	en		0000-0003-4423-4370	2024-10-29
 QUALO:0000033	bachelor of medicine; bachelor of surgery	oboInOwl:hasExactSynonym	Bachelor of Medicine, Bachelor of Surgery	en		0000-0003-4423-4370	2024-10-26
 QUALO:0000033	bachelor of medicine; bachelor of surgery	oboInOwl:hasExactSynonym	MBBCh	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000033	bachelor of medicine; bachelor of surgery	oboInOwl:hasExactSynonym	MBBS	en		0000-0003-4423-4370	2024-10-27
@@ -237,11 +245,25 @@ QUALO:0000042	bachelor of science in physics	oboInOwl:hasExactSynonym	B.S. Physi
 QUALO:0000042	bachelor of science in physics	oboInOwl:hasExactSynonym	BSc Physics	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000042	bachelor of science in physics	oboInOwl:hasExactSynonym	BSc in Physics	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000042	bachelor of science in physics	oboInOwl:hasExactSynonym	Bachelor in Physics	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000042	bachelor of science in physics	oboInOwl:hasBroadSynonym	Degree in Physics	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000043	bachelor of science in computer science	oboInOwl:hasExactSynonym	B.S. Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000043	bachelor of science in computer science	oboInOwl:hasExactSynonym	B.S. in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000043	bachelor of science in computer science	oboInOwl:hasExactSynonym	B.Sc. in Computer Science	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000043	bachelor of science in computer science	oboInOwl:hasExactSynonym	BS Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000043	bachelor of science in computer science	oboInOwl:hasExactSynonym	BS in Computer Science	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000043	bachelor of science in computer science	oboInOwl:hasExactSynonym	BSc Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000043	bachelor of science in computer science	oboInOwl:hasExactSynonym	BSc in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000043	bachelor of science in computer science	oboInOwl:hasExactSynonym	BSc. in Computer Science	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000043	bachelor of science in computer science	oboInOwl:hasExactSynonym	Bacharel em Ciência da Computação	pt		0000-0003-4423-4370	2024-10-27
-QUALO:0000043	bachelor of science in computer science	oboInOwl:hasBroadSynonym	bachelor of science in computer science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000043	bachelor of science in computer science	oboInOwl:hasBroadSynonym	Bachelor Degree in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000043	bachelor of science in computer science	oboInOwl:hasBroadSynonym	Bachelor in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000043	bachelor of science in computer science	oboInOwl:hasBroadSynonym	Bachelor of Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000043	bachelor of science in computer science	oboInOwl:hasExactSynonym	Bachelor of Science (Computer Science)	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000043	bachelor of science in computer science	oboInOwl:hasBroadSynonym	Bachelor's Degree in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000043	bachelor of science in computer science	oboInOwl:hasBroadSynonym	Bachelor's in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000043	bachelor of science in computer science	oboInOwl:hasBroadSynonym	Bachelors in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000043	bachelor of science in computer science	oboInOwl:hasExactSynonym	Bachelors of Science in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000043	bachelor of science in computer science	oboInOwl:hasRelatedSynonym	Degree in Computer Science	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000044	bachelor of science in geology	oboInOwl:hasExactSynonym	B.S. Geology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000044	bachelor of science in geology	oboInOwl:hasExactSynonym	BSc Geology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000045	bachelor of science in mechanical engineering	oboInOwl:hasExactSynonym	B.S. Mechanical Engineering	en		0000-0003-4423-4370	2024-10-27
@@ -267,6 +289,7 @@ QUALO:0000055	master of library and information science	oboInOwl:hasExactSynonym
 QUALO:0000056	master of business administration	oboInOwl:hasExactSynonym	Executive MBA	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000056	master of business administration	oboInOwl:hasExactSynonym	MBA	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000056	master of business administration	oboInOwl:hasBroadSynonym	Master in Business Administration	en		0000-0003-4423-4370	2024-10-28
+QUALO:0000056	master of business administration	oboInOwl:hasExactSynonym	Master of Business Administration (MBA)	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000057	master of science	oboInOwl:hasExactSynonym	M. Sc.	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000057	master of science	oboInOwl:hasExactSynonym	M.S. degree	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000057	master of science	oboInOwl:hasExactSynonym	M.Sc.	en		0000-0003-4423-4370	2024-10-27
@@ -280,7 +303,9 @@ QUALO:0000057	master of science	oboInOwl:hasExactSynonym	Master Science	en		0000
 QUALO:0000057	master of science	oboInOwl:hasExactSynonym	Master in Science	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000057	master of science	oboInOwl:hasExactSynonym	Master of Science (M.Sc.)	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000057	master of science	oboInOwl:hasExactSynonym	Master of Science (MSc)	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000057	master of science	oboInOwl:hasExactSynonym	Master's in Science	en		0000-0003-4423-4370	2024-10-29
 QUALO:0000057	master of science	oboInOwl:hasExactSynonym	Master's of Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000057	master of science	oboInOwl:hasExactSynonym	Masters in Science	en		0000-0003-4423-4370	2024-10-30
 QUALO:0000057	master of science	oboInOwl:hasExactSynonym	Masters of Science	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000057	master of science	oboInOwl:hasExactSynonym	Mestre em Ciências	pt		0000-0003-4423-4370	2024-10-27
 QUALO:0000057	master of science	oboInOwl:hasExactSynonym	ms	en		0000-0003-4423-4370	2024-10-27
@@ -300,6 +325,8 @@ QUALO:0000060	master of arts	oboInOwl:hasExactSynonym	Master of Art	en		0000-000
 QUALO:0000060	master of arts	oboInOwl:hasExactSynonym	Masters of Arts	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000061	master of public health	oboInOwl:hasNarrowSynonym	MPH in Epidemiology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000061	master of public health	oboInOwl:hasExactSynonym	Master in Public Health	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000061	master of public health	oboInOwl:hasExactSynonym	Master of Public Health (MPH)	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000061	master of public health	oboInOwl:hasExactSynonym	Masters in Public Health	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000061	master of public health	oboInOwl:hasExactSynonym	Masters of Public Health	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000061	master of public health	oboInOwl:hasExactSynonym	mph	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000062	master of pharmacy	oboInOwl:hasExactSynonym	M.Pharm	en		0000-0003-4423-4370	2024-10-27
@@ -309,6 +336,7 @@ QUALO:0000063	doctor of pharmacy	oboInOwl:hasRelatedSynonym	PhD in Pharmacy	en		
 QUALO:0000063	doctor of pharmacy	oboInOwl:hasExactSynonym	PharmD	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000065	doctor of science	oboInOwl:hasExactSynonym	D.Sc.	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000065	doctor of science	oboInOwl:hasExactSynonym	Doctor en Ciencias	es		0000-0003-4423-4370	2024-10-27
+QUALO:0000065	doctor of science	oboInOwl:hasRelatedSynonym	Ph.D. in Science	en		0000-0003-4423-4370	2024-10-29
 QUALO:0000065	doctor of science	oboInOwl:hasRelatedSynonym	PhD in Science	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000065	doctor of science	oboInOwl:hasRelatedSynonym	PhD in Sciences	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000066	doctor of education	oboInOwl:hasExactSynonym	Doctor en Ciencias de la Educación	es		0000-0003-4423-4370	2024-10-27
@@ -350,6 +378,7 @@ QUALO:0000070	doctor of veterinary medicine	oboInOwl:hasExactSynonym	Medicina Ve
 QUALO:0000070	doctor of veterinary medicine	oboInOwl:hasExactSynonym	Veterinarian	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000071	master of nursing	oboInOwl:hasExactSynonym	Mestrado em Enfermagem	pt		0000-0003-4423-4370	2024-10-27
 QUALO:0000072	master of technology	oboInOwl:hasExactSynonym	M.Tech	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000072	master of technology	oboInOwl:hasExactSynonym	Master of Technology (M.Tech.)	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000073	master of philosophy	oboInOwl:hasExactSynonym	MPhil	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000074	master of applied science	oboInOwl:hasExactSynonym	MASc	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000075	master of research	oboInOwl:hasExactSynonym	MRes	en		0000-0003-4423-4370	2024-10-27
@@ -357,6 +386,7 @@ QUALO:0000076	bachelor of science with honors	oboInOwl:hasExactSynonym	BSc Honou
 QUALO:0000076	bachelor of science with honors	oboInOwl:hasExactSynonym	BSc Hons	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000076	bachelor of science with honors	oboInOwl:hasExactSynonym	BSc(Hons)	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000076	bachelor of science with honors	oboInOwl:hasExactSynonym	Bachelor of Science (Honours)	en	OMO:0003005	0000-0003-4423-4370	2024-10-27
+QUALO:0000076	bachelor of science with honors	oboInOwl:hasExactSynonym	Bachelor of Science (Hons)	en	OMO:0003005	0000-0003-4423-4370	2024-10-29
 QUALO:0000076	bachelor of science with honors	oboInOwl:hasExactSynonym	Bachelor of Science with Honours	en	OMO:0003005	0000-0003-4423-4370	2024-10-27
 QUALO:0000076	bachelor of science with honors	oboInOwl:hasExactSynonym	Honours Bachelor of Science	en	OMO:0003005	0000-0003-4423-4370	2024-10-27
 QUALO:0000076	bachelor of science with honors	oboInOwl:hasExactSynonym	bsc (honors)	en	OMO:0003005	0000-0003-4423-4370	2024-10-27
@@ -373,10 +403,16 @@ QUALO:0000078	master of science in chemistry	oboInOwl:hasExactSynonym	MSc Chemis
 QUALO:0000079	bachelor of arts with honors	oboInOwl:hasExactSynonym	BA (Hons)	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000079	bachelor of arts with honors	oboInOwl:hasExactSynonym	BA Honours	en	OMO:0003005	0000-0003-4423-4370	2024-10-27
 QUALO:0000079	bachelor of arts with honors	oboInOwl:hasExactSynonym	BA Hons	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000079	bachelor of arts with honors	oboInOwl:hasExactSynonym	Bachelor of Arts (Hons.)	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000080	bachelor of arts in biology	oboInOwl:hasExactSynonym	B.A. Biology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000080	bachelor of arts in biology	oboInOwl:hasExactSynonym	BA Biology	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000081	doctor of philosophy in computer science	oboInOwl:hasBroadSynonym	Doctor in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000081	doctor of philosophy in computer science	oboInOwl:hasBroadSynonym	Doctor of Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000081	doctor of philosophy in computer science	oboInOwl:hasExactSynonym	Ph.D in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000081	doctor of philosophy in computer science	oboInOwl:hasExactSynonym	Ph.D. in Computer Science	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000081	doctor of philosophy in computer science	oboInOwl:hasExactSynonym	PhD Computer Science	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000081	doctor of philosophy in computer science	oboInOwl:hasExactSynonym	PhD in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000081	doctor of philosophy in computer science	oboInOwl:hasExactSynonym	PhD. in Computer Science	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000082	doctor of philosophy in biology	oboInOwl:hasExactSynonym	Doctor en Ciencias Biológicas	es		0000-0003-4423-4370	2024-10-27
 QUALO:0000082	doctor of philosophy in biology	oboInOwl:hasExactSynonym	Ph.D. Biology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000082	doctor of philosophy in biology	oboInOwl:hasExactSynonym	Ph.D. in Biology	en		0000-0003-4423-4370	2024-10-27
@@ -417,6 +453,7 @@ QUALO:0000091	doctor of philosophy in electrical and computer engineering	oboInO
 QUALO:0000091	doctor of philosophy in electrical and computer engineering	oboInOwl:hasExactSynonym	PhD in Electrical and Computer Engineering	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000092	doctor of philosophy in mechanical engineering	oboInOwl:hasExactSynonym	PhD Mechanical Engineering	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000092	doctor of philosophy in mechanical engineering	oboInOwl:hasExactSynonym	PhD in Mechanical Engineering	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000093	doctor of philosophy in biomedical engineering	oboInOwl:hasExactSynonym	Ph.D. in Biomedical Engineering	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000093	doctor of philosophy in biomedical engineering	oboInOwl:hasExactSynonym	PhD Biomedical Engineering	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000093	doctor of philosophy in biomedical engineering	oboInOwl:hasExactSynonym	PhD in Bioengineering	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000093	doctor of philosophy in biomedical engineering	oboInOwl:hasExactSynonym	PhD in Biomedical Engineering	en		0000-0003-4423-4370	2024-10-27
@@ -424,6 +461,7 @@ QUALO:0000094	doctor of philosophy in physical chemistry	oboInOwl:hasExactSynony
 QUALO:0000095	doctor of philosophy in linguistics	oboInOwl:hasExactSynonym	PhD Linguistics	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000095	doctor of philosophy in linguistics	oboInOwl:hasNarrowSynonym	PhD in Applied Linguistics	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000095	doctor of philosophy in linguistics	oboInOwl:hasExactSynonym	PhD in Linguistics	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000096	doctor of philosophy in nursing	oboInOwl:hasExactSynonym	Doctor of Nursing Practice	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000096	doctor of philosophy in nursing	oboInOwl:hasExactSynonym	PhD Nursing	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000096	doctor of philosophy in nursing	oboInOwl:hasExactSynonym	PhD in Nursing	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000097	doctor of philosophy in english literature	oboInOwl:hasExactSynonym	PhD in English Literature	en		0000-0003-4423-4370	2024-10-27
@@ -464,6 +502,7 @@ QUALO:0000108	doctor of philosophy in environmental engineering	oboInOwl:hasExac
 QUALO:0000108	doctor of philosophy in environmental engineering	oboInOwl:hasExactSynonym	PhD Environmental Engineering	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000108	doctor of philosophy in environmental engineering	oboInOwl:hasExactSynonym	PhD in Environment Engineering	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000108	doctor of philosophy in environmental engineering	oboInOwl:hasExactSynonym	PhD in Environmental Engineering	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000109	doctor of philosophy in physics	oboInOwl:hasExactSynonym	Ph.D. in Physics	en		0000-0003-4423-4370	2024-10-30
 QUALO:0000109	doctor of philosophy in physics	oboInOwl:hasExactSynonym	PhD (Physics)	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000109	doctor of philosophy in physics	oboInOwl:hasExactSynonym	PhD Physics	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000109	doctor of philosophy in physics	oboInOwl:hasExactSynonym	PhD in Physics	en		0000-0003-4423-4370	2024-10-27
@@ -476,6 +515,7 @@ QUALO:0000111	doctor of philosophy in theoretical physics	oboInOwl:hasExactSynon
 QUALO:0000112	master of science in physics	oboInOwl:hasExactSynonym	M.Sc. Physics	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000112	master of science in physics	oboInOwl:hasExactSynonym	MPhys	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000112	master of science in physics	oboInOwl:hasExactSynonym	MSc Physics	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000112	master of science in physics	oboInOwl:hasExactSynonym	MSc in Physics	en		0000-0003-4423-4370	2024-10-30
 QUALO:0000113	doctor of philosophy in biotechnology	oboInOwl:hasExactSynonym	PhD Biotechnology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000113	doctor of philosophy in biotechnology	oboInOwl:hasExactSynonym	PhD in Biotechnology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000114	doctor of philosophy in public health	oboInOwl:hasExactSynonym	PhD Public Health	en		0000-0003-4423-4370	2024-10-27
@@ -492,7 +532,21 @@ QUALO:0000118	doctor of philosophy in psychology	oboInOwl:hasNarrowSynonym	PhD C
 QUALO:0000118	doctor of philosophy in psychology	oboInOwl:hasExactSynonym	PhD Psychology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000118	doctor of philosophy in psychology	oboInOwl:hasNarrowSynonym	PhD in Clinical Psychology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000118	doctor of philosophy in psychology	oboInOwl:hasExactSynonym	PhD in Psychology	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000119	master of science in computer science	oboInOwl:hasExactSynonym	M.Sc. in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000119	master of science in computer science	oboInOwl:hasExactSynonym	MS in Computer Science	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000119	master of science in computer science	oboInOwl:hasExactSynonym	MSc Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000119	master of science in computer science	oboInOwl:hasExactSynonym	MSc in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000119	master of science in computer science	oboInOwl:hasExactSynonym	MSc. in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000119	master of science in computer science	oboInOwl:hasBroadSynonym	Master Degree in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000119	master of science in computer science	oboInOwl:hasBroadSynonym	Master in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000119	master of science in computer science	oboInOwl:hasBroadSynonym	Master of Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000119	master of science in computer science	oboInOwl:hasExactSynonym	Master of Science (Computer Science)	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000119	master of science in computer science	oboInOwl:hasExactSynonym	Master of Science, Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000119	master of science in computer science	oboInOwl:hasBroadSynonym	Master's Degree in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000119	master of science in computer science	oboInOwl:hasBroadSynonym	Master's in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000119	master of science in computer science	oboInOwl:hasBroadSynonym	Masters in Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000119	master of science in computer science	oboInOwl:hasBroadSynonym	Masters of Computer Science	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000119	master of science in computer science	oboInOwl:hasExactSynonym	Masters of Science in Computer Science	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000120	doctor of philosophy in sociology	oboInOwl:hasExactSynonym	Ph.D. in Sociology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000120	doctor of philosophy in sociology	oboInOwl:hasExactSynonym	PhD Sociology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000120	doctor of philosophy in sociology	oboInOwl:hasExactSynonym	PhD in Sociology	en		0000-0003-4423-4370	2024-10-27
@@ -507,6 +561,7 @@ QUALO:0000126	master of science in philosophy	oboInOwl:hasExactSynonym	M.Phil	en
 QUALO:0000127	bachelor of arts in english	oboInOwl:hasExactSynonym	BA English	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000128	bachelor of arts in psychology	oboInOwl:hasExactSynonym	BA Psychology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000129	master of science in epidemiology	oboInOwl:hasExactSynonym	MSc Epidemiology	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000130	bachelor of science in biotechnology	oboInOwl:hasExactSynonym	B.Sc. in Biotechnology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000130	bachelor of science in biotechnology	oboInOwl:hasExactSynonym	BSc Biotechnology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000131	doctor of philosophy in anthropology	oboInOwl:hasExactSynonym	PhD in Anthropology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000132	doctor of philosophy in finance	oboInOwl:hasExactSynonym	Ph.D. in Finance	en		0000-0003-4423-4370	2024-10-27
@@ -581,4 +636,21 @@ QUALO:0000173	master of science in biochemistry	oboInOwl:hasExactSynonym	Master 
 QUALO:0000173	master of science in biochemistry	oboInOwl:hasBroadSynonym	Master's degree in Biochemistry	en		0000-0003-4423-4370	2024-10-29
 QUALO:0000173	master of science in biochemistry	oboInOwl:hasBroadSynonym	Master's in Biochemistry	en		0000-0003-4423-4370	2024-10-29
 QUALO:0000173	master of science in biochemistry	oboInOwl:hasBroadSynonym	Masters in Biochemistry	en		0000-0003-4423-4370	2024-10-29
-QUALO:0000174	bachelor of arts in in biochemistry	oboInOwl:hasNarrowSynonym	QUALO:0000174	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000175	bachelor of arts with honors	oboInOwl:hasExactSynonym	Bachelor of Arts (Honours)	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000176	master of arts in public administration	oboInOwl:hasExactSynonym	MA in Public Administration	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000176	master of arts in public administration	oboInOwl:hasBroadSynonym	MPA	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000176	master of arts in public administration	oboInOwl:hasBroadSynonym	Master in Public Administration	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000176	master of arts in public administration	oboInOwl:hasBroadSynonym	Master of Public Administration (MPA)	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000176	master of arts in public administration	oboInOwl:hasBroadSynonym	Master's in Public Administration	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000176	master of arts in public administration	oboInOwl:hasBroadSynonym	Master's of Public Administration	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000176	master of arts in public administration	oboInOwl:hasBroadSynonym	Masters in Public Administration	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000176	master of arts in public administration	oboInOwl:hasBroadSynonym	Masters of Public Administration	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000176	master of arts in public administration	oboInOwl:hasBroadSynonym	master of public administration	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000177	doctor of philosophy in public administration	oboInOwl:hasBroadSynonym	Doctor in Public Administration	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000177	doctor of philosophy in public administration	oboInOwl:hasExactSynonym	Doctor of Philosophy in Public Administration	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000177	doctor of philosophy in public administration	oboInOwl:hasBroadSynonym	Doctor of Public Administration	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000177	doctor of philosophy in public administration	oboInOwl:hasExactSynonym	Ph.D. in Public Administration	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000177	doctor of philosophy in public administration	oboInOwl:hasExactSynonym	PhD in Public Administration	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000178	bachelor of public administration	oboInOwl:hasExactSynonym	BA in Public Administration	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000178	bachelor of public administration	oboInOwl:hasBroadSynonym	Bachelor in Public Administration	en		0000-0003-4423-4370	2024-10-29
+QUALO:0000178	bachelor of public administration	oboInOwl:hasBroadSynonym	Bachelor of Public Administration	en		0000-0003-4423-4370	2024-10-29

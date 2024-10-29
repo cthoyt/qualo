@@ -169,3 +169,7 @@ QUALO:0000171	bachelor of dental surgery	QUALO:0000003	bachelor's degree
 QUALO:0000172	bachelor of arts in chemistry	QUALO:0000031	bachelor of arts		
 QUALO:0000173	master of science in biochemistry	QUALO:0000057	master of science		
 QUALO:0000174	bachelor of arts in in biochemistry	QUALO:0000031	bachelor of arts		
+QUALO:0000175	bachelor of arts with honors	QUALO:0000031	bachelor of arts	QUALO:0000011	bachelor's degree with honors
+QUALO:0000176	master of arts in public administration	QUALO:0000060	master of arts		
+QUALO:0000177	doctor of philosophy in public administration	QUALO:0000005	doctoral degree		
+QUALO:0000178	bachelor of arts in public administration	QUALO:0000031	bachelor of arts		
