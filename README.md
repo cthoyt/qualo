@@ -55,6 +55,9 @@ which is ambiguous. Future versions of this resource could include additional qu
 - `examples.tsv` has for each qualification one or more example people
 - `conferrers.tsv` has for each qualification one or more example conferrers (i.e., a university that confers the degree)
 
+
+![Psychology hierarchy](docs/source/img/hierarchy.png)
+
 ## Usage
 
 There are two user-facing functions:
