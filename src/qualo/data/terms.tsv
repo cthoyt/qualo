@@ -168,8 +168,18 @@ QUALO:0000170	master of architecture	QUALO:0000004	master's degree
 QUALO:0000171	bachelor of dental surgery	QUALO:0000003	bachelor's degree		
 QUALO:0000172	bachelor of arts in chemistry	QUALO:0000031	bachelor of arts		
 QUALO:0000173	master of science in biochemistry	QUALO:0000057	master of science		
-QUALO:0000174	bachelor of arts in in biochemistry	QUALO:0000031	bachelor of arts		
-QUALO:0000175	bachelor of arts with honors	QUALO:0000031	bachelor of arts	QUALO:0000011	bachelor's degree with honors
+QUALO:0000174	bachelor of arts in biochemistry	QUALO:0000031	bachelor of arts		
 QUALO:0000176	master of arts in public administration	QUALO:0000060	master of arts		
 QUALO:0000177	doctor of philosophy in public administration	QUALO:0000005	doctoral degree		
 QUALO:0000178	bachelor of arts in public administration	QUALO:0000031	bachelor of arts		
+QUALO:0000179	master of science in geology	QUALO:0000057	master of science		
+QUALO:0000180	bachelor of commerce	QUALO:0000003	bachelor's degree		
+QUALO:0000181	bachelor of commerce with honors	QUALO:0000003	bachelor's degree	QUALO:0000011	bachelor's degree with honors
+QUALO:0000182	master of commerce	QUALO:0000004	master's degree		
+QUALO:0000183	doctor of philosophy in commerce	QUALO:0000005	doctoral degree		
+QUALO:0000184	bachelor of science in social work	QUALO:0000024	bachelor of science		
+QUALO:0000185	bachelor of arts in social work	QUALO:0000031	bachelor of arts		
+QUALO:0000186	bachelor of science in social work with honors	QUALO:0000184	bachelor of science in social work	QUALO:0000011	bachelor's degree with honors
+QUALO:0000187	master of science in social work	QUALO:0000057	master of science		
+QUALO:0000188	master of arts in social work	QUALO:0000060	master of arts		
+QUALO:0000189	doctor of philosophy in social work	QUALO:0000018	doctor of philosophy by subject		

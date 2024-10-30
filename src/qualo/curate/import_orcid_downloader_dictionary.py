@@ -8,7 +8,7 @@ import pystow
 from gilda import Grounder
 from orcid_downloader.standardize import REVERSE_REPLACEMENTS
 
-from qualo.api import get_grounder
+from qualo.api import get_gilda_grounder
 
 PATH = pystow.join(
     "orcid", "2023", "output", "roles", name="education_role_unstandardized_summary.tsv"
@@ -55,7 +55,7 @@ def _ground_best(grounder: Grounder, text: str) -> str | None:
 @click.command()
 def main() -> None:
     """Curate new content."""
-    grounder = get_grounder()
+    grounder = get_gilda_grounder()
 
     n_misses = 0
     n_hits = 0
