@@ -206,8 +206,27 @@ QUALO:0000037	bachelor of science in chemistry	oboInOwl:hasBroadSynonym	Degree i
 QUALO:0000037	bachelor of science in chemistry	oboInOwl:hasRelatedSynonym	Graduate in Chemistry	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000037	bachelor of science in chemistry	oboInOwl:hasRelatedSynonym	Graduation in Chemistry	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000037	bachelor of science in chemistry	oboInOwl:hasExactSynonym	Licenciatura em Química	es		0000-0003-4423-4370	2024-10-27
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasExactSynonym	B.S. in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasExactSynonym	B.Sc. in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasExactSynonym	BS in Psychology	en		0000-0003-4423-4370	2024-10-30
 QUALO:0000039	bachelor of science in psychology	oboInOwl:hasExactSynonym	BSc Psychology	en		0000-0003-4423-4370	
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasExactSynonym	BSc in Psychology	en		0000-0003-4423-4370	2024-10-30
 QUALO:0000039	bachelor of science in psychology	oboInOwl:hasExactSynonym	Bacharel em Psicologia	pt		0000-0003-4423-4370	
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasBroadSynonym	Bachelor Degree in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasBroadSynonym	Bachelor in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasRelatedSynonym	Bachelor of Social Science in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasRelatedSynonym	Bachelor of Social Sciences in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasBroadSynonym	Bachelor's Degree in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasBroadSynonym	Bachelor's in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasExactSynonym	Bachelor's of Science in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasBroadSynonym	Bachelors in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasExactSynonym	Bachelors of Science in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasBroadSynonym	Bachelor´s Degree in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasBroadSynonym	Bachelor’s Degree in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasBroadSynonym	Degree in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasRelatedSynonym	Graduate in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasRelatedSynonym	Graduated in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000039	bachelor of science in psychology	oboInOwl:hasRelatedSynonym	Graduation in Psychology	en		0000-0003-4423-4370	2024-10-30
 QUALO:0000039	bachelor of science in psychology	oboInOwl:hasExactSynonym	Licenciada en Psicología	es		0000-0003-4423-4370	
 QUALO:0000039	bachelor of science in psychology	oboInOwl:hasExactSynonym	Licenciado en Psicología	es		0000-0003-4423-4370	
 QUALO:0000039	bachelor of science in psychology	oboInOwl:hasExactSynonym	Licenciatura en Psicología	es		0000-0003-4423-4370	
@@ -542,12 +561,19 @@ QUALO:0000116	master of science in economics	oboInOwl:hasBroadSynonym	Master in 
 QUALO:0000117	master of science and doctor of philosophy	oboInOwl:hasExactSynonym	M.Sc., Ph.D.	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000117	master of science and doctor of philosophy	oboInOwl:hasExactSynonym	MS/PhD	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000117	master of science and doctor of philosophy	oboInOwl:hasExactSynonym	MS/PhD Student	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000118	doctor of philosophy in psychology	oboInOwl:hasBroadSynonym	Doctor in Psychology	en		0000-0003-4423-4370	2024-10-30
 QUALO:0000118	doctor of philosophy in psychology	oboInOwl:hasExactSynonym	Doctora en Psicología	es		0000-0003-4423-4370	2024-10-27
+QUALO:0000118	doctor of philosophy in psychology	oboInOwl:hasBroadSynonym	Doctorate in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000118	doctor of philosophy in psychology	oboInOwl:hasExactSynonym	Ph. D. in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000118	doctor of philosophy in psychology	oboInOwl:hasExactSynonym	Ph.D in Psychology	en		0000-0003-4423-4370	2024-10-30
 QUALO:0000118	doctor of philosophy in psychology	oboInOwl:hasNarrowSynonym	Ph.D. in Clinical Psychology	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000118	doctor of philosophy in psychology	oboInOwl:hasExactSynonym	Ph.D. in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000118	doctor of philosophy in psychology	oboInOwl:hasExactSynonym	PhD Candidate in Psychology	en		0000-0003-4423-4370	2024-10-30
 QUALO:0000118	doctor of philosophy in psychology	oboInOwl:hasNarrowSynonym	PhD Clinical Psychology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000118	doctor of philosophy in psychology	oboInOwl:hasExactSynonym	PhD Psychology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000118	doctor of philosophy in psychology	oboInOwl:hasNarrowSynonym	PhD in Clinical Psychology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000118	doctor of philosophy in psychology	oboInOwl:hasExactSynonym	PhD in Psychology	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000118	doctor of philosophy in psychology	oboInOwl:hasExactSynonym	PhD. in Psychology	en		0000-0003-4423-4370	2024-10-30
 QUALO:0000119	master of science in computer science	oboInOwl:hasExactSynonym	M.Sc. in Computer Science	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000119	master of science in computer science	oboInOwl:hasExactSynonym	MS in Computer Science	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000119	master of science in computer science	oboInOwl:hasExactSynonym	MSc Computer Science	en		0000-0003-4423-4370	2024-10-27
@@ -576,6 +602,8 @@ QUALO:0000125	doctor of philosophy in philosophy	oboInOwl:hasExactSynonym	PhD in
 QUALO:0000126	master of science in philosophy	oboInOwl:hasExactSynonym	M.Phil	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000127	bachelor of arts in english	oboInOwl:hasExactSynonym	BA English	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000128	bachelor of arts in psychology	oboInOwl:hasExactSynonym	BA Psychology	en		0000-0003-4423-4370	2024-10-27
+QUALO:0000128	bachelor of arts in psychology	oboInOwl:hasExactSynonym	BA in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000128	bachelor of arts in psychology	oboInOwl:hasExactSynonym	Bachelors of Arts in Psychology	en		0000-0003-4423-4370	2024-10-30
 QUALO:0000129	master of science in epidemiology	oboInOwl:hasExactSynonym	MSc Epidemiology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000130	bachelor of science in biotechnology	oboInOwl:hasExactSynonym	B.Sc. in Biotechnology	en		0000-0003-4423-4370	2024-10-27
 QUALO:0000130	bachelor of science in biotechnology	oboInOwl:hasExactSynonym	BSc Biotechnology	en		0000-0003-4423-4370	2024-10-27
@@ -632,6 +660,7 @@ QUALO:0000161	doctor of philosophy in medical sciences	oboInOwl:hasExactSynonym	
 QUALO:0000161	doctor of philosophy in medical sciences	oboInOwl:hasExactSynonym	PhD in Medical Sciences	en		0000-0003-4423-4370	2024-10-28
 QUALO:0000162	master of science in health psychology	oboInOwl:hasExactSynonym	MSc Health Psychology	en		0000-0003-4423-4370	2024-10-28
 QUALO:0000165	bachelor of science in psychology with honors	oboInOwl:hasExactSynonym	BSc (Hons) Psychology	en		0000-0003-4423-4370	2024-10-28
+QUALO:0000165	bachelor of science in psychology with honors	oboInOwl:hasExactSynonym	Bachelor of Science (Honours) in Psychology	en		0000-0003-4423-4370	2024-10-30
 QUALO:0000166	bachelor of arts in business administration	oboInOwl:hasExactSynonym	Bacharel em Administração	pt		0000-0003-4423-4370	2024-10-28
 QUALO:0000166	bachelor of arts in business administration	oboInOwl:hasBroadSynonym	Bachelor of Business Administration	en		0000-0003-4423-4370	2024-10-28
 QUALO:0000173	master of science in biochemistry	oboInOwl:hasExactSynonym	M. Sc. in Biochemistry	en		0000-0003-4423-4370	2024-10-29
@@ -685,3 +714,21 @@ QUALO:0000182	master of commerce	oboInOwl:hasExactSynonym	Masters in Commerce	en
 QUALO:0000182	master of commerce	oboInOwl:hasExactSynonym	Masters of Commerce	en		0000-0003-4423-4370	2024-10-30
 QUALO:0000183	doctor of philosophy in commerce	oboInOwl:hasExact	Doctor of Commerce	en		0000-0003-4423-4370	2024-10-30
 QUALO:0000183	doctor of philosophy in commerce	oboInOwl:hasExact	PhD in Commerce	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000190	bachelor of arts in psychology with honors	oboInOwl:hasExactSynonym	BA (Hons) in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000190	bachelor of arts in psychology with honors	oboInOwl:hasExactSynonym	BA Honours in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000190	bachelor of arts in psychology with honors	oboInOwl:hasExactSynonym	Bachelor of Arts (Honours) in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000190	bachelor of arts in psychology with honors	oboInOwl:hasExactSynonym	Bachelor of Arts Honours in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000191	master of arts in psychology	oboInOwl:hasExactSynonym	M.A. in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000191	master of arts in psychology	oboInOwl:hasExactSynonym	MA in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000191	master of arts in psychology	oboInOwl:hasExactSynonym	Master of Arts in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000192	master of science in psychology	oboInOwl:hasExactSynonym	M.Sc. in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000192	master of science in psychology	oboInOwl:hasExactSynonym	MS in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000192	master of science in psychology	oboInOwl:hasExactSynonym	MSc in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000192	master of science in psychology	oboInOwl:hasBroadSynonym	Master Degree in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000192	master of science in psychology	oboInOwl:hasExactSynonym	Master of Science in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000193	master of philsophy in psychology	oboInOwl:hasExactSynonym	Master of Philosophy in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000194	master of research in psychology	oboInOwl:hasExactSynonym	Master of Research in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000196	master of psychology	oboInOwl:hasExactSynonym	Master in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000196	master of psychology	oboInOwl:hasExactSynonym	Master's Degree in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000196	master of psychology	oboInOwl:hasExactSynonym	Master's in Psychology	en		0000-0003-4423-4370	2024-10-30
+QUALO:0000196	master of psychology	oboInOwl:hasExactSynonym	Masters in Psychology	en		0000-0003-4423-4370	2024-10-30
