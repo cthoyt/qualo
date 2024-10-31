@@ -125,33 +125,33 @@ OMO:0003011 a owl:AnnotationProperty;
 OMO:0003012 a owl:AnnotationProperty;
     rdfs:label "acronym"^^xsd:string .
 
-mesh:D001671 a owl:Class; rdfs:label "biochemistry"; rdfs:subClassOf QUALO:9999990 .
+mesh:D001671 a owl:Class; rdfs:label "Biochemistry"; rdfs:subClassOf QUALO:9999990 .
 
-mesh:D001695 a owl:Class; rdfs:label "biology"; rdfs:subClassOf QUALO:9999990 .
+mesh:D001695 a owl:Class; rdfs:label "Biology"; rdfs:subClassOf QUALO:9999990 .
 
-mesh:D002616 a owl:Class; rdfs:label "chemical engineering"; rdfs:subClassOf QUALO:9999990 .
+mesh:D002616 a owl:Class; rdfs:label "Chemical engineering"; rdfs:subClassOf QUALO:9999990 .
 
-mesh:D002621 a owl:Class; rdfs:label "chemistry"; rdfs:subClassOf QUALO:9999990 .
+mesh:D002621 a owl:Class; rdfs:label "Chemistry"; rdfs:subClassOf QUALO:9999990 .
 
-mesh:D004738 a owl:Class; rdfs:label "engineering"; rdfs:subClassOf QUALO:9999990 .
+mesh:D004738 a owl:Class; rdfs:label "Engineering"; rdfs:subClassOf QUALO:9999990 .
 
-mesh:D005843 a owl:Class; rdfs:label "geography"; rdfs:subClassOf QUALO:9999990 .
+mesh:D005843 a owl:Class; rdfs:label "Geography"; rdfs:subClassOf QUALO:9999990 .
 
-mesh:D005844 a owl:Class; rdfs:label "geology"; rdfs:subClassOf QUALO:9999990 .
+mesh:D005844 a owl:Class; rdfs:label "Geology"; rdfs:subClassOf QUALO:9999990 .
 
-mesh:D006664 a owl:Class; rdfs:label "history"; rdfs:subClassOf QUALO:9999990 .
+mesh:D006664 a owl:Class; rdfs:label "History"; rdfs:subClassOf QUALO:9999990 .
 
-mesh:D008433 a owl:Class; rdfs:label "mathematics"; rdfs:subClassOf QUALO:9999990 .
+mesh:D008433 a owl:Class; rdfs:label "Mathematics"; rdfs:subClassOf QUALO:9999990 .
 
-mesh:D008829 a owl:Class; rdfs:label "microbiology"; rdfs:subClassOf QUALO:9999990 .
+mesh:D008829 a owl:Class; rdfs:label "Microbiology"; rdfs:subClassOf QUALO:9999990 .
 
-mesh:D009488 a owl:Class; rdfs:label "neuroscience"; rdfs:subClassOf QUALO:9999990 .
+mesh:D009488 a owl:Class; rdfs:label "Neurosciences"; rdfs:subClassOf QUALO:9999990 .
 
-mesh:D009729 a owl:Class; rdfs:label "nursing"; rdfs:subClassOf QUALO:9999990 .
+mesh:D009729 a owl:Class; rdfs:label "Nursing"; rdfs:subClassOf QUALO:9999990 .
 
-mesh:D010825 a owl:Class; rdfs:label "physics"; rdfs:subClassOf QUALO:9999990 .
+mesh:D010825 a owl:Class; rdfs:label "Physics"; rdfs:subClassOf QUALO:9999990 .
 
-mesh:D011584 a owl:Class; rdfs:label "psychology"; rdfs:subClassOf QUALO:9999990 .
+mesh:D011584 a owl:Class; rdfs:label "Psychology"; rdfs:subClassOf QUALO:9999990 .
 
 QUALO:0000001 a owl:Class; rdfs:label "qualification" .
 QUALO:0000001 rdfs:subClassOf PATO:0000001 .

@@ -424,74 +424,74 @@ ObjectPropertyRange(<https://w3id.org/qualo/1000002> <https://w3id.org/qualo/999
 #   Classes
 ############################
 
-# Class: mesh:D001671 (biochemistry)
+# Class: mesh:D001671 (Biochemistry)
 
-AnnotationAssertion(rdfs:label mesh:D001671 "biochemistry")
+AnnotationAssertion(rdfs:label mesh:D001671 "Biochemistry")
 SubClassOf(mesh:D001671 <https://w3id.org/qualo/9999990>)
 
-# Class: mesh:D001695 (biology)
+# Class: mesh:D001695 (Biology)
 
-AnnotationAssertion(rdfs:label mesh:D001695 "biology")
+AnnotationAssertion(rdfs:label mesh:D001695 "Biology")
 SubClassOf(mesh:D001695 <https://w3id.org/qualo/9999990>)
 
-# Class: mesh:D002616 (chemical engineering)
+# Class: mesh:D002616 (Chemical engineering)
 
-AnnotationAssertion(rdfs:label mesh:D002616 "chemical engineering")
+AnnotationAssertion(rdfs:label mesh:D002616 "Chemical engineering")
 SubClassOf(mesh:D002616 <https://w3id.org/qualo/9999990>)
 
-# Class: mesh:D002621 (chemistry)
+# Class: mesh:D002621 (Chemistry)
 
-AnnotationAssertion(rdfs:label mesh:D002621 "chemistry")
+AnnotationAssertion(rdfs:label mesh:D002621 "Chemistry")
 SubClassOf(mesh:D002621 <https://w3id.org/qualo/9999990>)
 
-# Class: mesh:D004738 (engineering)
+# Class: mesh:D004738 (Engineering)
 
-AnnotationAssertion(rdfs:label mesh:D004738 "engineering")
+AnnotationAssertion(rdfs:label mesh:D004738 "Engineering")
 SubClassOf(mesh:D004738 <https://w3id.org/qualo/9999990>)
 
-# Class: mesh:D005843 (geography)
+# Class: mesh:D005843 (Geography)
 
-AnnotationAssertion(rdfs:label mesh:D005843 "geography")
+AnnotationAssertion(rdfs:label mesh:D005843 "Geography")
 SubClassOf(mesh:D005843 <https://w3id.org/qualo/9999990>)
 
-# Class: mesh:D005844 (geology)
+# Class: mesh:D005844 (Geology)
 
-AnnotationAssertion(rdfs:label mesh:D005844 "geology")
+AnnotationAssertion(rdfs:label mesh:D005844 "Geology")
 SubClassOf(mesh:D005844 <https://w3id.org/qualo/9999990>)
 
-# Class: mesh:D006664 (history)
+# Class: mesh:D006664 (History)
 
-AnnotationAssertion(rdfs:label mesh:D006664 "history")
+AnnotationAssertion(rdfs:label mesh:D006664 "History")
 SubClassOf(mesh:D006664 <https://w3id.org/qualo/9999990>)
 
-# Class: mesh:D008433 (mathematics)
+# Class: mesh:D008433 (Mathematics)
 
-AnnotationAssertion(rdfs:label mesh:D008433 "mathematics")
+AnnotationAssertion(rdfs:label mesh:D008433 "Mathematics")
 SubClassOf(mesh:D008433 <https://w3id.org/qualo/9999990>)
 
-# Class: mesh:D008829 (microbiology)
+# Class: mesh:D008829 (Microbiology)
 
-AnnotationAssertion(rdfs:label mesh:D008829 "microbiology")
+AnnotationAssertion(rdfs:label mesh:D008829 "Microbiology")
 SubClassOf(mesh:D008829 <https://w3id.org/qualo/9999990>)
 
-# Class: mesh:D009488 (neuroscience)
+# Class: mesh:D009488 (Neurosciences)
 
-AnnotationAssertion(rdfs:label mesh:D009488 "neuroscience")
+AnnotationAssertion(rdfs:label mesh:D009488 "Neurosciences")
 SubClassOf(mesh:D009488 <https://w3id.org/qualo/9999990>)
 
-# Class: mesh:D009729 (nursing)
+# Class: mesh:D009729 (Nursing)
 
-AnnotationAssertion(rdfs:label mesh:D009729 "nursing")
+AnnotationAssertion(rdfs:label mesh:D009729 "Nursing")
 SubClassOf(mesh:D009729 <https://w3id.org/qualo/9999990>)
 
-# Class: mesh:D010825 (physics)
+# Class: mesh:D010825 (Physics)
 
-AnnotationAssertion(rdfs:label mesh:D010825 "physics")
+AnnotationAssertion(rdfs:label mesh:D010825 "Physics")
 SubClassOf(mesh:D010825 <https://w3id.org/qualo/9999990>)
 
-# Class: mesh:D011584 (psychology)
+# Class: mesh:D011584 (Psychology)
 
-AnnotationAssertion(rdfs:label mesh:D011584 "psychology")
+AnnotationAssertion(rdfs:label mesh:D011584 "Psychology")
 SubClassOf(mesh:D011584 <https://w3id.org/qualo/9999990>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_9606> (Homo sapiens)
