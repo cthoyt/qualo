@@ -30,9 +30,7 @@
         <img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg" alt="Contributor Covenant"/></a>
 </p>
 
-NLP tools for qualifications and distinctions
-
-An ontology of qualifications and distinctions that uses the 
+An ontology of qualifications, distinctions, and certifications that uses the 
 [Phenotype And Trait Ontology](https://bioregistry.io/pato)
 term [`quality` (PATO:0000001)](https://bioregistry.io/PATO:0000001?provider=ols)
 as a root term.
@@ -40,6 +38,7 @@ as a root term.
 The original motivation for this resource was to standardize education qualifications such as 
 bachelor's degrees, master's degrees, and doctorates of philosophy appearing in the education 
 section of ORCID records (see https://doi.org/10.5281/zenodo.10137939).
+This is useful to connect researchers to the topics about which they're knowledgeable and passionate.
 
 Therefore, the first version of this resource focuses on academic qualifications, namely,
 degrees conferred by universities. The [Bologna Process](https://en.wikipedia.org/wiki/Bologna_Process)
@@ -55,12 +54,11 @@ which is ambiguous. Future versions of this resource could include additional qu
 - `examples.tsv` has for each qualification one or more example people
 - `conferrers.tsv` has for each qualification one or more example conferrers (i.e., a university that confers the degree)
 
-
 ![Psychology hierarchy](docs/source/img/hierarchy.png)
 
 ## Usage
 
-There are two user-facing functions:
+There are a few user-facing functions:
 
 ```python
 import qualo
@@ -101,31 +99,6 @@ for more information on getting involved.
 ### ⚖️ License
 
 The code in this package is licensed under the MIT License.
-
-<!--
-### 📖 Citation
-
-Citation goes here!
--->
-
-<!--
-### 🎁 Support
-
-This project has been supported by the following organizations (in alphabetical order):
-
-- [Biopragmatics Lab](https://biopragmatics.github.io)
-
--->
-
-<!--
-### 💰 Funding
-
-This project has been supported by the following grants:
-
-| Funding Body  | Program                                                      | Grant Number |
-|---------------|--------------------------------------------------------------|--------------|
-| Funder        | [Grant Name (GRANT-ACRONYM)](https://example.com/grant-link) | ABCXYZ       |
--->
 
 ### 🍪 Cookiecutter
 
