@@ -48,7 +48,7 @@ dependencies = [
     "click",
     "pandas",
     "biosynonyms>=0.1.0",
-    "curies",
+    "curies>=0.9.0",
 ]
 
 [project.optional-dependencies]
