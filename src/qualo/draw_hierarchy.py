@@ -24,7 +24,7 @@ ROOTS = {
 }
 
 
-def main(discipline: NamedReference | None = None):
+def main(discipline: NamedReference | None = None) -> None:
     """Generate a chart for a given discipline."""
     if discipline is None:
         discipline = NamedReference(prefix="mesh", identifier="D011584", name="psychology")
