@@ -58,7 +58,6 @@ Declaration(Class(<https://w3id.org/qualo/0000014>))
 Declaration(Class(<https://w3id.org/qualo/0000015>))
 Declaration(Class(<https://w3id.org/qualo/0000016>))
 Declaration(Class(<https://w3id.org/qualo/0000017>))
-Declaration(Class(<https://w3id.org/qualo/0000018>))
 Declaration(Class(<https://w3id.org/qualo/0000019>))
 Declaration(Class(<https://w3id.org/qualo/0000020>))
 Declaration(Class(<https://w3id.org/qualo/0000021>))
@@ -225,6 +224,17 @@ Declaration(Class(<https://w3id.org/qualo/0000186>))
 Declaration(Class(<https://w3id.org/qualo/0000187>))
 Declaration(Class(<https://w3id.org/qualo/0000188>))
 Declaration(Class(<https://w3id.org/qualo/0000189>))
+Declaration(Class(<https://w3id.org/qualo/0000190>))
+Declaration(Class(<https://w3id.org/qualo/0000191>))
+Declaration(Class(<https://w3id.org/qualo/0000192>))
+Declaration(Class(<https://w3id.org/qualo/0000193>))
+Declaration(Class(<https://w3id.org/qualo/0000194>))
+Declaration(Class(<https://w3id.org/qualo/0000196>))
+Declaration(Class(<https://w3id.org/qualo/0000198>))
+Declaration(Class(<https://w3id.org/qualo/0000199>))
+Declaration(Class(<https://w3id.org/qualo/0000200>))
+Declaration(Class(<https://w3id.org/qualo/0000201>))
+Declaration(Class(<https://w3id.org/qualo/0000202>))
 Declaration(Class(<https://w3id.org/qualo/9999990>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<https://w3id.org/qualo/1000002>))
@@ -711,12 +721,6 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 SubClassOf(<https://w3id.org/qualo/0000017> <https://w3id.org/qualo/0000014>)
 SubClassOf(<https://w3id.org/qualo/0000017> <https://w3id.org/qualo/0000016>)
 
-# Class: <https://w3id.org/qualo/0000018> (doctor of philosophy by discipline)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000018> "doctor of philosophy by discipline")
-SubClassOf(<https://w3id.org/qualo/0000018> <https://w3id.org/qualo/0000016>)
-SubClassOf(<https://w3id.org/qualo/0000018> <https://w3id.org/qualo/0000021>)
-
 # Class: <https://w3id.org/qualo/0000019> (doctor of philosophy in mathematics)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000019> "PhD Mathematics"@en)
@@ -724,7 +728,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasNarrowSynonym <https://w3id.org/qualo/0000019> "PhD in Applied Mathematics"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000019> "doctor of philosophy in mathematics")
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <https://w3id.org/qualo/0000019> wikidata:Q11408905)
-SubClassOf(<https://w3id.org/qualo/0000019> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000019> <https://w3id.org/qualo/0000016>)
 SubClassOf(<https://w3id.org/qualo/0000019> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D008433))
 
 # Class: <https://w3id.org/qualo/0000020> (doctor of philosophy in history)
@@ -733,7 +737,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000020> "PhD in History"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000020> "doctor of philosophy in history")
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <https://w3id.org/qualo/0000020> wikidata:Q66126198)
-SubClassOf(<https://w3id.org/qualo/0000020> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000020> <https://w3id.org/qualo/0000016>)
 SubClassOf(<https://w3id.org/qualo/0000020> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D006664))
 
 # Class: <https://w3id.org/qualo/0000021> (academic degree by discipline)
@@ -922,14 +926,33 @@ SubClassOf(<https://w3id.org/qualo/0000038> ObjectSomeValuesFrom(<https://w3id.o
 
 # Class: <https://w3id.org/qualo/0000039> (bachelor of science in psychology)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasBroadSynonym <https://w3id.org/qualo/0000039> "Bachelor Degree in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasBroadSynonym <https://w3id.org/qualo/0000039> "Bachelor in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasBroadSynonym <https://w3id.org/qualo/0000039> "Bachelor's Degree in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasBroadSynonym <https://w3id.org/qualo/0000039> "Bachelor's in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasBroadSynonym <https://w3id.org/qualo/0000039> "Bachelors in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasBroadSynonym <https://w3id.org/qualo/0000039> "Bachelor´s Degree in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasBroadSynonym <https://w3id.org/qualo/0000039> "Bachelor’s Degree in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasBroadSynonym <https://w3id.org/qualo/0000039> "Degree in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000039> "B.S. in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000039> "B.Sc. in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000039> "BS in Psychology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000039> "BSc Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000039> "BSc in Psychology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000039> "Bacharel em Psicologia"@pt)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000039> "Bachelor's of Science in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000039> "Bachelors of Science in Psychology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000039> "Licenciada en Psicología"@es)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000039> "Licenciado en Psicología"@es)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000039> "Licenciatura en Psicología"@es)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasRelatedSynonym <https://w3id.org/qualo/0000039> "Bachelor of Social Science in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasRelatedSynonym <https://w3id.org/qualo/0000039> "Bachelor of Social Sciences in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasRelatedSynonym <https://w3id.org/qualo/0000039> "Graduate in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasRelatedSynonym <https://w3id.org/qualo/0000039> "Graduated in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasRelatedSynonym <https://w3id.org/qualo/0000039> "Graduation in Psychology"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000039> "bachelor of science in psychology")
 SubClassOf(<https://w3id.org/qualo/0000039> <https://w3id.org/qualo/0000024>)
-SubClassOf(<https://w3id.org/qualo/0000039> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D011584))
+SubClassOf(<https://w3id.org/qualo/0000039> <https://w3id.org/qualo/0000198>)
 
 # Class: <https://w3id.org/qualo/0000040> (bachelor of science in geography)
 
@@ -1313,7 +1336,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000077> "PhD in Chemical Sciences"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000077> "PhD in Chemistry"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000077> "doctor of philosophy in chemistry")
-SubClassOf(<https://w3id.org/qualo/0000077> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000077> <https://w3id.org/qualo/0000016>)
 SubClassOf(<https://w3id.org/qualo/0000077> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D002621))
 
 # Class: <https://w3id.org/qualo/0000078> (master of science in chemistry)
@@ -1354,7 +1377,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000081> "PhD in Computer Science"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000081> "PhD. in Computer Science"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000081> "doctor of philosophy in computer science")
-SubClassOf(<https://w3id.org/qualo/0000081> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000081> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000082> (doctor of philosophy in biology)
 
@@ -1372,7 +1395,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasNarrowSynonym <https://w3id.org/qualo/0000082> "PhD in Molecular Biology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasRelatedSynonym <https://w3id.org/qualo/0000082> "PhD in Biomedicine"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000082> "doctor of philosophy in biology")
-SubClassOf(<https://w3id.org/qualo/0000082> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000082> <https://w3id.org/qualo/0000016>)
 SubClassOf(<https://w3id.org/qualo/0000082> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D001695))
 
 # Class: <https://w3id.org/qualo/0000083> (doctor of philosophy in ecology)
@@ -1380,14 +1403,14 @@ SubClassOf(<https://w3id.org/qualo/0000082> ObjectSomeValuesFrom(<https://w3id.o
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000083> "PhD Ecology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000083> "PhD in Ecology"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000083> "doctor of philosophy in ecology")
-SubClassOf(<https://w3id.org/qualo/0000083> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000083> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000084> (doctor of philosophy in immunology)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000084> "PhD Immunology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000084> "PhD in Immunology"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000084> "doctor of philosophy in immunology")
-SubClassOf(<https://w3id.org/qualo/0000084> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000084> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000085> (doctor of philosophy in environmental sciences)
 
@@ -1395,7 +1418,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000085> "PhD in Environmental Science"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000085> "PhD in Environmental Sciences"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000085> "doctor of philosophy in environmental sciences")
-SubClassOf(<https://w3id.org/qualo/0000085> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000085> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000086> (doctor of philosophy in analytical chemistry)
 
@@ -1417,7 +1440,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000087> "PhD. in Economics"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasRelatedSynonym <https://w3id.org/qualo/0000087> "PhD Candidate in Economics"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000087> "doctor of philosophy in economics")
-SubClassOf(<https://w3id.org/qualo/0000087> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000087> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000088> (doctor of philosophy in engineering)
 
@@ -1427,7 +1450,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000088> "PhD Engineering"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000088> "PhD in Engineering"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000088> "doctor of philosophy in engineering")
-SubClassOf(<https://w3id.org/qualo/0000088> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000088> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000089> (doctor of philosophy in electrical engineering)
 
@@ -1483,7 +1506,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000095> "PhD in Linguistics"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasNarrowSynonym <https://w3id.org/qualo/0000095> "PhD in Applied Linguistics"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000095> "doctor of philosophy in linguistics")
-SubClassOf(<https://w3id.org/qualo/0000095> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000095> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000096> (doctor of philosophy in nursing)
 
@@ -1491,13 +1514,13 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000096> "PhD Nursing"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000096> "PhD in Nursing"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000096> "doctor of philosophy in nursing")
-SubClassOf(<https://w3id.org/qualo/0000096> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000096> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000097> (doctor of philosophy in english literature)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000097> "PhD in English Literature"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000097> "doctor of philosophy in english literature")
-SubClassOf(<https://w3id.org/qualo/0000097> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000097> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000098> (doctor of philosophy in civil engineering)
 
@@ -1514,21 +1537,21 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000099> "PhD in Neuroscience"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000099> "PhD in Neurosciences"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000099> "doctor of philosophy in neuroscience")
-SubClassOf(<https://w3id.org/qualo/0000099> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000099> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000100> (doctor of philosophy in epidemiology)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000100> "PhD Epidemiology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000100> "PhD in Epidemiology"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000100> "doctor of philosophy in epidemiology")
-SubClassOf(<https://w3id.org/qualo/0000100> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000100> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000101> (doctor of philosophy in geology)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000101> "PhD Geology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000101> "PhD in Geology"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000101> "doctor of philosophy in geology")
-SubClassOf(<https://w3id.org/qualo/0000101> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000101> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000102> (master of science with honors)
 
@@ -1543,7 +1566,7 @@ SubClassOf(<https://w3id.org/qualo/0000102> <https://w3id.org/qualo/0000057>)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000103> "PhD Geography"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000103> "PhD in Geography"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000103> "doctor of philosophy in geography")
-SubClassOf(<https://w3id.org/qualo/0000103> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000103> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000104> (doctor of philosophy in biochemistry)
 
@@ -1557,7 +1580,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-29"^^xsd:date) oboInOwl:hasNarrowSynonym <https://w3id.org/qualo/0000104> "Ph.D. in Biochemistry and Molecular Biology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-29"^^xsd:date) oboInOwl:hasNarrowSynonym <https://w3id.org/qualo/0000104> "PhD in Biochemistry, Molecular Biology and Biomedicine"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000104> "doctor of philosophy in biochemistry")
-SubClassOf(<https://w3id.org/qualo/0000104> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000104> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000105> (doctor of philosophy in industrial engineering)
 
@@ -1601,7 +1624,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000109> "PhD in Physics"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000109> "Physics PhD"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000109> "doctor of philosophy in physics")
-SubClassOf(<https://w3id.org/qualo/0000109> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000109> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000110> (doctor of philosophy in astrophysics)
 
@@ -1634,14 +1657,14 @@ SubClassOf(<https://w3id.org/qualo/0000112> ObjectSomeValuesFrom(<https://w3id.o
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000113> "PhD Biotechnology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000113> "PhD in Biotechnology"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000113> "doctor of philosophy in biotechnology")
-SubClassOf(<https://w3id.org/qualo/0000113> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000113> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000114> (doctor of philosophy in public health)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000114> "PhD Public Health"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000114> "PhD in Public Health"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000114> "doctor of philosophy in public health")
-SubClassOf(<https://w3id.org/qualo/0000114> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000114> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000115> (bachelor of arts in economics)
 
@@ -1667,14 +1690,22 @@ SubClassOf(<https://w3id.org/qualo/0000117> <https://w3id.org/qualo/0000052>)
 
 # Class: <https://w3id.org/qualo/0000118> (doctor of philosophy in psychology)
 
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasBroadSynonym <https://w3id.org/qualo/0000118> "Doctor in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasBroadSynonym <https://w3id.org/qualo/0000118> "Doctorate in Psychology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000118> "Doctora en Psicología"@es)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000118> "Ph. D. in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000118> "Ph.D in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000118> "Ph.D. in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000118> "PhD Candidate in Psychology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000118> "PhD Psychology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000118> "PhD in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000118> "PhD. in Psychology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasNarrowSynonym <https://w3id.org/qualo/0000118> "Ph.D. in Clinical Psychology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasNarrowSynonym <https://w3id.org/qualo/0000118> "PhD Clinical Psychology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasNarrowSynonym <https://w3id.org/qualo/0000118> "PhD in Clinical Psychology"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000118> "doctor of philosophy in psychology")
-SubClassOf(<https://w3id.org/qualo/0000118> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000118> <https://w3id.org/qualo/0000016>)
+SubClassOf(<https://w3id.org/qualo/0000118> <https://w3id.org/qualo/0000199>)
 
 # Class: <https://w3id.org/qualo/0000119> (master of science in computer science)
 
@@ -1702,7 +1733,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000120> "PhD Sociology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000120> "PhD in Sociology"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000120> "doctor of philosophy in sociology")
-SubClassOf(<https://w3id.org/qualo/0000120> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000120> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000121> (master of science in biology)
 
@@ -1727,14 +1758,14 @@ SubClassOf(<https://w3id.org/qualo/0000123> <https://w3id.org/qualo/0000077>)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000124> "PhD Political Science"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000124> "PhD in Political Science"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000124> "doctor of philosophy in political science")
-SubClassOf(<https://w3id.org/qualo/0000124> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000124> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000125> (doctor of philosophy in philosophy)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000125> "PhD Philosophy"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000125> "PhD in Philosophy"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000125> "doctor of philosophy in philosophy")
-SubClassOf(<https://w3id.org/qualo/0000125> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000125> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000126> (master of science in philosophy)
 
@@ -1751,8 +1782,11 @@ SubClassOf(<https://w3id.org/qualo/0000127> <https://w3id.org/qualo/0000031>)
 # Class: <https://w3id.org/qualo/0000128> (bachelor of arts in psychology)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000128> "BA Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000128> "BA in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000128> "Bachelors of Arts in Psychology"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000128> "bachelor of arts in psychology")
 SubClassOf(<https://w3id.org/qualo/0000128> <https://w3id.org/qualo/0000031>)
+SubClassOf(<https://w3id.org/qualo/0000128> <https://w3id.org/qualo/0000198>)
 
 # Class: <https://w3id.org/qualo/0000129> (master of science in epidemiology)
 
@@ -1771,14 +1805,14 @@ SubClassOf(<https://w3id.org/qualo/0000130> <https://w3id.org/qualo/0000024>)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000131> "PhD in Anthropology"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000131> "doctor of philosophy in anthropology")
-SubClassOf(<https://w3id.org/qualo/0000131> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000131> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000132> (doctor of philosophy in finance)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000132> "Ph.D. in Finance"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000132> "PhD in Finance"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000132> "doctor of philosophy in finance")
-SubClassOf(<https://w3id.org/qualo/0000132> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000132> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000133> (doctor of philosophy in archeology)
 
@@ -1788,13 +1822,13 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000133> "PhD in Archeology"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000133> "doctor of philosophy in archaeology"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000133> "doctor of philosophy in archeology")
-SubClassOf(<https://w3id.org/qualo/0000133> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000133> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000134> (doctor of philosophy in accounting)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000134> "PhD in Accounting"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000134> "doctor of philosophy in accounting")
-SubClassOf(<https://w3id.org/qualo/0000134> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000134> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000135> (doctor of philosophy in business administration)
 
@@ -1802,75 +1836,75 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000135> "Ph.D. in Business Administration"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000135> "PhD in Business Administration"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000135> "doctor of philosophy in business administration")
-SubClassOf(<https://w3id.org/qualo/0000135> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000135> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000136> (doctor of philosophy in architecture)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000136> "PhD in Architecture"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000136> "doctor of philosophy in architecture")
-SubClassOf(<https://w3id.org/qualo/0000136> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000136> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000137> (doctor of philosophy in earth sciences)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000137> "PhD in Earth Sciences"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000137> "doctor of philosophy in earth sciences")
-SubClassOf(<https://w3id.org/qualo/0000137> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000137> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000138> (doctor of philosophy in medicine)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000138> "PhD Medicine"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000138> "PhD in Medicine"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000138> "doctor of philosophy in medicine")
-SubClassOf(<https://w3id.org/qualo/0000138> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000138> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000139> (doctor of philosophy in information technology)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000139> "PhD in Information Technology"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000139> "doctor of philosophy in information technology")
-SubClassOf(<https://w3id.org/qualo/0000139> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000139> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000140> (doctor of philosophy in management)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000140> "Ph.D. in Management"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000140> "PhD Management"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000140> "doctor of philosophy in management")
-SubClassOf(<https://w3id.org/qualo/0000140> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000140> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000143> (doctor of philosophy in philology)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000143> "PhD in Philology"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000143> "doctor of philosophy in philology")
-SubClassOf(<https://w3id.org/qualo/0000143> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000143> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000144> (doctor of philosophy in molecular medicine)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000144> "PhD in Molecular Medicine"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000144> "doctor of philosophy in molecular medicine")
-SubClassOf(<https://w3id.org/qualo/0000144> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000144> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000145> (doctor of philosophy in pharmacology)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000145> "PhD in Pharmacology"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000145> "doctor of philosophy in pharmacology")
-SubClassOf(<https://w3id.org/qualo/0000145> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000145> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000146> (doctor of philosophy in genetics)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000146> "PhD in Genetics"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000146> "doctor of philosophy in genetics")
-SubClassOf(<https://w3id.org/qualo/0000146> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000146> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000147> (doctor of philosophy in pharmacy)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000147> "PhD in Pharmaceutical Sciences"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000147> "doctor of philosophy in pharmacy")
-SubClassOf(<https://w3id.org/qualo/0000147> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000147> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000148> (doctor of philosophy in health sciences)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000148> "PhD in health sciences"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000148> "doctor of philosophy in health sciences")
-SubClassOf(<https://w3id.org/qualo/0000148> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000148> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000149> (bachelor of science in accounting)
 
@@ -1897,32 +1931,32 @@ SubClassOf(<https://w3id.org/qualo/0000152> <https://w3id.org/qualo/0000031>)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000153> "PhD Statistics"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000153> "PhD in Statistics"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000153> "doctor of philosophy in statistics")
-SubClassOf(<https://w3id.org/qualo/0000153> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000153> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000154> (doctor of philosophy in communication)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000154> "PhD in Communication"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000154> "doctor of philosophy in communication")
-SubClassOf(<https://w3id.org/qualo/0000154> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000154> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000155> (doctor of philosophy in marketing)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000155> "PhD Marketing"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000155> "PhD in Marketing"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000155> "doctor of philosophy in marketing")
-SubClassOf(<https://w3id.org/qualo/0000155> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000155> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000156> (doctor of philosophy in management)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000156> "PhD in Management"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000156> "doctor of philosophy in management")
-SubClassOf(<https://w3id.org/qualo/0000156> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000156> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000157> (doctor of philosophy in materials science)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000157> "PhD in Materials Science"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000157> "doctor of philosophy in materials science")
-SubClassOf(<https://w3id.org/qualo/0000157> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000157> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000158> (master of philosophy and doctor of philosophy)
 
@@ -1938,7 +1972,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000159> "PhD in Social Sciences"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000159> "doctor of philosophy in social science"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000159> "doctor of philosophy in social sciences")
-SubClassOf(<https://w3id.org/qualo/0000159> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000159> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000160> (doctor of philosophy in international relations)
 
@@ -1947,7 +1981,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000160> "PhD in International Relation"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000160> "PhD in International Relations"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000160> "doctor of philosophy in international relations")
-SubClassOf(<https://w3id.org/qualo/0000160> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000160> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000161> (doctor of philosophy in medical sciences)
 
@@ -1956,7 +1990,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-28"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000161> "PhD in Medical Science"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-28"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000161> "PhD in Medical Sciences"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000161> "doctor of philosophy in medical sciences")
-SubClassOf(<https://w3id.org/qualo/0000161> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000161> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000162> (master of science in health psychology)
 
@@ -1979,6 +2013,7 @@ SubClassOf(<https://w3id.org/qualo/0000164> <https://w3id.org/qualo/0000006>)
 # Class: <https://w3id.org/qualo/0000165> (bachelor of science in psychology with honors)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-28"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000165> "BSc (Hons) Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000165> "Bachelor of Science (Honours) in Psychology"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000165> "bachelor of science in psychology with honors")
 SubClassOf(<https://w3id.org/qualo/0000165> <https://w3id.org/qualo/0000011>)
 SubClassOf(<https://w3id.org/qualo/0000165> <https://w3id.org/qualo/0000039>)
@@ -2151,7 +2186,90 @@ SubClassOf(<https://w3id.org/qualo/0000188> <https://w3id.org/qualo/0000060>)
 # Class: <https://w3id.org/qualo/0000189> (doctor of philosophy in social work)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000189> "doctor of philosophy in social work")
-SubClassOf(<https://w3id.org/qualo/0000189> <https://w3id.org/qualo/0000018>)
+SubClassOf(<https://w3id.org/qualo/0000189> <https://w3id.org/qualo/0000016>)
+
+# Class: <https://w3id.org/qualo/0000190> (bachelor of arts in psychology with honors)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000190> "BA (Hons) in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000190> "BA Honours in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000190> "Bachelor of Arts (Honours) in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000190> "Bachelor of Arts Honours in Psychology"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000190> "bachelor of arts in psychology with honors")
+SubClassOf(<https://w3id.org/qualo/0000190> <https://w3id.org/qualo/0000011>)
+SubClassOf(<https://w3id.org/qualo/0000190> <https://w3id.org/qualo/0000128>)
+
+# Class: <https://w3id.org/qualo/0000191> (master of arts in psychology)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000191> "M.A. in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000191> "MA in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000191> "Master of Arts in Psychology"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000191> "master of arts in psychology")
+SubClassOf(<https://w3id.org/qualo/0000191> <https://w3id.org/qualo/0000060>)
+SubClassOf(<https://w3id.org/qualo/0000191> <https://w3id.org/qualo/0000196>)
+
+# Class: <https://w3id.org/qualo/0000192> (master of science in psychology)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasBroadSynonym <https://w3id.org/qualo/0000192> "Master Degree in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000192> "M.Sc. in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000192> "MS in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000192> "MSc in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000192> "Master of Science in Psychology"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000192> "master of science in psychology")
+SubClassOf(<https://w3id.org/qualo/0000192> <https://w3id.org/qualo/0000057>)
+SubClassOf(<https://w3id.org/qualo/0000192> <https://w3id.org/qualo/0000196>)
+
+# Class: <https://w3id.org/qualo/0000193> (master of philsophy in psychology)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000193> "Master of Philosophy in Psychology"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000193> "master of philsophy in psychology")
+SubClassOf(<https://w3id.org/qualo/0000193> <https://w3id.org/qualo/0000073>)
+SubClassOf(<https://w3id.org/qualo/0000193> <https://w3id.org/qualo/0000196>)
+
+# Class: <https://w3id.org/qualo/0000194> (master of research in psychology)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000194> "Master of Research in Psychology"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000194> "master of research in psychology")
+SubClassOf(<https://w3id.org/qualo/0000194> <https://w3id.org/qualo/0000075>)
+SubClassOf(<https://w3id.org/qualo/0000194> <https://w3id.org/qualo/0000196>)
+
+# Class: <https://w3id.org/qualo/0000196> (master of psychology)
+
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000196> "Master in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000196> "Master's Degree in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000196> "Master's in Psychology"@en)
+AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000196> "Masters in Psychology"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000196> "master of psychology")
+SubClassOf(<https://w3id.org/qualo/0000196> <https://w3id.org/qualo/0000004>)
+SubClassOf(<https://w3id.org/qualo/0000196> <https://w3id.org/qualo/0000199>)
+
+# Class: <https://w3id.org/qualo/0000198> (bachelor of psychology)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000198> "bachelor of psychology")
+SubClassOf(<https://w3id.org/qualo/0000198> <https://w3id.org/qualo/0000003>)
+SubClassOf(<https://w3id.org/qualo/0000198> <https://w3id.org/qualo/0000199>)
+
+# Class: <https://w3id.org/qualo/0000199> (academic degree in psychology)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000199> "academic degree in psychology")
+SubClassOf(<https://w3id.org/qualo/0000199> <https://w3id.org/qualo/0000021>)
+SubClassOf(<https://w3id.org/qualo/0000199> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D011584))
+
+# Class: <https://w3id.org/qualo/0000200> (associate in psychology)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000200> "associate in psychology")
+SubClassOf(<https://w3id.org/qualo/0000200> <https://w3id.org/qualo/0000008>)
+SubClassOf(<https://w3id.org/qualo/0000200> <https://w3id.org/qualo/0000199>)
+
+# Class: <https://w3id.org/qualo/0000201> (associate of arts)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000201> "associate of arts")
+SubClassOf(<https://w3id.org/qualo/0000201> <https://w3id.org/qualo/0000008>)
+
+# Class: <https://w3id.org/qualo/0000202> (associate of arts in psychology)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000202> "associate of arts in psychology")
+SubClassOf(<https://w3id.org/qualo/0000202> <https://w3id.org/qualo/0000200>)
+SubClassOf(<https://w3id.org/qualo/0000202> <https://w3id.org/qualo/0000201>)
 
 # Class: <https://w3id.org/qualo/9999990> (academic discipline)
 
