@@ -24,10 +24,13 @@
     <a href="https://github.com/cthoyt/cookiecutter-python-package">
         <img alt="Cookiecutter template from @cthoyt" src="https://img.shields.io/badge/Cookiecutter-snekpack-blue" /></a>
     <a href="https://github.com/astral-sh/ruff">
-        <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Ruff" style="max-width:100%;">
-    </a>
+        <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Ruff" style="max-width:100%;"></a>
     <a href="https://github.com/cthoyt/qualo/blob/main/.github/CODE_OF_CONDUCT.md">
         <img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg" alt="Contributor Covenant"/></a>
+    <!-- uncomment if you archive on zenodo
+    <a href="https://zenodo.org/badge/latestdoi/XXXXXX">
+        <img src="https://zenodo.org/badge/XXXXXX.svg" alt="DOI"></a>
+    -->
 </p>
 
 NLP tools for qualifications and distinctions
@@ -144,10 +147,10 @@ The final section of the README is for if you want to get involved by making a c
 
 To install in development mode, use the following:
 
-```bash
+```console
 git clone git+https://github.com/cthoyt/qualo.git
 cd qualo
-pip install -e .
+python3 -m pip install -e .
 ```
 
 ### Updating Package Boilerplate
@@ -156,8 +159,8 @@ This project uses `cruft` to keep boilerplate (i.e., configuration, contribution
 configuration)
 up-to-date with the upstream cookiecutter package. Update with the following:
 
-```shell
-pip install cruft
+```console
+python3 -m pip install cruft
 cruft update
 ```
 
@@ -166,10 +169,11 @@ available [here](https://github.com/cruft/cruft?tab=readme-ov-file#updating-a-pr
 
 ### 🥼 Testing
 
-After cloning the repository and installing `tox` with `pip install tox tox-uv`, 
+After cloning the repository and installing `tox` with
+`python3 -m pip install tox tox-uv`,
 the unit tests in the `tests/` folder can be run reproducibly with:
 
-```shell
+```console
 tox -e py
 ```
 
@@ -180,12 +184,12 @@ Additionally, these tests are automatically re-run with each commit in a
 
 The documentation can be built locally using the following:
 
-```shell
+```console
 git clone git+https://github.com/cthoyt/qualo.git
 cd qualo
 tox -e docs
 open docs/build/html/index.html
-``` 
+```
 
 The documentation automatically installs the package as well as the `docs`
 extra specified in the [`pyproject.toml`](pyproject.toml). `sphinx` plugins
@@ -269,10 +273,10 @@ be found [here](https://packaging.python.org/en/latest/specifications/pypirc).
 #### Uploading to PyPI
 
 After installing the package in development mode and installing
-`tox` with `pip install tox tox-uv`,
-run the following from the shell:
+`tox` with `python3 -m pip install tox tox-uv`,
+run the following from the console:
 
-```shell
+```console
 tox -e finish
 ```
 
@@ -283,7 +287,8 @@ This script does the following:
    and [`docs/source/conf.py`](docs/source/conf.py) to not have the `-dev` suffix
 2. Packages the code in both a tar archive and a wheel using
    [`uv build`](https://docs.astral.sh/uv/guides/publish/#building-your-package)
-3. Uploads to PyPI using [`twine`](https://github.com/pypa/twine).
+3. Uploads to PyPI using [`twine upload`](https://github.com/pypa/twine).
+   This will be replaced soon with `uv publish` (see https://github.com/cthoyt/cookiecutter-snekpack/issues/29)
 4. Push to GitHub. You'll need to make a release going with the commit where the version was bumped.
 5. Bump the version to the next patch. If you made big changes and want to bump the version by minor, you can
    use `tox -e bumpversion -- minor` after.
