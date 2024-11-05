@@ -8,7 +8,7 @@ import pystow
 from gilda import Grounder
 from orcid_downloader.standardize import REVERSE_REPLACEMENTS
 
-from qualo.api import get_gilda_grounder
+from qualo.data import get_gilda_grounder
 
 PATH = pystow.join(
     "orcid", "2023", "output", "roles", name="education_role_unstandardized_summary.tsv"

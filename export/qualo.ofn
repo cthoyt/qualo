@@ -25,19 +25,6 @@ Annotation(dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/>)
 Annotation(dcterms:title "Qualification Ontology")
 Annotation(rdfs:comment "Built by https://github.com/cthoyt/qualo")
 
-Declaration(Class(mesh:D001671))
-Declaration(Class(mesh:D001695))
-Declaration(Class(mesh:D002616))
-Declaration(Class(mesh:D002621))
-Declaration(Class(mesh:D004738))
-Declaration(Class(mesh:D005843))
-Declaration(Class(mesh:D005844))
-Declaration(Class(mesh:D006664))
-Declaration(Class(mesh:D008433))
-Declaration(Class(mesh:D008829))
-Declaration(Class(mesh:D009488))
-Declaration(Class(mesh:D009729))
-Declaration(Class(mesh:D010825))
 Declaration(Class(mesh:D011584))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9606>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
@@ -424,71 +411,6 @@ ObjectPropertyRange(<https://w3id.org/qualo/1000002> <https://w3id.org/qualo/999
 #   Classes
 ############################
 
-# Class: mesh:D001671 (Biochemistry)
-
-AnnotationAssertion(rdfs:label mesh:D001671 "Biochemistry")
-SubClassOf(mesh:D001671 <https://w3id.org/qualo/9999990>)
-
-# Class: mesh:D001695 (Biology)
-
-AnnotationAssertion(rdfs:label mesh:D001695 "Biology")
-SubClassOf(mesh:D001695 <https://w3id.org/qualo/9999990>)
-
-# Class: mesh:D002616 (Chemical engineering)
-
-AnnotationAssertion(rdfs:label mesh:D002616 "Chemical engineering")
-SubClassOf(mesh:D002616 <https://w3id.org/qualo/9999990>)
-
-# Class: mesh:D002621 (Chemistry)
-
-AnnotationAssertion(rdfs:label mesh:D002621 "Chemistry")
-SubClassOf(mesh:D002621 <https://w3id.org/qualo/9999990>)
-
-# Class: mesh:D004738 (Engineering)
-
-AnnotationAssertion(rdfs:label mesh:D004738 "Engineering")
-SubClassOf(mesh:D004738 <https://w3id.org/qualo/9999990>)
-
-# Class: mesh:D005843 (Geography)
-
-AnnotationAssertion(rdfs:label mesh:D005843 "Geography")
-SubClassOf(mesh:D005843 <https://w3id.org/qualo/9999990>)
-
-# Class: mesh:D005844 (Geology)
-
-AnnotationAssertion(rdfs:label mesh:D005844 "Geology")
-SubClassOf(mesh:D005844 <https://w3id.org/qualo/9999990>)
-
-# Class: mesh:D006664 (History)
-
-AnnotationAssertion(rdfs:label mesh:D006664 "History")
-SubClassOf(mesh:D006664 <https://w3id.org/qualo/9999990>)
-
-# Class: mesh:D008433 (Mathematics)
-
-AnnotationAssertion(rdfs:label mesh:D008433 "Mathematics")
-SubClassOf(mesh:D008433 <https://w3id.org/qualo/9999990>)
-
-# Class: mesh:D008829 (Microbiology)
-
-AnnotationAssertion(rdfs:label mesh:D008829 "Microbiology")
-SubClassOf(mesh:D008829 <https://w3id.org/qualo/9999990>)
-
-# Class: mesh:D009488 (Neurosciences)
-
-AnnotationAssertion(rdfs:label mesh:D009488 "Neurosciences")
-SubClassOf(mesh:D009488 <https://w3id.org/qualo/9999990>)
-
-# Class: mesh:D009729 (Nursing)
-
-AnnotationAssertion(rdfs:label mesh:D009729 "Nursing")
-SubClassOf(mesh:D009729 <https://w3id.org/qualo/9999990>)
-
-# Class: mesh:D010825 (Physics)
-
-AnnotationAssertion(rdfs:label mesh:D010825 "Physics")
-SubClassOf(mesh:D010825 <https://w3id.org/qualo/9999990>)
-
 # Class: mesh:D011584 (Psychology)
 
 AnnotationAssertion(rdfs:label mesh:D011584 "Psychology")
@@ -729,7 +651,6 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000019> "doctor of philosophy in mathematics")
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <https://w3id.org/qualo/0000019> wikidata:Q11408905)
 SubClassOf(<https://w3id.org/qualo/0000019> <https://w3id.org/qualo/0000016>)
-SubClassOf(<https://w3id.org/qualo/0000019> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D008433))
 
 # Class: <https://w3id.org/qualo/0000020> (doctor of philosophy in history)
 
@@ -738,7 +659,6 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000020> "doctor of philosophy in history")
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <https://w3id.org/qualo/0000020> wikidata:Q66126198)
 SubClassOf(<https://w3id.org/qualo/0000020> <https://w3id.org/qualo/0000016>)
-SubClassOf(<https://w3id.org/qualo/0000020> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D006664))
 
 # Class: <https://w3id.org/qualo/0000021> (academic degree by discipline)
 
@@ -869,7 +789,6 @@ SubClassOf(<https://w3id.org/qualo/0000034> <https://w3id.org/qualo/0000003>)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000035> "BScN"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000035> "bachelor of science in nursing")
 SubClassOf(<https://w3id.org/qualo/0000035> <https://w3id.org/qualo/0000024>)
-SubClassOf(<https://w3id.org/qualo/0000035> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D009729))
 
 # Class: <https://w3id.org/qualo/0000036> (bachelor of science in biology)
 
@@ -891,7 +810,6 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasRelatedSynonym <https://w3id.org/qualo/0000036> "Bachelor’s degree in Biological Sciences"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000036> "bachelor of science in biology")
 SubClassOf(<https://w3id.org/qualo/0000036> <https://w3id.org/qualo/0000024>)
-SubClassOf(<https://w3id.org/qualo/0000036> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D001695))
 
 # Class: <https://w3id.org/qualo/0000037> (bachelor of science in chemistry)
 
@@ -916,13 +834,11 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasRelatedSynonym <https://w3id.org/qualo/0000037> "Graduation in Chemistry"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000037> "bachelor of science in chemistry")
 SubClassOf(<https://w3id.org/qualo/0000037> <https://w3id.org/qualo/0000024>)
-SubClassOf(<https://w3id.org/qualo/0000037> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D002621))
 
 # Class: <https://w3id.org/qualo/0000038> (bachelor of science in engineering)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000038> "bachelor of science in engineering")
 SubClassOf(<https://w3id.org/qualo/0000038> <https://w3id.org/qualo/0000024>)
-SubClassOf(<https://w3id.org/qualo/0000038> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D004738))
 
 # Class: <https://w3id.org/qualo/0000039> (bachelor of science in psychology)
 
@@ -959,7 +875,6 @@ SubClassOf(<https://w3id.org/qualo/0000039> <https://w3id.org/qualo/0000198>)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000040> "Licenciatura em Geografia"@pt)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000040> "bachelor of science in geography")
 SubClassOf(<https://w3id.org/qualo/0000040> <https://w3id.org/qualo/0000024>)
-SubClassOf(<https://w3id.org/qualo/0000040> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D005843))
 
 # Class: <https://w3id.org/qualo/0000041> (bachelor of science in biochemistry)
 
@@ -995,7 +910,6 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-29"^^xsd:date) oboInOwl:hasRelatedSynonym <https://w3id.org/qualo/0000041> "Graduation in Biochemistry"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000041> "bachelor of science in biochemistry")
 SubClassOf(<https://w3id.org/qualo/0000041> <https://w3id.org/qualo/0000024>)
-SubClassOf(<https://w3id.org/qualo/0000041> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D001671))
 
 # Class: <https://w3id.org/qualo/0000042> (bachelor of science in physics)
 
@@ -1006,7 +920,6 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000042> "Bachelor in Physics"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000042> "bachelor of science in physics")
 SubClassOf(<https://w3id.org/qualo/0000042> <https://w3id.org/qualo/0000024>)
-SubClassOf(<https://w3id.org/qualo/0000042> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D010825))
 
 # Class: <https://w3id.org/qualo/0000043> (bachelor of science in computer science)
 
@@ -1037,7 +950,6 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000044> "BSc Geology"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000044> "bachelor of science in geology")
 SubClassOf(<https://w3id.org/qualo/0000044> <https://w3id.org/qualo/0000024>)
-SubClassOf(<https://w3id.org/qualo/0000044> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D005844))
 
 # Class: <https://w3id.org/qualo/0000045> (bachelor of science in mechanical engineering)
 
@@ -1057,13 +969,11 @@ SubClassOf(<https://w3id.org/qualo/0000046> <https://w3id.org/qualo/0000038>)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000047> "B.S. Neuroscience"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000047> "bachelor of science in neuroscience")
 SubClassOf(<https://w3id.org/qualo/0000047> <https://w3id.org/qualo/0000024>)
-SubClassOf(<https://w3id.org/qualo/0000047> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D009488))
 
 # Class: <https://w3id.org/qualo/0000048> (bachelor of science in microbiology)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000048> "bachelor of science in microbiology")
 SubClassOf(<https://w3id.org/qualo/0000048> <https://w3id.org/qualo/0000024>)
-SubClassOf(<https://w3id.org/qualo/0000048> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D008829))
 
 # Class: <https://w3id.org/qualo/0000049> (bachelor of science in mathematics)
 
@@ -1072,14 +982,12 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000049> "Licenciatura em Matemática"@pt)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000049> "bachelor of science in mathematics")
 SubClassOf(<https://w3id.org/qualo/0000049> <https://w3id.org/qualo/0000024>)
-SubClassOf(<https://w3id.org/qualo/0000049> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D008433))
 
 # Class: <https://w3id.org/qualo/0000050> (bachelor of science in chemical engineering)
 
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000050> "BS Chemical Engineering"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000050> "bachelor of science in chemical engineering")
 SubClassOf(<https://w3id.org/qualo/0000050> <https://w3id.org/qualo/0000038>)
-SubClassOf(<https://w3id.org/qualo/0000050> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D002616))
 
 # Class: <https://w3id.org/qualo/0000052> (combine degree)
 
@@ -1337,7 +1245,6 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000077> "PhD in Chemistry"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000077> "doctor of philosophy in chemistry")
 SubClassOf(<https://w3id.org/qualo/0000077> <https://w3id.org/qualo/0000016>)
-SubClassOf(<https://w3id.org/qualo/0000077> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D002621))
 
 # Class: <https://w3id.org/qualo/0000078> (master of science in chemistry)
 
@@ -1346,7 +1253,6 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000078> "MSc Chemistry"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000078> "master of science in chemistry")
 SubClassOf(<https://w3id.org/qualo/0000078> <https://w3id.org/qualo/0000057>)
-SubClassOf(<https://w3id.org/qualo/0000078> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D002621))
 
 # Class: <https://w3id.org/qualo/0000079> (bachelor of arts with honors)
 
@@ -1365,7 +1271,6 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000080> "BA Biology"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000080> "bachelor of arts in biology")
 SubClassOf(<https://w3id.org/qualo/0000080> <https://w3id.org/qualo/0000031>)
-SubClassOf(<https://w3id.org/qualo/0000080> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D001695))
 
 # Class: <https://w3id.org/qualo/0000081> (doctor of philosophy in computer science)
 
@@ -1396,7 +1301,6 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasRelatedSynonym <https://w3id.org/qualo/0000082> "PhD in Biomedicine"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000082> "doctor of philosophy in biology")
 SubClassOf(<https://w3id.org/qualo/0000082> <https://w3id.org/qualo/0000016>)
-SubClassOf(<https://w3id.org/qualo/0000082> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D001695))
 
 # Class: <https://w3id.org/qualo/0000083> (doctor of philosophy in ecology)
 
@@ -1650,7 +1554,6 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-30"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000112> "MSc in Physics"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000112> "master of science in physics")
 SubClassOf(<https://w3id.org/qualo/0000112> <https://w3id.org/qualo/0000057>)
-SubClassOf(<https://w3id.org/qualo/0000112> ObjectSomeValuesFrom(<https://w3id.org/qualo/1000002> mesh:D010825))
 
 # Class: <https://w3id.org/qualo/0000113> (doctor of philosophy in biotechnology)
 

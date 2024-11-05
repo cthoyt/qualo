@@ -6,7 +6,7 @@ import click
 @click.command()
 def main() -> None:
     """Lint files."""
-    from qualo.api import (
+    from qualo.data import (
         CONFERRERS_PATH,
         DISCIPLINES_PATH,
         EXAMPLES_PATH,
@@ -18,7 +18,9 @@ def main() -> None:
 
     lint_table(TERMS_PATH, key="curie")
     lint_synonyms()
-    lint_table(DISCIPLINES_PATH, key=["curie", "discipline"])
+    lint_table(
+        DISCIPLINES_PATH, key=["curie", "discipline"], duplicate_subsets=["curie", "discipline"]
+    )
     lint_table(MAPPINGS_PATH, key=["subject_id", "object_id"])
     lint_table(EXAMPLES_PATH, key=["curie", "person_curie"])
     lint_table(CONFERRERS_PATH, key=["curie", "conferrer_curie"])
