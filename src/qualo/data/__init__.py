@@ -1,6 +1,7 @@
 """Access to ontology data."""
 
 import datetime
+from collections import defaultdict
 from collections.abc import Sequence
 from functools import lru_cache
 from pathlib import Path
@@ -17,7 +18,7 @@ TERMS_PATH = HERE.joinpath("terms.tsv")
 SYNONYMS_PATH = HERE.joinpath("synonyms.tsv")
 SYNONYMS_COLUMNS = ["curie", "label", "scope", "text", "language", "type", "contributor", "date"]
 MAPPINGS_PATH = HERE.joinpath("mappings.sssom.tsv")
-EXAMPLES_PATH = HERE.joinpath("holders.tsv")
+DEGREE_HOLDER_PATH = HERE.joinpath("holders.tsv")
 CONFERRERS_PATH = HERE.joinpath("conferrers.tsv")
 DISCIPLINES_PATH = HERE.joinpath("disciplines.tsv")
 
@@ -135,6 +136,17 @@ def get_disciplines() -> dict[NamedReference, NamedReference]:
     return disciplines
 
 
+def get_degree_holders() -> dict[NamedReference, list[NamedReference]]:
+    """Get example degree holders."""
+    rv: defaultdict[NamedReference, list[NamedReference]] = defaultdict(list)
+    df = pd.read_csv(DEGREE_HOLDER_PATH, sep="\t").values
+    for degree_curie, degree_name, person_curie, person_name in df:
+        rv[NamedReference.from_curie(degree_curie, degree_name)].append(
+            NamedReference.from_curie(person_curie, person_name)
+        )
+    return dict(rv)
+
+
 def append_term(
     name: str, parent: NamedReference, parent_2: NamedReference | None = None
 ) -> NamedReference:
@@ -155,3 +167,11 @@ def add_discipline(degree: NamedReference, discipline: NamedReference) -> None:
         raise ValueError
     with DISCIPLINES_PATH.open("a") as file:
         print(degree.curie, degree.name, discipline.curie, discipline.name, sep="\t", file=file)
+
+
+def add_degree_holder(degree: NamedReference, person: NamedReference) -> None:
+    """Add a degree holder example."""
+    if degree.prefix != PREFIX:
+        raise ValueError
+    with DEGREE_HOLDER_PATH.open("a") as file:
+        print(degree.curie, degree.name, person.curie, person.name, sep="\t", file=file)

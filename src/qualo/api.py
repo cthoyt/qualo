@@ -23,7 +23,6 @@ from biosynonyms.resources import Synonym, _clean_str
 from curies import NamedReference, Reference
 
 from qualo.data import (
-    EXAMPLES_PATH,
     MAPPINGS_PATH,
     PREFIX,
     REPOSITORY,
@@ -31,6 +30,7 @@ from qualo.data import (
     add_discipline,
     add_synonym,
     append_term,
+    get_degree_holders,
     get_disciplines,
     get_gilda_grounder,
     get_names,
@@ -240,10 +240,7 @@ def main() -> None:  # noqa: C901
 
     synonym_index = group_synonyms(parse_synonyms(SYNONYMS_PATH, names=names))
 
-    examples: defaultdict[Reference, list[Reference]] = defaultdict(list)
-    for parent, example in pd.read_csv(EXAMPLES_PATH, sep="\t", usecols=[0, 2]).values:
-        examples[Reference.from_curie(parent)].append(Reference.from_curie(example))
-
+    degree_holder_examples = get_degree_holders()
     disciplines = get_disciplines()
 
     prefix_map = {
@@ -282,8 +279,9 @@ def main() -> None:  # noqa: C901
 
         for k, label in df[["curie", "label"]].values:
             file.write(f'\n{k.curie} a owl:Class; rdfs:label "{_clean_str(label)}" .\n')
-            for example in examples.get(k, []):
-                file.write(f"{k.curie} oboInOwl:hasDbXref {example.curie} .\n")
+            for person_curie in degree_holder_examples.get(k, []):
+                # could also simplify to using oboInOwl:hasDbXref
+                file.write(f"{k.curie} {PREFIX}:1000001 {person_curie.curie} .\n")
             if parents := all_parents.get(k, []):
                 x = ", ".join(parent.curie for parent in sorted(parents, key=attrgetter("curie")))
                 file.write(f"{k.curie} rdfs:subClassOf {x} .\n")

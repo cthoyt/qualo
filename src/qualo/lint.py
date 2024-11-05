@@ -8,8 +8,8 @@ def main() -> None:
     """Lint files."""
     from qualo.data import (
         CONFERRERS_PATH,
+        DEGREE_HOLDER_PATH,
         DISCIPLINES_PATH,
-        EXAMPLES_PATH,
         MAPPINGS_PATH,
         TERMS_PATH,
         lint_synonyms,
@@ -22,7 +22,7 @@ def main() -> None:
         DISCIPLINES_PATH, key=["curie", "discipline"], duplicate_subsets=["curie", "discipline"]
     )
     lint_table(MAPPINGS_PATH, key=["subject_id", "object_id"])
-    lint_table(EXAMPLES_PATH, key=["curie", "person_curie"])
+    lint_table(DEGREE_HOLDER_PATH, key=["curie", "person_curie"])
     lint_table(CONFERRERS_PATH, key=["curie", "conferrer_curie"])
 
 

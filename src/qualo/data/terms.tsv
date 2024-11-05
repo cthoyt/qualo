@@ -4,10 +4,10 @@ QUALO:0000002	academic degree	QUALO:0000001	qualification
 QUALO:0000003	bachelor's degree	QUALO:0000006	undergraduate degree		
 QUALO:0000004	master's degree	QUALO:0000007	graduate degree		
 QUALO:0000005	doctoral degree	QUALO:0000007	graduate degree		
-QUALO:0000006	undergraduate degree	QUALO:0000023	academic degree by progression
-QUALO:0000007	graduate degree	QUALO:0000023	academic degree by progression
+QUALO:0000006	undergraduate degree	QUALO:0000023	academic degree by progression		
+QUALO:0000007	graduate degree	QUALO:0000023	academic degree by progression		
 QUALO:0000008	associate's degree	QUALO:0000006	undergraduate degree		
-QUALO:0000009	academic degree with honors	QUALO:0000022	academic degree by distinction
+QUALO:0000009	academic degree with honors	QUALO:0000022	academic degree by distinction		
 QUALO:0000010	honarary academic degree	QUALO:0000001	qualification		
 QUALO:0000011	bachelor's degree with honors	QUALO:0000009	academic degree with honors	QUALO:0000003	bachelor's degree
 QUALO:0000012	honorary bachelor's degree	QUALO:0000010	honarary degree	QUALO:0000003	bachelor's degree
@@ -191,5 +191,5 @@ QUALO:0000196	master of psychology	QUALO:0000004	master's degree	QUALO:0000199	a
 QUALO:0000198	bachelor of psychology	QUALO:0000003	bachelor's degree	QUALO:0000199	academic degree in psychology
 QUALO:0000199	academic degree in psychology	QUALO:0000021	academic degree by discipline		
 QUALO:0000200	associate in psychology	QUALO:0000008	associate's degree	QUALO:0000199	academic degree in psychology
-QUALO:0000201	associate of arts	QUALO:0000008	associate's degree
+QUALO:0000201	associate of arts	QUALO:0000008	associate's degree		
 QUALO:0000202	associate of arts in psychology	QUALO:0000201	associate of arts	QUALO:0000200	associate in psychology
