@@ -1,8 +1,10 @@
 Prefix(:=<https://w3id.org/qualo/qualo.ttl#>)
 Prefix(BFO:=<http://purl.obolibrary.org/obo/BFO_>)
+Prefix(OBI:=<http://purl.obolibrary.org/obo/OBI_>)
 Prefix(OMO:=<http://purl.obolibrary.org/obo/OMO_>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(ror:=<http://ror.org/>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(EDAM:=<http://edamontology.org/topic_>)
@@ -27,6 +29,7 @@ Annotation(rdfs:comment "Built by https://github.com/cthoyt/qualo")
 
 Declaration(Class(mesh:D011584))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000245>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
 Declaration(Class(<https://w3id.org/qualo/0000001>))
 Declaration(Class(<https://w3id.org/qualo/0000002>))
@@ -225,6 +228,7 @@ Declaration(Class(<https://w3id.org/qualo/0000202>))
 Declaration(Class(<https://w3id.org/qualo/9999990>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<https://w3id.org/qualo/1000002>))
+Declaration(NamedIndividual(<http://ror.org/024z2rq82>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-9439-5346>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0003-4423-4370>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003000>))
@@ -420,6 +424,10 @@ SubClassOf(mesh:D011584 <https://w3id.org/qualo/9999990>)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9606> "Homo sapiens")
 
+# Class: <http://purl.obolibrary.org/obo/OBI_0000245> (organization)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000245> "organization"@en)
+
 # Class: <http://purl.obolibrary.org/obo/PATO_0000001> (quality)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000001> "quality")
@@ -571,7 +579,6 @@ SubClassOf(<https://w3id.org/qualo/0000015> <https://w3id.org/qualo/0000009>)
 
 # Class: <https://w3id.org/qualo/0000016> (doctor of philosophy)
 
-AnnotationAssertion(oboInOwl:hasDbXref <https://w3id.org/qualo/0000016> <https://orcid.org/0000-0003-4423-4370>)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000016> "Doctor (PhD)"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000016> "Doctor of Philosophy (Ph.D.)"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000016> "Doctor of Philosophy (PhD)"@en)
@@ -634,6 +641,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasRelatedSynonym <https://w3id.org/qualo/0000016> "Magister"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000016> "doctor of philosophy")
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-08-07"^^xsd:date) skos:exactMatch <https://w3id.org/qualo/0000016> wikidata:Q752297)
+AnnotationAssertion(<https://w3id.org/qualo/1000001> <https://w3id.org/qualo/0000016> <https://orcid.org/0000-0003-4423-4370>)
 SubClassOf(<https://w3id.org/qualo/0000016> <https://w3id.org/qualo/0000005>)
 
 # Class: <https://w3id.org/qualo/0000017> (honorary doctor of philosophy)
@@ -833,6 +841,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasRelatedSynonym <https://w3id.org/qualo/0000037> "Graduate in Chemistry"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-27"^^xsd:date) oboInOwl:hasRelatedSynonym <https://w3id.org/qualo/0000037> "Graduation in Chemistry"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000037> "bachelor of science in chemistry")
+AnnotationAssertion(<https://w3id.org/qualo/1000001> <https://w3id.org/qualo/0000037> <https://orcid.org/0000-0003-4423-4370>)
 SubClassOf(<https://w3id.org/qualo/0000037> <https://w3id.org/qualo/0000024>)
 
 # Class: <https://w3id.org/qualo/0000038> (bachelor of science in engineering)
@@ -1893,6 +1902,7 @@ AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-28"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000161> "PhD in Medical Science"@en)
 AnnotationAssertion(Annotation(dcterms:contributor <https://orcid.org/0000-0003-4423-4370>) Annotation(dcterms:date "2024-10-28"^^xsd:date) oboInOwl:hasExactSynonym <https://w3id.org/qualo/0000161> "PhD in Medical Sciences"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/qualo/0000161> "doctor of philosophy in medical sciences")
+AnnotationAssertion(<https://w3id.org/qualo/1000003> <https://w3id.org/qualo/0000161> <http://ror.org/024z2rq82>)
 SubClassOf(<https://w3id.org/qualo/0000161> <https://w3id.org/qualo/0000016>)
 
 # Class: <https://w3id.org/qualo/0000162> (master of science in health psychology)
@@ -2182,6 +2192,11 @@ AnnotationAssertion(rdfs:label <https://w3id.org/qualo/9999990> "academic discip
 ############################
 #   Named Individuals
 ############################
+
+# Individual: <http://ror.org/024z2rq82> (Heinrich Heine Universität Düsseldorf)
+
+AnnotationAssertion(rdfs:label <http://ror.org/024z2rq82> "Heinrich Heine Universität Düsseldorf")
+ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <http://ror.org/024z2rq82>)
 
 # Individual: <https://orcid.org/0000-0001-9439-5346> (Benjamin M. Gyori)
 

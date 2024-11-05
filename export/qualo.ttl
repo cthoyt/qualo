@@ -3,6 +3,7 @@
 @prefix EDAM: <http://edamontology.org/topic_> .
 @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
 @prefix NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_> .
+@prefix OBI: <http://purl.obolibrary.org/obo/OBI_> .
 @prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
 @prefix OMO: <http://purl.obolibrary.org/obo/OMO_> .
 @prefix orcid: <https://orcid.org/> .
@@ -11,6 +12,7 @@
 @prefix QUALO: <https://w3id.org/qualo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ror: <http://ror.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wikidata: <http://wikidata.org/entity/> .
 
@@ -21,7 +23,10 @@
     rdfs:comment "Built by https://github.com/cthoyt/qualo"^^xsd:string ;
     dcterms:creator orcid:0000-0003-4423-4370 .
 
-PATO:0000001 rdfs:label "quality" .
+PATO:0000001 a owl:Class ;
+    rdfs:label "quality" .
+OBI:0000245 a owl:Class ;
+    rdfs:label "organization"@en .
 
 QUALO:9999990 a owl:Class ; rdfs:label "academic discipline" .
 
@@ -126,6 +131,8 @@ OMO:0003012 a owl:AnnotationProperty;
     rdfs:label "acronym"^^xsd:string .
 
 mesh:D011584 a owl:Class; rdfs:label "Psychology"; rdfs:subClassOf QUALO:9999990 .
+
+ror:024z2rq82 a OBI:0000245; rdfs:label "Heinrich Heine Universität Düsseldorf" .
 
 QUALO:0000001 a owl:Class; rdfs:label "qualification" .
 QUALO:0000001 rdfs:subClassOf PATO:0000001 .
@@ -757,7 +764,7 @@ QUALO:0000015 a owl:Class; rdfs:label "master's degree with honors" .
 QUALO:0000015 rdfs:subClassOf QUALO:0000004, QUALO:0000009 .
 
 QUALO:0000016 a owl:Class; rdfs:label "doctor of philosophy" .
-QUALO:0000016 oboInOwl:hasDbXref orcid:0000-0003-4423-4370 .
+QUALO:0000016 QUALO:1000001 orcid:0000-0003-4423-4370 .
 QUALO:0000016 rdfs:subClassOf QUALO:0000005 .
 QUALO:0000016 oboInOwl:hasExactSynonym "Doctor (PhD)"@en . 
 [
@@ -2069,6 +2076,7 @@ QUALO:0000036 oboInOwl:hasExactSynonym "bachelor of science in biomedical scienc
 ] .
 
 QUALO:0000037 a owl:Class; rdfs:label "bachelor of science in chemistry" .
+QUALO:0000037 QUALO:1000001 orcid:0000-0003-4423-4370 .
 QUALO:0000037 rdfs:subClassOf QUALO:0000024 .
 QUALO:0000037 oboInOwl:hasExactSynonym "B. Sc. in Chemistry"@en . 
 [
@@ -6657,6 +6665,7 @@ QUALO:0000160 oboInOwl:hasExactSynonym "PhD in International Relations"@en .
 ] .
 
 QUALO:0000161 a owl:Class; rdfs:label "doctor of philosophy in medical sciences" .
+QUALO:0000161 QUALO:1000003 ror:024z2rq82 .
 QUALO:0000161 rdfs:subClassOf QUALO:0000016 .
 QUALO:0000161 oboInOwl:hasExactSynonym "PhD Medical Science"@en . 
 [

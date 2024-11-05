@@ -30,6 +30,7 @@ from qualo.data import (
     add_discipline,
     add_synonym,
     append_term,
+    get_conferrers,
     get_degree_holders,
     get_disciplines,
     get_gilda_grounder,
@@ -63,6 +64,7 @@ EXPORT_OFN_PATH = EXPORT_DIR.joinpath(PREFIX.lower()).with_suffix(".ofn")
 
 ONTOLOGY_IRI = f"https://w3id.org/{PREFIX.lower()}/{PREFIX.lower()}.ttl"
 DISCIPLINE_TERM = f"{PREFIX}:9999990"
+ORG_TERM = "OBI:0000245"
 
 
 def _restriction(prop: str, target: str) -> str:
@@ -78,7 +80,10 @@ METADATA = dedent(
     rdfs:comment "Built by {REPOSITORY}"^^xsd:string ;
     dcterms:creator orcid:0000-0003-4423-4370 .
 
-PATO:0000001 rdfs:label "quality" .
+PATO:0000001 a owl:Class ;
+    rdfs:label "quality" .
+{ORG_TERM} a owl:Class ;
+    rdfs:label "organization"@en .
 
 {DISCIPLINE_TERM} a owl:Class ; rdfs:label "academic discipline" .
 
@@ -241,6 +246,7 @@ def main() -> None:  # noqa: C901
     synonym_index = group_synonyms(parse_synonyms(SYNONYMS_PATH, names=names))
 
     degree_holder_examples = get_degree_holders()
+    conferrer_examples = get_conferrers()
     disciplines = get_disciplines()
 
     prefix_map = {
@@ -249,6 +255,8 @@ def main() -> None:  # noqa: C901
         "mesh": "http://id.nlm.nih.gov/mesh/",
         "EDAM": "http://edamontology.org/topic_",
         "wikidata": "http://wikidata.org/entity/",
+        "ror": "http://ror.org/",
+        "OBI": "http://purl.obolibrary.org/obo/OBI_",
     }
 
     prefixes: set[str] = set()
@@ -275,13 +283,23 @@ def main() -> None:  # noqa: C901
                 f"rdfs:subClassOf {DISCIPLINE_TERM} .\n"
             )
 
+        for conferrer in sorted(
+            {value for values in conferrer_examples.values() for value in values}
+        ):
+            file.write(
+                f"\n{conferrer.curie} a {ORG_TERM}; "
+                f'rdfs:label "{_clean_str(conferrer.name)}" .\n'
+            )
+
         # TODO add discipline hierarchy
 
         for k, label in df[["curie", "label"]].values:
             file.write(f'\n{k.curie} a owl:Class; rdfs:label "{_clean_str(label)}" .\n')
-            for person_curie in degree_holder_examples.get(k, []):
+            for person in degree_holder_examples.get(k, []):
                 # could also simplify to using oboInOwl:hasDbXref
-                file.write(f"{k.curie} {PREFIX}:1000001 {person_curie.curie} .\n")
+                file.write(f"{k.curie} {PREFIX}:1000001 {person.curie} .\n")
+            for conferrer in conferrer_examples.get(k, []):
+                file.write(f"{k.curie} {PREFIX}:1000003 {conferrer.curie} .\n")
             if parents := all_parents.get(k, []):
                 x = ", ".join(parent.curie for parent in sorted(parents, key=attrgetter("curie")))
                 file.write(f"{k.curie} rdfs:subClassOf {x} .\n")
@@ -315,12 +333,16 @@ def main() -> None:  # noqa: C901
         click.secho("bioontologies is not installed, can't convert to OWL and OFN")
     else:
         try:
-            bioontologies.robot.convert(EXPORT_TTL_PATH, EXPORT_OFN_PATH)
+            bioontologies.robot.convert(
+                EXPORT_TTL_PATH, EXPORT_OFN_PATH, debug=True, merge=False, reason=False
+            )
         except subprocess.CalledProcessError as e:
             click.secho("Failed to create OFN")
             click.echo(str(e))
         try:
-            bioontologies.robot.convert(EXPORT_TTL_PATH, EXPORT_OWL_PATH, debug=True)
+            bioontologies.robot.convert(
+                EXPORT_TTL_PATH, EXPORT_OWL_PATH, debug=True, merge=False, reason=False
+            )
         except subprocess.CalledProcessError as e:
             click.secho("Failed to create OWL")
             click.echo(str(e))

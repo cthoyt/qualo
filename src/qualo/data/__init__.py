@@ -147,6 +147,17 @@ def get_degree_holders() -> dict[NamedReference, list[NamedReference]]:
     return dict(rv)
 
 
+def get_conferrers() -> dict[NamedReference, list[NamedReference]]:
+    """Get example conferrers."""
+    rv: defaultdict[NamedReference, list[NamedReference]] = defaultdict(list)
+    df = pd.read_csv(CONFERRERS_PATH, sep="\t").values
+    for degree_curie, degree_name, conferrer_curie, conferrer_name, _reference in df:
+        rv[NamedReference.from_curie(degree_curie, degree_name)].append(
+            NamedReference.from_curie(conferrer_curie, conferrer_name)
+        )
+    return dict(rv)
+
+
 def append_term(
     name: str, parent: NamedReference, parent_2: NamedReference | None = None
 ) -> NamedReference:
