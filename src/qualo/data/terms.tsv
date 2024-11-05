@@ -193,3 +193,4 @@ QUALO:0000199	academic degree in psychology	QUALO:0000021	academic degree by dis
 QUALO:0000200	associate in psychology	QUALO:0000008	associate's degree	QUALO:0000199	academic degree in psychology
 QUALO:0000201	associate of arts	QUALO:0000008	associate's degree		
 QUALO:0000202	associate of arts in psychology	QUALO:0000201	associate of arts	QUALO:0000200	associate in psychology
+QUALO:0000203	habilitation	QUALO:0000007	graduate degree		

@@ -7502,3 +7502,87 @@ QUALO:0000201 rdfs:subClassOf QUALO:0000008 .
 
 QUALO:0000202 a owl:Class; rdfs:label "associate of arts in psychology" .
 QUALO:0000202 rdfs:subClassOf QUALO:0000200, QUALO:0000201 .
+
+QUALO:0000203 a owl:Class; rdfs:label "habilitation" .
+QUALO:0000203 rdfs:subClassOf QUALO:0000007 .
+QUALO:0000203 oboInOwl:hasExactSynonym "Dr. habil."@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000203 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Dr. habil."@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-11-05"^^xsd:date .
+] .
+QUALO:0000203 oboInOwl:hasExactSynonym "Doctor habilitatus"@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000203 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Doctor habilitatus"@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-11-05"^^xsd:date .
+] .
+QUALO:0000203 oboInOwl:hasExactSynonym "Dr hab."@en . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000203 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Dr hab."@en ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-11-05"^^xsd:date .
+] .
+QUALO:0000203 oboInOwl:hasExactSynonym "Doktor habilitowany"@pl . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000203 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Doktor habilitowany"@pl ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-11-05"^^xsd:date .
+] .
+QUALO:0000203 oboInOwl:hasExactSynonym "Livre-docência"@pt . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000203 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Livre-docência"@pt ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-11-05"^^xsd:date .
+] .
+QUALO:0000203 oboInOwl:hasExactSynonym "Habilitation à diriger des recherches"@fr . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000203 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Habilitation à diriger des recherches"@fr ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-11-05"^^xsd:date .
+] .
+QUALO:0000203 oboInOwl:hasExactSynonym "Abilitazione scientifica nazionale"@it . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000203 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Abilitazione scientifica nazionale"@it ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-11-05"^^xsd:date .
+] .
+QUALO:0000203 oboInOwl:hasExactSynonym "Priv.-Doz."@de . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000203 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Priv.-Doz."@de ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-11-05"^^xsd:date .
+] .
+QUALO:0000203 oboInOwl:hasExactSynonym "Dr. habil."@de . 
+[
+    a owl:Axiom ;
+    owl:annotatedSource QUALO:0000203 ;
+    owl:annotatedProperty oboInOwl:hasExactSynonym ;
+    owl:annotatedTarget "Dr. habil."@de ;
+    dcterms:contributor orcid:0000-0003-4423-4370 ;
+    dcterms:date "2024-11-05"^^xsd:date .
+] .
