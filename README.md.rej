@@ -1,0 +1,49 @@
+diff a/README.md b/README.md	(rejected hunks)
+@@ -24,10 +24,13 @@
+     <a href="https://github.com/cthoyt/cookiecutter-python-package">
+         <img alt="Cookiecutter template from @cthoyt" src="https://img.shields.io/badge/Cookiecutter-snekpack-blue" /></a>
+     <a href="https://github.com/astral-sh/ruff">
+-        <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Ruff" style="max-width:100%;">
+-    </a>
++        <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Ruff" style="max-width:100%;"></a>
+     <a href="https://github.com/cthoyt/qualo/blob/main/.github/CODE_OF_CONDUCT.md">
+         <img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg" alt="Contributor Covenant"/></a>
++    <!-- uncomment if you archive on zenodo
++    <a href="https://zenodo.org/badge/latestdoi/XXXXXX">
++        <img src="https://zenodo.org/badge/XXXXXX.svg" alt="DOI"></a>
++    -->
+ </p>
+ 
+ NLP tools for qualifications and distinctions
+@@ -40,9 +43,9 @@ NLP tools for qualifications and distinctions
+ ### Command Line Interface
+ 
+ The qualo command line tool is automatically installed. It can
+-be used from the shell with the `--help` flag to show all subcommands:
++be used from the console with the `--help` flag to show all subcommands:
+ 
+-```shell
++```console
+ qualo --help
+ ```
+ 
+@@ -55,15 +58,15 @@ qualo --help
+ The most recent release can be installed from
+ [PyPI](https://pypi.org/project/qualo/) with:
+ 
+-```shell
+-pip install qualo
++```console
++python3 -m pip install qualo
+ ```
+ -->
+ 
+ The most recent code and data can be installed directly from GitHub with:
+ 
+-```shell
+-pip install git+https://github.com/cthoyt/qualo.git
++```console
++python3 -m pip install git+https://github.com/cthoyt/qualo.git
+ ```
+ 
+ ## 👐 Contributing
