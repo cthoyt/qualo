@@ -117,10 +117,10 @@ The final section of the README is for if you want to get involved by making a c
 
 To install in development mode, use the following:
 
-```bash
+```console
 git clone git+https://github.com/cthoyt/qualo.git
 cd qualo
-pip install -e .
+python3 -m pip install -e .
 ```
 
 ### Updating Package Boilerplate
@@ -129,8 +129,8 @@ This project uses `cruft` to keep boilerplate (i.e., configuration, contribution
 configuration)
 up-to-date with the upstream cookiecutter package. Update with the following:
 
-```shell
-pip install cruft
+```console
+python3 -m pip install cruft
 cruft update
 ```
 
@@ -139,10 +139,11 @@ available [here](https://github.com/cruft/cruft?tab=readme-ov-file#updating-a-pr
 
 ### 🥼 Testing
 
-After cloning the repository and installing `tox` with `pip install tox tox-uv`, 
+After cloning the repository and installing `tox` with
+`python3 -m pip install tox tox-uv`,
 the unit tests in the `tests/` folder can be run reproducibly with:
 
-```shell
+```console
 tox -e py
 ```
 
@@ -153,12 +154,12 @@ Additionally, these tests are automatically re-run with each commit in a
 
 The documentation can be built locally using the following:
 
-```shell
+```console
 git clone git+https://github.com/cthoyt/qualo.git
 cd qualo
 tox -e docs
 open docs/build/html/index.html
-``` 
+```
 
 The documentation automatically installs the package as well as the `docs`
 extra specified in the [`pyproject.toml`](pyproject.toml). `sphinx` plugins
@@ -214,38 +215,23 @@ You only have to do the following steps once.
 
 #### Configuring your machine's connection to PyPI
 
-You have to do the following steps once per machine. Create a file in your home directory called
-`.pypirc` and include the following:
+You have to do the following steps once per machine. 
 
-```ini
-[distutils]
-index-servers =
-    pypi
-    testpypi
-
-[pypi]
-username = __token__
-password = <the API token you just got>
-
-# This block is optional in case you want to be able to make test releases to the Test PyPI server
-[testpypi]
-repository = https://test.pypi.org/legacy/
-username = __token__
-password = <an API token from test PyPI>
+```console
+$ uv tool install keyring
+$ keyring set https://upload.pypi.org/legacy/ __token__
+$ keyring set https://test.pypi.org/legacy/ __token__
 ```
 
-Note that since PyPI is requiring token-based authentication, we use `__token__` as the user, verbatim.
-If you already have a `.pypirc` file with a `[distutils]` section, just make sure that there is an `index-servers`
-key and that `pypi` is in its associated list. More information on configuring the `.pypirc` file can
-be found [here](https://packaging.python.org/en/latest/specifications/pypirc).
+Note that this deprecates previous workflows using `.pypirc`.
 
 #### Uploading to PyPI
 
 After installing the package in development mode and installing
-`tox` with `pip install tox tox-uv`,
-run the following from the shell:
+`tox` with `python3 -m pip install tox tox-uv`,
+run the following from the console:
 
-```shell
+```console
 tox -e finish
 ```
 
@@ -256,7 +242,7 @@ This script does the following:
    and [`docs/source/conf.py`](docs/source/conf.py) to not have the `-dev` suffix
 2. Packages the code in both a tar archive and a wheel using
    [`uv build`](https://docs.astral.sh/uv/guides/publish/#building-your-package)
-3. Uploads to PyPI using [`twine`](https://github.com/pypa/twine).
+3. Uploads to PyPI using [`uv publish`](https://docs.astral.sh/uv/guides/publish/#publishing-your-package).
 4. Push to GitHub. You'll need to make a release going with the commit where the version was bumped.
 5. Bump the version to the next patch. If you made big changes and want to bump the version by minor, you can
    use `tox -e bumpversion -- minor` after.
