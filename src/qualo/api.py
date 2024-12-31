@@ -121,14 +121,16 @@ def get_name(reference: str | Reference) -> str:
     return names[reference]  # type:ignore
 
 
-def ground(text: str) -> Reference | None:
+def ground(text: str) -> NamedReference | None:
     """Ground a qualification to the CURIE."""
     grounder = get_gilda_grounder()
     text = text.replace("’", "'")  # noqa:RUF001
     match = grounder.ground_best(text)
     if match is None:
         return None
-    return Reference(prefix=match.term.db, identifier=match.term.id)
+    return NamedReference(
+        prefix=match.term.db, identifier=match.term.id, name=match.term.entry_name
+    )
 
 
 ACADEMIC_DEGREE = NamedReference(
