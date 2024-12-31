@@ -4,7 +4,6 @@ import datetime
 import subprocess
 from collections import defaultdict
 from operator import attrgetter
-from pathlib import Path
 from textwrap import dedent
 
 import click
@@ -22,6 +21,7 @@ from biosynonyms.generate_owl import (
 from biosynonyms.resources import Synonym, _clean_str
 from curies import NamedReference, Reference
 
+from qualo.constants import ROOT
 from qualo.data import (
     MAPPINGS_PATH,
     PREFIX,
@@ -53,9 +53,6 @@ __all__ = [
 
 URI_PREFIX = f"https://w3id.org/{PREFIX.lower()}/"
 
-HERE = Path(__file__).parent.resolve()
-
-ROOT = HERE.parent.parent.resolve()
 EXPORT_DIR = ROOT.joinpath("export")
 EXPORT_DIR.mkdir(exist_ok=True)
 EXPORT_TTL_PATH = EXPORT_DIR.joinpath(PREFIX.lower()).with_suffix(".ttl")

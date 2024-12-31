@@ -4,6 +4,7 @@ import datetime
 import pickle
 from collections import defaultdict
 from pathlib import Path
+from typing import Any
 
 import click
 import gilda
@@ -137,7 +138,7 @@ def main(write: bool = False) -> None:  # noqa:C901
         _write(discipline_text_degrees_pairs)
 
 
-def _write(discipline_text_degrees_pairs) -> None:
+def _write(discipline_text_degrees_pairs: list[tuple[str, list[tuple[Any, str]]]]) -> None:
     for discipline_text, v in discipline_text_degrees_pairs:
         click.echo(discipline_text)
         for _, z in v:

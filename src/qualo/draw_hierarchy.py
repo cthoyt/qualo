@@ -4,8 +4,8 @@ import networkx as nx
 import pandas as pd
 from curies import NamedReference
 
-from qualo.api import PREFIX, ROOT
-from qualo.data import get_disciplines, get_terms_df
+from qualo.constants import ROOT
+from qualo.data import PREFIX, get_disciplines, get_terms_df
 
 
 def _parse_named_references(df: pd.DataFrame, curie_col: str, name_col: str) -> None:
