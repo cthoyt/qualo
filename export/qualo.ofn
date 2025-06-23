@@ -230,7 +230,6 @@ Declaration(Class(<https://w3id.org/qualo/9999990>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<https://w3id.org/qualo/1000002>))
 Declaration(NamedIndividual(<http://ror.org/024z2rq82>))
-Declaration(NamedIndividual(<https://orcid.org/0000-0001-9439-5346>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0003-4423-4370>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003000>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003001>))
@@ -2213,14 +2212,9 @@ AnnotationAssertion(rdfs:label <https://w3id.org/qualo/9999990> "academic discip
 AnnotationAssertion(rdfs:label <http://ror.org/024z2rq82> "Heinrich Heine Universität Düsseldorf")
 ClassAssertion(<http://purl.obolibrary.org/obo/OBI_0000245> <http://ror.org/024z2rq82>)
 
-# Individual: <https://orcid.org/0000-0001-9439-5346> (Benjamin M. Gyori)
-
-AnnotationAssertion(rdfs:label <https://orcid.org/0000-0001-9439-5346> "Benjamin M. Gyori"@en)
-ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0001-9439-5346>)
-
 # Individual: <https://orcid.org/0000-0003-4423-4370> (Charles Tapley Hoyt)
 
-AnnotationAssertion(rdfs:label <https://orcid.org/0000-0003-4423-4370> "Charles Tapley Hoyt"@en)
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0003-4423-4370> "Charles Tapley Hoyt")
 ClassAssertion(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <https://orcid.org/0000-0003-4423-4370>)
 
 
