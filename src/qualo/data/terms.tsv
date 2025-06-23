@@ -1,0 +1,196 @@
+curie	label	parent_1	parent_1_label	parent_2	parent_2_label
+QUALO:0000001	qualification	PATO:0000001	quality		
+QUALO:0000002	academic degree	QUALO:0000001	qualification		
+QUALO:0000003	bachelor's degree	QUALO:0000006	undergraduate degree		
+QUALO:0000004	master's degree	QUALO:0000007	graduate degree		
+QUALO:0000005	doctoral degree	QUALO:0000007	graduate degree		
+QUALO:0000006	undergraduate degree	QUALO:0000023	academic degree by progression		
+QUALO:0000007	graduate degree	QUALO:0000023	academic degree by progression		
+QUALO:0000008	associate's degree	QUALO:0000006	undergraduate degree		
+QUALO:0000009	academic degree with honors	QUALO:0000022	academic degree by distinction		
+QUALO:0000010	honarary academic degree	QUALO:0000001	qualification		
+QUALO:0000011	bachelor's degree with honors	QUALO:0000009	academic degree with honors	QUALO:0000003	bachelor's degree
+QUALO:0000012	honorary bachelor's degree	QUALO:0000010	honarary degree	QUALO:0000003	bachelor's degree
+QUALO:0000013	honorary master's degree	QUALO:0000010	honarary degree	QUALO:0000004	master's degree
+QUALO:0000014	honorary doctoral degree	QUALO:0000010	honarary degree	QUALO:0000005	doctoral degree
+QUALO:0000015	master's degree with honors	QUALO:0000009	academic degree with honors	QUALO:0000004	master's degree
+QUALO:0000016	doctor of philosophy	QUALO:0000005	doctoral degree		
+QUALO:0000017	honorary doctor of philosophy	QUALO:0000014	honorary doctoral degree	QUALO:0000016	doctor of philosophy
+QUALO:0000019	doctor of philosophy in mathematics	QUALO:0000016	doctor of philosophy		
+QUALO:0000020	doctor of philosophy in history	QUALO:0000016	doctor of philosophy		
+QUALO:0000021	academic degree by discipline	QUALO:0000002	academic degree		
+QUALO:0000022	academic degree by distinction	QUALO:0000002	academic degree		
+QUALO:0000023	academic degree by progression	QUALO:0000002	academic degree		
+QUALO:0000024	bachelor of science	QUALO:0000003	bachelor's degree		
+QUALO:0000025	bachelor of nursing	QUALO:0000003	bachelor's degree		
+QUALO:0000026	bachelor of veterinary science	QUALO:0000003	bachelor's degree		
+QUALO:0000027	bachelor of pharmacy	QUALO:0000003	bachelor's degree		
+QUALO:0000028	bachelor of engineering	QUALO:0000003	bachelor's degree		
+QUALO:0000029	bachelor of education	QUALO:0000003	bachelor's degree		
+QUALO:0000030	bachelor of architecture	QUALO:0000003	bachelor's degree		
+QUALO:0000031	bachelor of arts	QUALO:0000003	bachelor's degree		
+QUALO:0000032	bachelor of law	QUALO:0000003	bachelor's degree		
+QUALO:0000033	bachelor of medicine; bachelor of surgery	QUALO:0000003	bachelor's degree		
+QUALO:0000034	bachelor of technology	QUALO:0000003	bachelor's degree		
+QUALO:0000035	bachelor of science in nursing	QUALO:0000024	bachelor of science		
+QUALO:0000036	bachelor of science in biology	QUALO:0000024	bachelor of science		
+QUALO:0000037	bachelor of science in chemistry	QUALO:0000024	bachelor of science		
+QUALO:0000038	bachelor of science in engineering	QUALO:0000024	bachelor of science		
+QUALO:0000039	bachelor of science in psychology	QUALO:0000024	bachelor of science	QUALO:0000198	bachelor of psychology
+QUALO:0000040	bachelor of science in geography	QUALO:0000024	bachelor of science		
+QUALO:0000041	bachelor of science in biochemistry	QUALO:0000024	bachelor of science		
+QUALO:0000042	bachelor of science in physics	QUALO:0000024	bachelor of science		
+QUALO:0000043	bachelor of science in computer science	QUALO:0000024	bachelor of science		
+QUALO:0000044	bachelor of science in geology	QUALO:0000024	bachelor of science		
+QUALO:0000045	bachelor of science in mechanical engineering	QUALO:0000038	bachelor of science in engineering		
+QUALO:0000046	bachelor of science in electrical engineering	QUALO:0000038	bachelor of science in engineering		
+QUALO:0000047	bachelor of science in neuroscience	QUALO:0000024	bachelor of science		
+QUALO:0000048	bachelor of science in microbiology	QUALO:0000024	bachelor of science		
+QUALO:0000049	bachelor of science in mathematics	QUALO:0000024	bachelor of science		
+QUALO:0000050	bachelor of science in chemical engineering	QUALO:0000038	bachelor of science in engineering		
+QUALO:0000052	combine degree	QUALO:0000002	academic degree		
+QUALO:0000053	doctor of medicine–doctor of philosophy	QUALO:0000052	combine degree		
+QUALO:0000054	master of law	QUALO:0000004	master's degree		
+QUALO:0000055	master of library and information science	QUALO:0000004	master's degree		
+QUALO:0000056	master of business administration	QUALO:0000004	master's degree		
+QUALO:0000057	master of science	QUALO:0000004	master's degree		
+QUALO:0000058	master of education	QUALO:0000004	master's degree		
+QUALO:0000059	master of engineering	QUALO:0000004	master's degree		
+QUALO:0000060	master of arts	QUALO:0000004	master's degree		
+QUALO:0000061	master of public health	QUALO:0000004	master's degree		
+QUALO:0000062	master of pharmacy	QUALO:0000004	master's degree		
+QUALO:0000063	doctor of pharmacy	QUALO:0000005	doctoral degree		
+QUALO:0000064	doctor of engineering	QUALO:0000005	doctoral degree		
+QUALO:0000065	doctor of science	QUALO:0000005	doctoral degree		
+QUALO:0000066	doctor of education	QUALO:0000005	doctoral degree		
+QUALO:0000067	doctor of law	QUALO:0000005	doctoral degree		
+QUALO:0000068	doctor of medicine	QUALO:0000005	doctoral degree		
+QUALO:0000069	master of veterinary medicine	QUALO:0000004	master's degree		
+QUALO:0000070	doctor of veterinary medicine	QUALO:0000005	doctoral degree		
+QUALO:0000071	master of nursing	QUALO:0000004	master's degree		
+QUALO:0000072	master of technology	QUALO:0000004	master's degree		
+QUALO:0000073	master of philosophy	QUALO:0000004	master's degree		
+QUALO:0000074	master of applied science	QUALO:0000004	master's degree		
+QUALO:0000075	master of research	QUALO:0000004	master's degree		
+QUALO:0000076	bachelor of science with honors	QUALO:0000011	bachelor's degree with honors	QUALO:0000024	bachelor of science
+QUALO:0000077	doctor of philosophy in chemistry	QUALO:0000016	doctor of philosophy		
+QUALO:0000078	master of science in chemistry	QUALO:0000057	master of science		
+QUALO:0000079	bachelor of arts with honors	QUALO:0000011	bachelor's degree with honors	QUALO:0000031	bachelor of arts
+QUALO:0000080	bachelor of arts in biology	QUALO:0000031	bachelor of arts		
+QUALO:0000081	doctor of philosophy in computer science	QUALO:0000016	doctor of philosophy		
+QUALO:0000082	doctor of philosophy in biology	QUALO:0000016	doctor of philosophy		
+QUALO:0000083	doctor of philosophy in ecology	QUALO:0000016	doctor of philosophy		
+QUALO:0000084	doctor of philosophy in immunology	QUALO:0000016	doctor of philosophy		
+QUALO:0000085	doctor of philosophy in environmental sciences	QUALO:0000016	doctor of philosophy		
+QUALO:0000086	doctor of philosophy in analytical chemistry	QUALO:0000077	doctor of philosophy in chemistry		
+QUALO:0000087	doctor of philosophy in economics	QUALO:0000016	doctor of philosophy		
+QUALO:0000088	doctor of philosophy in engineering	QUALO:0000016	doctor of philosophy		
+QUALO:0000089	doctor of philosophy in electrical engineering	QUALO:0000088	doctor of philosophy in engineering		
+QUALO:0000090	doctor of philosophy in chemical engineering	QUALO:0000088	doctor of philosophy in engineering		
+QUALO:0000091	doctor of philosophy in electrical and computer engineering	QUALO:0000088	doctor of philosophy in engineering		
+QUALO:0000092	doctor of philosophy in mechanical engineering	QUALO:0000088	doctor of philosophy in engineering		
+QUALO:0000093	doctor of philosophy in biomedical engineering	QUALO:0000088	doctor of philosophy in engineering		
+QUALO:0000094	doctor of philosophy in physical chemistry	QUALO:0000077	doctor of philosophy in chemistry		
+QUALO:0000095	doctor of philosophy in linguistics	QUALO:0000016	doctor of philosophy		
+QUALO:0000096	doctor of philosophy in nursing	QUALO:0000016	doctor of philosophy		
+QUALO:0000097	doctor of philosophy in english literature	QUALO:0000016	doctor of philosophy		
+QUALO:0000098	doctor of philosophy in civil engineering	QUALO:0000088	doctor of philosophy in engineering		
+QUALO:0000099	doctor of philosophy in neuroscience	QUALO:0000016	doctor of philosophy		
+QUALO:0000100	doctor of philosophy in epidemiology	QUALO:0000016	doctor of philosophy		
+QUALO:0000101	doctor of philosophy in geology	QUALO:0000016	doctor of philosophy		
+QUALO:0000102	master of science with honors	QUALO:0000015	master's degree with honors	QUALO:0000057	master of science
+QUALO:0000103	doctor of philosophy in geography	QUALO:0000016	doctor of philosophy		
+QUALO:0000104	doctor of philosophy in biochemistry	QUALO:0000016	doctor of philosophy		
+QUALO:0000105	doctor of philosophy in industrial engineering	QUALO:0000088	doctor of philosophy in engineering		
+QUALO:0000106	doctor of philosophy in computer engineering	QUALO:0000088	doctor of philosophy in engineering		
+QUALO:0000107	doctor of philosophy in materials engineering	QUALO:0000088	doctor of philosophy in engineering		
+QUALO:0000108	doctor of philosophy in environmental engineering	QUALO:0000088	doctor of philosophy in engineering		
+QUALO:0000109	doctor of philosophy in physics	QUALO:0000016	doctor of philosophy		
+QUALO:0000110	doctor of philosophy in astrophysics	QUALO:0000109	doctor of philosophy in physics		
+QUALO:0000111	doctor of philosophy in theoretical physics	QUALO:0000109	doctor of philosophy in physics		
+QUALO:0000112	master of science in physics	QUALO:0000057	master of science		
+QUALO:0000113	doctor of philosophy in biotechnology	QUALO:0000016	doctor of philosophy		
+QUALO:0000114	doctor of philosophy in public health	QUALO:0000016	doctor of philosophy		
+QUALO:0000115	bachelor of arts in economics	QUALO:0000031	bachelor of arts		
+QUALO:0000116	master of science in economics	QUALO:0000057	master of science		
+QUALO:0000117	master of science and doctor of philosophy	QUALO:0000052	combine degree		
+QUALO:0000118	doctor of philosophy in psychology	QUALO:0000016	doctor of philosophy	QUALO:0000199	academic degree in psychology
+QUALO:0000119	master of science in computer science	QUALO:0000057	master of science		
+QUALO:0000120	doctor of philosophy in sociology	QUALO:0000016	doctor of philosophy		
+QUALO:0000121	master of science in biology	QUALO:0000057	master of science		
+QUALO:0000122	master of science in biotechnology	QUALO:0000057	master of science		
+QUALO:0000123	doctor of philosophy in organic chemistry	QUALO:0000077	doctor of philosophy in chemistry		
+QUALO:0000124	doctor of philosophy in political science	QUALO:0000016	doctor of philosophy		
+QUALO:0000125	doctor of philosophy in philosophy	QUALO:0000016	doctor of philosophy		
+QUALO:0000126	master of science in philosophy	QUALO:0000057	master of science		
+QUALO:0000127	bachelor of arts in english	QUALO:0000031	bachelor of arts		
+QUALO:0000128	bachelor of arts in psychology	QUALO:0000031	bachelor of arts	QUALO:0000198	bachelor of psychology
+QUALO:0000129	master of science in epidemiology	QUALO:0000057	master of science		
+QUALO:0000130	bachelor of science in biotechnology	QUALO:0000024	bachelor of science		
+QUALO:0000131	doctor of philosophy in anthropology	QUALO:0000016	doctor of philosophy		
+QUALO:0000132	doctor of philosophy in finance	QUALO:0000016	doctor of philosophy		
+QUALO:0000133	doctor of philosophy in archeology	QUALO:0000016	doctor of philosophy		
+QUALO:0000134	doctor of philosophy in accounting	QUALO:0000016	doctor of philosophy		
+QUALO:0000135	doctor of philosophy in business administration	QUALO:0000016	doctor of philosophy		
+QUALO:0000136	doctor of philosophy in architecture	QUALO:0000016	doctor of philosophy		
+QUALO:0000137	doctor of philosophy in earth sciences	QUALO:0000016	doctor of philosophy		
+QUALO:0000138	doctor of philosophy in medicine	QUALO:0000016	doctor of philosophy		
+QUALO:0000139	doctor of philosophy in information technology	QUALO:0000016	doctor of philosophy		
+QUALO:0000140	doctor of philosophy in management	QUALO:0000016	doctor of philosophy		
+QUALO:0000143	doctor of philosophy in philology	QUALO:0000016	doctor of philosophy		
+QUALO:0000144	doctor of philosophy in molecular medicine	QUALO:0000016	doctor of philosophy		
+QUALO:0000145	doctor of philosophy in pharmacology	QUALO:0000016	doctor of philosophy		
+QUALO:0000146	doctor of philosophy in genetics	QUALO:0000016	doctor of philosophy		
+QUALO:0000147	doctor of philosophy in pharmacy	QUALO:0000016	doctor of philosophy		
+QUALO:0000148	doctor of philosophy in health sciences	QUALO:0000016	doctor of philosophy		
+QUALO:0000149	bachelor of science in accounting	QUALO:0000024	bachelor of science		
+QUALO:0000151	bachelor of arts in philosophy	QUALO:0000031	bachelor of arts		
+QUALO:0000152	bachelor of arts in history	QUALO:0000031	bachelor of arts		
+QUALO:0000153	doctor of philosophy in statistics	QUALO:0000016	doctor of philosophy		
+QUALO:0000154	doctor of philosophy in communication	QUALO:0000016	doctor of philosophy		
+QUALO:0000155	doctor of philosophy in marketing	QUALO:0000016	doctor of philosophy		
+QUALO:0000156	doctor of philosophy in management	QUALO:0000016	doctor of philosophy		
+QUALO:0000157	doctor of philosophy in materials science	QUALO:0000016	doctor of philosophy		
+QUALO:0000158	master of philosophy and doctor of philosophy	QUALO:0000052	combine degree		
+QUALO:0000159	doctor of philosophy in social sciences	QUALO:0000016	doctor of philosophy		
+QUALO:0000160	doctor of philosophy in international relations	QUALO:0000016	doctor of philosophy		
+QUALO:0000161	doctor of philosophy in medical sciences	QUALO:0000016	doctor of philosophy		
+QUALO:0000162	master of science in health psychology	QUALO:0000057	master of science		
+QUALO:0000163	diplom	QUALO:0000007	graduate degree		
+QUALO:0000164	vordiplom	QUALO:0000006	undergraduate degree		
+QUALO:0000165	bachelor of science in psychology with honors	QUALO:0000039	bachelor of science in psychology	QUALO:0000011	bachelor's degree with honors
+QUALO:0000166	bachelor of arts in business administration	QUALO:0000031	bachelor of arts		
+QUALO:0000167	bachelor of medicine	QUALO:0000003	bachelor's degree		
+QUALO:0000168	master of medicine	QUALO:0000004	master's degree		
+QUALO:0000169	master of science in engineering	QUALO:0000057	master of science		
+QUALO:0000170	master of architecture	QUALO:0000004	master's degree		
+QUALO:0000171	bachelor of dental surgery	QUALO:0000003	bachelor's degree		
+QUALO:0000172	bachelor of arts in chemistry	QUALO:0000031	bachelor of arts		
+QUALO:0000173	master of science in biochemistry	QUALO:0000057	master of science		
+QUALO:0000174	bachelor of arts in biochemistry	QUALO:0000031	bachelor of arts		
+QUALO:0000176	master of arts in public administration	QUALO:0000060	master of arts		
+QUALO:0000177	doctor of philosophy in public administration	QUALO:0000005	doctoral degree		
+QUALO:0000178	bachelor of arts in public administration	QUALO:0000031	bachelor of arts		
+QUALO:0000179	master of science in geology	QUALO:0000057	master of science		
+QUALO:0000180	bachelor of commerce	QUALO:0000003	bachelor's degree		
+QUALO:0000181	bachelor of commerce with honors	QUALO:0000003	bachelor's degree	QUALO:0000011	bachelor's degree with honors
+QUALO:0000182	master of commerce	QUALO:0000004	master's degree		
+QUALO:0000183	doctor of philosophy in commerce	QUALO:0000005	doctoral degree		
+QUALO:0000184	bachelor of science in social work	QUALO:0000024	bachelor of science		
+QUALO:0000185	bachelor of arts in social work	QUALO:0000031	bachelor of arts		
+QUALO:0000186	bachelor of science in social work with honors	QUALO:0000184	bachelor of science in social work	QUALO:0000011	bachelor's degree with honors
+QUALO:0000187	master of science in social work	QUALO:0000057	master of science		
+QUALO:0000188	master of arts in social work	QUALO:0000060	master of arts		
+QUALO:0000189	doctor of philosophy in social work	QUALO:0000016	doctor of philosophy		
+QUALO:0000190	bachelor of arts in psychology with honors	QUALO:0000128	bachelor of arts in psychology	QUALO:0000011	bachelor's degree with honors
+QUALO:0000191	master of arts in psychology	QUALO:0000060	master of arts	QUALO:0000196	master of psychology
+QUALO:0000192	master of science in psychology	QUALO:0000057	master of science	QUALO:0000196	master of psychology
+QUALO:0000193	master of philsophy in psychology	QUALO:0000073	master of philosophy	QUALO:0000196	master of psychology
+QUALO:0000194	master of research in psychology	QUALO:0000075	master of research	QUALO:0000196	master of psychology
+QUALO:0000196	master of psychology	QUALO:0000004	master's degree	QUALO:0000199	academic degree in psychology
+QUALO:0000198	bachelor of psychology	QUALO:0000003	bachelor's degree	QUALO:0000199	academic degree in psychology
+QUALO:0000199	academic degree in psychology	QUALO:0000021	academic degree by discipline		
+QUALO:0000200	associate in psychology	QUALO:0000008	associate's degree	QUALO:0000199	academic degree in psychology
+QUALO:0000201	associate of arts	QUALO:0000008	associate's degree		
+QUALO:0000202	associate of arts in psychology	QUALO:0000201	associate of arts	QUALO:0000200	associate in psychology
+QUALO:0000203	habilitation	QUALO:0000007	graduate degree		

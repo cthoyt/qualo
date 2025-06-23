@@ -1,0 +1,22 @@
+subject_id	subject_label	predicate_id	object_id	contributor	date
+QUALO:0000001	qualification	skos:exactMatch	wikidata:Q4218455	orcid:0000-0003-4423-4370	2024-08-07
+QUALO:0000002	academic degree	skos:exactMatch	wikidata:Q189533	orcid:0000-0003-4423-4370	2024-08-07
+QUALO:0000003	bachelor's degree	skos:exactMatch	wikidata:Q163727	orcid:0000-0003-4423-4370	2024-08-07
+QUALO:0000004	master's degree	skos:exactMatch	wikidata:Q183816	orcid:0000-0003-4423-4370	2024-08-07
+QUALO:0000005	doctoral degree	skos:exactMatch	wikidata:Q849697	orcid:0000-0003-4423-4370	2024-08-07
+QUALO:0000006	undergraduate degree	skos:exactMatch	wikidata:Q6008527	orcid:0000-0003-4423-4370	2024-08-07
+QUALO:0000007	graduate degree	skos:exactMatch	wikidata:Q23015928	orcid:0000-0003-4423-4370	2024-08-07
+QUALO:0000008	associate's degree	skos:exactMatch	wikidata:Q14625016	orcid:0000-0003-4423-4370	2024-08-07
+QUALO:0000010	honarary academic degree	skos:exactMatch	wikidata:Q209896	orcid:0000-0003-4423-4370	2024-08-07
+QUALO:0000011	bachelor's degree with honors	skos:exactMatch	wikidata:Q10862985	orcid:0000-0003-4423-4370	2024-08-07
+QUALO:0000012	honorary bachelor's degree	skos:exactMatch	wikidata:Q85877890	orcid:0000-0003-4423-4370	2024-08-07
+QUALO:0000013	honorary master's degree	skos:exactMatch	wikidata:Q11415560	orcid:0000-0003-4423-4370	2024-08-07
+QUALO:0000014	honorary doctoral degree	skos:exactMatch	wikidata:Q11415564	orcid:0000-0003-4423-4370	2024-08-07
+QUALO:0000016	doctor of philosophy	skos:exactMatch	wikidata:Q752297	orcid:0000-0003-4423-4370	2024-08-07
+QUALO:0000017	honorary doctor of philosophy	skos:exactMatch	wikidata:Q17403203	orcid:0000-0003-4423-4370	2024-08-07
+QUALO:0000019	doctor of philosophy in mathematics	skos:exactMatch	wikidata:Q11408905	orcid:0000-0003-4423-4370	2024-08-07
+QUALO:0000020	doctor of philosophy in history	skos:exactMatch	wikidata:Q66126198	orcid:0000-0003-4423-4370	2024-08-07
+QUALO:0000057	master of science	skos:exactMatch	wikidata:Q950900	orcid:0000-0003-4423-4370	2024-10-27
+QUALO:0000063	doctor of pharmacy	skos:exactMatch	wikidata:Q2098180	orcid:0000-0003-4423-4370	2024-10-27
+QUALO:0000163	diplom	skos:exactMatch	wikidata:Q5978719	orcid:0000-0003-4423-4370	2024-10-28
+QUALO:0000164	vordiplom	skos:exactMatch	wikidata:Q1227202	orcid:0000-0003-4423-4370	2024-10-28
