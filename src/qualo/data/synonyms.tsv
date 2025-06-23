@@ -1,4 +1,4 @@
-curie	label	scope	text	language	type	contributor	date
+curie	name	predicate	text	language	type	contributor	date
 QUALO:0000003	bachelor's degree	oboInOwl:hasExactSynonym	Bachalor	de		orcid:0000-0003-4423-4370	2024-10-27
 QUALO:0000003	bachelor's degree	oboInOwl:hasExactSynonym	Bacharel	pt		orcid:0000-0003-4423-4370	2024-10-27
 QUALO:0000003	bachelor's degree	oboInOwl:hasExactSynonym	Bacharelado	pt		orcid:0000-0003-4423-4370	2024-10-27
