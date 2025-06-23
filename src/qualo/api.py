@@ -286,8 +286,7 @@ def main() -> None:  # noqa: C901
             {value for values in conferrer_examples.values() for value in values}
         ):
             file.write(
-                f"\n{conferrer.curie} a {ORG_TERM}; "
-                f'rdfs:label "{_clean_str(conferrer.name)}" .\n'
+                f'\n{conferrer.curie} a {ORG_TERM}; rdfs:label "{_clean_str(conferrer.name)}" .\n'
             )
 
         # TODO add discipline hierarchy

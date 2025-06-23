@@ -7,6 +7,7 @@ import pandas as pd
 import pystow
 from gilda import Grounder
 from orcid_downloader.standardize import REVERSE_REPLACEMENTS
+from tabulate import tabulate
 
 from qualo.data import get_gilda_grounder
 
@@ -24,7 +25,6 @@ SKIP = {
     "Docent",
     "Engineer",
     "Graduate Student",  # FIXME add
-    "Habilitation",  # FIXME add
     "Intern",
     "Lawyer",
     "Lecturer",
@@ -80,8 +80,11 @@ def main() -> None:
 
     # This is for finding new parts
     df = pd.read_csv(PATH, sep="\t")
-    for role, count, example in df.head().values:
-        click.echo("\t".join((role, count, example, grounder.ground_best(role))))
+    rows = [
+        (role, count, example, grounder.ground_best(role))
+        for role, count, example in df.head().values
+    ]
+    click.echo(tabulate(rows, headers=["role", "count", "example", "curie"], tablefmt="github"))
 
 
 if __name__ == "__main__":
