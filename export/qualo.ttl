@@ -7580,5 +7580,5 @@ QUALO:0000203 oboInOwl:hasExactSynonym "Priv.-Doz."@de .
     dcterms:contributor orcid:0000-0003-4423-4370 ;
     dcterms:date "2024-11-05"^^xsd:date .
 ] .
-orcid:0000-0003-4423-4370 a NCBITaxon:9606 .
-orcid:0000-0003-4423-4370 rdfs:label "Charles Tapley Hoyt" .
+
+orcid:0000-0003-4423-4370 a NCBITaxon:9606; rdfs:label "Charles Tapley Hoyt" .

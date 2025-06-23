@@ -263,8 +263,6 @@ def main() -> None:  # noqa: C901
     mdfg = {Reference.from_curie(k): sdf for k, sdf in mappings_df.groupby("subject_id")}
     mdfg_cols = ["predicate_id", "object_id", "contributor", "date"]
 
-    people: set[Reference] = set()
-
     with open(EXPORT_TTL_PATH, "w") as file:
         write_prefix_map(prefixes, file, prefix_map=prefix_map)
         file.write("\n")
@@ -307,8 +305,6 @@ def main() -> None:  # noqa: C901
                 )
                 if axiom := get_axiom_str(k, literal_mapping):
                     file.write(axiom)
-                if literal_mapping.contributor:
-                    people.add(literal_mapping.contributor)
 
             if (sdf := mdfg.get(k)) is not None:
                 for p, o, contributor, d in sdf[mdfg_cols].values:
@@ -326,10 +322,7 @@ def main() -> None:  # noqa: C901
                     """)
                     )
 
-        for person in sorted(people):
-            file.write(f"{person.curie} a NCBITaxon:9606 .\n")
-
-        file.write(f'{charlie.curie} rdfs:label "Charles Tapley Hoyt" .\n')
+        file.write(f'\n{charlie.curie} a NCBITaxon:9606; rdfs:label "Charles Tapley Hoyt" .\n')
 
     try:
         import bioontologies.robot
