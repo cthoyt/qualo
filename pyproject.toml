@@ -47,8 +47,8 @@ requires-python = ">=3.10"
 dependencies = [
     "click",
     "pandas",
-    "biosynonyms>=0.1.0",
     "curies>=0.9.0",
+    "ssslm>=0.0.17",
 ]
 
 [project.optional-dependencies]
@@ -57,7 +57,8 @@ tests = [
     "coverage",
 ]
 nlp = [
-    "gilda",
+    "pyobo",
+    "ssslm[gilda-slim]",
 ]
 docs = [
     "sphinx>=8",

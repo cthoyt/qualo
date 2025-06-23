@@ -1,15 +1,14 @@
 """Curating orcid list."""
 
 import datetime
-import pickle
 from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
 import click
-import gilda
+import pyobo
+import ssslm
 from curies import NamedReference, ReferenceTuple
-from pyobo.gilda_utils import get_grounder
 
 import qualo
 from qualo.api import append_degree_by_discipline
@@ -25,7 +24,6 @@ HERE = Path(__file__).parent.resolve()
 ROOT = HERE.parent.parent.parent.resolve()
 DATA = ROOT.joinpath("data")
 PATH = DATA.joinpath("roles_curate_first.tsv")
-MESH_GROUNDER_PKL = DATA.joinpath("mesh_grounder.pkl")
 
 today = datetime.date.today().isoformat()
 QUALIFICATION_PREFIXES = [
@@ -46,12 +44,8 @@ SKIP_DISCIPLINES = {
 }
 
 
-def _get_mesh_grounder() -> gilda.Grounder:
-    if MESH_GROUNDER_PKL.is_file():
-        return pickle.loads(MESH_GROUNDER_PKL.read_bytes())  # noqa:S301
-    mesh_grounder = get_grounder("mesh", versions="2024")
-    MESH_GROUNDER_PKL.write_bytes(pickle.dumps(mesh_grounder, protocol=pickle.HIGHEST_PROTOCOL))
-    return mesh_grounder
+def _get_mesh_grounder() -> ssslm.Grounder:
+    return pyobo.get_grounder("mesh")
 
 
 @click.command()
@@ -96,24 +90,24 @@ def main(write: bool = False) -> None:  # noqa:C901
     )
     mesh_grounder = _get_mesh_grounder()
 
-    for discipline_text, degree_texts in sorted(
-        discipline_text_degrees_pairs
-    ):  # re-sort by lexicalization
+    # re-sort by lexicalization
+    for discipline_text, degree_texts in sorted(discipline_text_degrees_pairs):
         if discipline_text.casefold() in SKIP_DISCIPLINES:
             continue
         if "engineering" in discipline_text.casefold():
             continue  # need different logic for this
 
-        discipline_scored_match = mesh_grounder.ground_best(discipline_text)
+        discipline_scored_match = mesh_grounder.get_best_match(discipline_text)
         if not discipline_scored_match:
             continue
-        discipline_term = NamedReference(
-            prefix=discipline_scored_match.term.db,
-            identifier=discipline_scored_match.term.id,
-            name=discipline_scored_match.term.entry_name,
-        )
+        discipline_term = NamedReference.from_reference(discipline_scored_match.reference)
+
         if discipline_term.pair in curated_disciplines:
             continue  # not necessary to curate again
+
+        if discipline_term.name is None:
+            continue
+
         if (
             discipline_term.name.casefold() != discipline_text.casefold()
             or " " in discipline_term.name

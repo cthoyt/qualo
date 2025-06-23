@@ -48,7 +48,7 @@ which is ambiguous. Future versions of this resource could include additional qu
 ## Data
 
 - `terms.tsv` has terms and parent information
-- `synonyms.tsv` follows the [Biosynonyms format](https://github.com/biopragmatics/biosynonyms)
+- `synonyms.tsv` follows the [SSSLM format](https://github.com/cthoyt/ssslm)
 - `mappings.sssom.tsv` follows the [SSSOM format](https://mapping-commons.github.io/sssom/)
 - `disciplines.tsv` has for each qualification one or more main subject(s)
 - `examples.tsv` has for each qualification one or more example people

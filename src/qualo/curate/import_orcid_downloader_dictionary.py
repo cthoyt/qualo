@@ -1,15 +1,13 @@
 """Import the curated dictionary from :mod:`orcid_downloader`."""
 
-from typing import cast
-
 import click
 import pandas as pd
 import pystow
-from gilda import Grounder
+import ssslm
 from orcid_downloader.standardize import REVERSE_REPLACEMENTS
 from tabulate import tabulate
 
-from qualo.data import get_gilda_grounder
+from qualo.data import get_grounder
 
 PATH = pystow.join(
     "orcid", "2023", "output", "roles", name="education_role_unstandardized_summary.tsv"
@@ -45,28 +43,29 @@ SKIP = {
 }
 
 
-def _ground_best(grounder: Grounder, text: str) -> str | None:
-    x = grounder.ground_best(text)
-    if not x:
+def _ground_best(grounder: ssslm.Grounder, text: str) -> str | None:
+    best_match = grounder.get_best_match(text)
+    if not best_match:
         return None
-    return cast(str, x.term.get_curie())
+    return best_match.curie
 
 
 @click.command()
 def main() -> None:
     """Curate new content."""
-    grounder = get_gilda_grounder()
+    grounder = get_grounder()
 
     n_misses = 0
     n_hits = 0
     for k, synonyms in REVERSE_REPLACEMENTS.items():
         if k in SKIP:
             continue
+
         term = _ground_best(grounder, k)
         if not term:
             pass
         for s in synonyms:
-            matches = grounder.ground(s)
+            matches = grounder.get_matches(s)
             if not matches:
                 n_misses += 1
             elif len(matches) > 1:
@@ -81,7 +80,7 @@ def main() -> None:
     # This is for finding new parts
     df = pd.read_csv(PATH, sep="\t")
     rows = [
-        (role, count, example, grounder.ground_best(role))
+        (role, count, example, _ground_best(grounder, role))
         for role, count, example in df.head().values
     ]
     click.echo(tabulate(rows, headers=["role", "count", "example", "curie"], tablefmt="github"))

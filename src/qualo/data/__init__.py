@@ -2,16 +2,15 @@
 
 import datetime
 from collections import defaultdict
-from collections.abc import Sequence
+from collections.abc import Mapping, Sequence
 from functools import lru_cache
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
-import gilda
 import pandas as pd
-from biosynonyms import Synonym, parse_synonyms
-from biosynonyms.resources import _gilda_term
-from curies import NamedReference
+import ssslm
+from curies import NamedReference, Reference
+from curies.vocabulary import has_label
 
 HERE = Path(__file__).parent.resolve()
 TERMS_PATH = HERE.joinpath("terms.tsv")
@@ -34,7 +33,7 @@ def get_terms_df(**kwargs: Any) -> pd.DataFrame:
 
 
 @lru_cache
-def get_names() -> dict[NamedReference, str]:
+def get_names() -> Mapping[NamedReference, str]:
     """Get all names."""
     df = get_terms_df()
     df = df[df["curie"].str.startswith(f"{PREFIX}:")]
@@ -52,25 +51,20 @@ def get_highest() -> int:
 
 
 @lru_cache
-def get_gilda_grounder() -> "gilda.Grounder":
-    """Get a Gilda grounder."""
-    return gilda.Grounder(get_gilda_terms())
+def get_grounder() -> "ssslm.Grounder":
+    """Get a grounder."""
+    return ssslm.make_grounder(get_literal_mappings())
 
 
-def get_synonyms(names: dict[NamedReference, str] | None = None) -> list[Synonym]:
-    """Get all synonyms."""
+def get_literal_mappings(
+    *, names: Mapping[NamedReference, str] | None = None
+) -> list[ssslm.LiteralMapping]:
+    """Get literal mapping objects for terms in the ontology."""
     if names is None:
         names = get_names()
-    return parse_synonyms(SYNONYMS_PATH, names=names)  # type:ignore[arg-type]
-
-
-def get_gilda_terms() -> list[gilda.Term]:
-    """Get gilda objects for terms in the ontology."""
-    names = get_names()
-    rv: list[gilda.Term] = []
-    rv.extend(s.as_gilda_term() for s in get_synonyms(names=names))
+    rv = ssslm.read_literal_mappings(SYNONYMS_PATH, names=cast(dict[Reference, str], names))
     rv.extend(
-        _gilda_term(text=name, reference=reference, source=PREFIX, status="name")
+        ssslm.LiteralMapping(text=name, reference=reference, source=PREFIX, predicate=has_label)
         for reference, name in names.items()
         if reference.prefix == PREFIX
     )
@@ -100,28 +94,12 @@ def lint_table(
 
 def lint_synonyms() -> None:
     """Lint the synonyms table."""
-    lint_table(
-        SYNONYMS_PATH,
-        key=["curie", "text", "language"],
-        duplicate_subsets=["curie", "text", "type", "language"],
-        casefold="text",
-    )
+    ssslm.lint_literal_mappings(SYNONYMS_PATH)
 
 
-def add_synonym(synonym: Synonym) -> None:
+def add_synonym(synonym: ssslm.LiteralMapping) -> None:
     """Add a synonym."""
-    with SYNONYMS_PATH.open("a") as file:
-        columns = (
-            synonym.reference.curie,
-            synonym.name,
-            synonym.scope.curie,
-            synonym.text,
-            synonym.language,
-            synonym.type.curie if synonym.type else "",
-            synonym.contributor.curie if synonym.contributor else "",
-            (synonym.date if synonym.date else TODAY).strftime("%Y-%m-%d"),
-        )
-        print(*columns, sep="\t", file=file)
+    ssslm.append_literal_mapping(synonym, SYNONYMS_PATH)
 
 
 def get_disciplines() -> dict[NamedReference, NamedReference]:

@@ -9,17 +9,13 @@ from textwrap import dedent
 import click
 import pandas as pd
 import regex
-from biosynonyms import group_synonyms, parse_synonyms
-from biosynonyms.generate_owl import (
-    PREAMBLE,
-    get_axiom_str,
-    write_prefix_map,
-)
-from biosynonyms.generate_owl import (
-    _get_prefixes as _get_synonym_prefixes,
-)
-from biosynonyms.resources import Synonym, _clean_str
-from curies import NamedReference, Reference
+import ssslm
+from curies import NamableReference, NamedReference, Reference
+from curies.vocabulary import charlie, has_exact_synonym
+from ssslm import group_literal_mappings, read_literal_mappings
+from ssslm.ontology import PREAMBLE, _clean_str, _text_for_turtle
+from ssslm.ontology import _get_axiom_str as get_axiom_str
+from ssslm.ontology import _write_prefix_map as write_prefix_map
 
 from qualo.constants import ROOT
 from qualo.data import (
@@ -33,7 +29,7 @@ from qualo.data import (
     get_conferrers,
     get_degree_holders,
     get_disciplines,
-    get_gilda_grounder,
+    get_grounder,
     get_names,
     get_terms_df,
 )
@@ -115,19 +111,17 @@ def get_name(reference: str | Reference) -> str:
     if reference.prefix != PREFIX:
         raise ValueError(f"Invalid reference: {reference}")
     names = get_names()
-    return names[reference]  # type:ignore
+    return names[reference]  # type:ignore[index]
 
 
-def ground(text: str) -> NamedReference | None:
+def ground(text: str) -> NamableReference | None:
     """Ground a qualification to the CURIE."""
-    grounder = get_gilda_grounder()
+    grounder = get_grounder()
     text = text.replace("’", "'")  # noqa:RUF001
-    match = grounder.ground_best(text)
+    match = grounder.get_best_match(text)
     if match is None:
         return None
-    return NamedReference(
-        prefix=match.term.db, identifier=match.term.id, name=match.term.entry_name
-    )
+    return match.reference
 
 
 ACADEMIC_DEGREE = NamedReference(
@@ -150,74 +144,73 @@ def append_degree_by_discipline(  # noqa:C901
     has_phd: bool = False,
 ) -> NamedReference:
     """Append a new discipline."""
-    names: dict[str, NamedReference] = {v: k for k, v in get_names().items()}
+    name_to_reference: dict[str, NamedReference] = {v: k for k, v in get_names().items()}
 
     discipline_name = discipline_term.name.lower()
     degree_name = f"academic degree in {discipline_name}"
-    degree_term = names.get(degree_name)
+    degree_term = name_to_reference.get(degree_name)
     if degree_term is None:
         degree_term = append_term(degree_name, parent=ACADEMIC_DEGREE)
 
     add_discipline(degree_term, discipline_term)
-    add_synonym(_fast_synonym(degree_term, f"degree in {discipline_name}"))
+    add_synonym(_fast_literal_mapping(degree_term, f"degree in {discipline_name}"))
 
     bachelor_name = f"bachelor of {discipline_name}"
-    bachelor_term = names.get(bachelor_name)
+    bachelor_term = name_to_reference.get(bachelor_name)
     if bachelor_term is None:
         bachelor_term = append_term(bachelor_name, BACHELOR_DEGREE, degree_term)
     for synonym_prefix in BACHELOR_PREFIXES:
-        add_synonym(_fast_synonym(bachelor_term, f"{synonym_prefix} {discipline_name}"))
+        add_synonym(_fast_literal_mapping(bachelor_term, f"{synonym_prefix} {discipline_name}"))
 
     master_name = f"master of {discipline_name}"
-    master_term = names.get(master_name)
+    master_term = name_to_reference.get(master_name)
     if master_term is None:
         master_term = append_term(master_name, MASTER_DEGREE, degree_term)
     for synonym_prefix in MASTER_PREFIXES:
-        add_synonym(_fast_synonym(master_term, f"{synonym_prefix} {discipline_name}"))
+        add_synonym(_fast_literal_mapping(master_term, f"{synonym_prefix} {discipline_name}"))
 
     if has_bachelor_of_science:
         bs_name = f"bachelor of science in {discipline_name}"
-        bs_term = names.get(bs_name)
+        bs_term = name_to_reference.get(bs_name)
         if bs_term is None:
             bs_term = append_term(bs_name, BSC_DEGREE, bachelor_term)
         for synonym_prefix in BACHELOR_OF_SCIENCE_PREFIXES:
-            add_synonym(_fast_synonym(bs_term, f"{synonym_prefix} {discipline_name}"))
+            add_synonym(_fast_literal_mapping(bs_term, f"{synonym_prefix} {discipline_name}"))
 
     if has_ba:
         ba_name = f"bachelor of arts in {discipline_name}"
-        ba_term = names.get(ba_name)
+        ba_term = name_to_reference.get(ba_name)
         if ba_term is None:
             ba_term = append_term(ba_name, BSC_DEGREE, bachelor_term)
         for synonym_prefix in BACHELOR_OF_ARTS_PREFIXES:
-            add_synonym(_fast_synonym(ba_term, f"{synonym_prefix} {discipline_name}"))
+            add_synonym(_fast_literal_mapping(ba_term, f"{synonym_prefix} {discipline_name}"))
 
     if has_msc:
         msc_name = f"master of science in {discipline_name}"
-        msc_term = names.get(msc_name)
+        msc_term = name_to_reference.get(msc_name)
         if msc_term is None:
             msc_term = append_term(msc_name, MSC_DEGREE, master_term)
         for synonym_prefix in MSC_PREFIXES:
-            add_synonym(_fast_synonym(msc_term, f"{synonym_prefix} {discipline_name}"))
+            add_synonym(_fast_literal_mapping(msc_term, f"{synonym_prefix} {discipline_name}"))
 
     if has_phd:
         phd_name = f"doctor of philosophy in {discipline_name}"
-        phd_term = names.get(phd_name)
+        phd_term = name_to_reference.get(phd_name)
         if phd_term is None:
             phd_term = append_term(phd_name, PHD_DEGREE, degree_term)
         for synonym_prefix in PHD_PREFIXES:
-            add_synonym(_fast_synonym(phd_term, f"{synonym_prefix} {discipline_name}"))
+            add_synonym(_fast_literal_mapping(phd_term, f"{synonym_prefix} {discipline_name}"))
 
     return degree_term
 
 
-def _fast_synonym(new: NamedReference, text: str) -> Synonym:
-    return Synonym(
-        reference=new,
-        name=new.name,
+def _fast_literal_mapping(reference: NamedReference, text: str) -> ssslm.LiteralMapping:
+    return ssslm.LiteralMapping(
+        reference=reference,
         text=text,
         language="en",
-        scope=Reference(prefix="oboInOwl", identifier="hasExactSynonym"),
-        contributor=Reference(prefix="orcid", identifier="0000-0003-4423-4370"),
+        predicate=has_exact_synonym,
+        contributor=charlie,
         date=datetime.date.today(),
     )
 
@@ -242,7 +235,9 @@ def main() -> None:  # noqa: C901
         if pd.notna(p2):
             all_parents[child].append(p2)
 
-    synonym_index = group_synonyms(parse_synonyms(SYNONYMS_PATH, names=names))
+    literal_mapping_index = group_literal_mappings(
+        read_literal_mappings(SYNONYMS_PATH, names=names)
+    )
 
     degree_holder_examples = get_degree_holders()
     conferrer_examples = get_conferrers()
@@ -260,7 +255,7 @@ def main() -> None:  # noqa: C901
 
     prefixes: set[str] = set()
     # TODO get prefixes from other places
-    prefixes.update(_get_synonym_prefixes(synonym_index))
+    prefixes.update(ssslm.get_prefixes(literal_mapping_index))
 
     mappings_df = pd.read_csv(MAPPINGS_PATH, sep="\t")
     for c in ["predicate_id", "object_id", "contributor"]:
@@ -304,9 +299,12 @@ def main() -> None:  # noqa: C901
             if discipline := disciplines.get(k):
                 rr = _restriction(f"{PREFIX}:1000002", discipline.curie)
                 file.write(f"{k.curie} rdfs:subClassOf {rr} .\n")
-            for synonym in synonym_index.get(k, []):
-                file.write(f"{k.curie} {synonym.scope.curie} {synonym.text_for_turtle} . \n")
-                if axiom := get_axiom_str(k, synonym):
+            for literal_mapping in literal_mapping_index.get(k, []):
+                file.write(
+                    f"{k.curie} {literal_mapping.predicate.curie} "
+                    f"{_text_for_turtle(literal_mapping)} . \n"
+                )
+                if axiom := get_axiom_str(k, literal_mapping):
                     file.write(axiom)
 
             if (sdf := mdfg.get(k)) is not None:
