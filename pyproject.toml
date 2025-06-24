@@ -49,6 +49,7 @@ dependencies = [
     "pandas",
     "curies>=0.9.0",
     "ssslm>=0.0.17",
+    "regex",
 ]
 
 [project.optional-dependencies]
