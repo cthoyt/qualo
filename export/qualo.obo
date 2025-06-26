@@ -1,0 +1,1814 @@
+format-version: 1.2
+idspace: dcterms http://purl.org/dc/terms/ 
+idspace: EDAM http://edamontology.org/topic_ 
+idspace: mesh http://id.nlm.nih.gov/mesh/ 
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: orcid https://orcid.org/ 
+idspace: QUALO https://w3id.org/qualo/ 
+idspace: ror http://ror.org/ 
+idspace: skos http://www.w3.org/2004/02/skos/core# 
+idspace: wikidata http://wikidata.org/entity/ 
+remark: Built by https://github.com/cthoyt/qualo
+ontology: https://w3id.org/qualo/qualo.ttl
+property_value: dcterms:creator orcid:0000-0003-4423-4370
+property_value: dcterms:description "An ontology representation qualifications, such as academic degrees" xsd:string
+property_value: dcterms:license https://creativecommons.org/publicdomain/zero/1.0/
+property_value: dcterms:title "Qualification Ontology" xsd:string
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<https://w3id.org/qualo/1000001>))\nDeclaration(AnnotationProperty(<https://w3id.org/qualo/1000003>))\n############################\n#   Annotation Properties\n############################\n\n# Annotation Property: <https://w3id.org/qualo/1000001> (<https://w3id.org/qualo/1000001>)\n\nAnnotationPropertyRange(<https://w3id.org/qualo/1000001> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)\nAnnotationPropertyDomain(<https://w3id.org/qualo/1000001> <https://w3id.org/qualo/0000001>)\n\n# Annotation Property: <https://w3id.org/qualo/1000003> (<https://w3id.org/qualo/1000003>)\n\nAnnotationPropertyDomain(<https://w3id.org/qualo/1000003> <https://w3id.org/qualo/0000001>)\n\n\n)
+
+[Term]
+id: NCBITaxon:9606
+name: Homo sapiens
+
+[Term]
+id: OBI:0000245
+name: organization
+
+[Term]
+id: PATO:0000001
+name: quality
+
+[Term]
+id: QUALO:0000001
+name: qualification
+is_a: PATO:0000001 ! quality
+property_value: skos:exactMatch wikidata:Q4218455 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-08-07"}
+
+[Term]
+id: QUALO:0000002
+name: academic degree
+is_a: QUALO:0000001 ! qualification
+property_value: skos:exactMatch wikidata:Q189533 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-08-07"}
+
+[Term]
+id: QUALO:0000003
+name: bachelor's degree
+synonym: "Bachalor" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bacharel" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bacharelado" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "bachelor" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "Bachelor degree" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor's" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelorstudium" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachiller" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-28"}
+synonym: "Bachlor" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Degree" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Graduada" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Graduado" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Graduanda" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-28"}
+synonym: "Graduando" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-28"}
+synonym: "Graduate" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Graduated" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Graduation" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Graduação" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Laurea" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Licence" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-28"}
+synonym: "Licenciada" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Licenciado" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Licenciatura" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "License" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-28"}
+synonym: "LİSANS" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Pregrado" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Undergraduate" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Undergraduate student" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Undergraduation" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "University graduate" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "YÜKSEK LİSANS" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Yüksek Lisans" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Бакалавр" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000006 ! undergraduate degree
+property_value: skos:exactMatch wikidata:Q163727 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-08-07"}
+
+[Term]
+id: QUALO:0000004
+name: master's degree
+synonym: "Maestria" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "Maestro" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "Maestría" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "Master" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "Master 2" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "Master Degree" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "Master Degree Candidate" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "Master Student" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "Master's" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "Master's Student" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "Masters degree" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "Mestra" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "Mestrado" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "Mestranda" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "Mestrando" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "Tezli Yüksek Lisans" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "магистр" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "магістр" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "硕士研究生" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+is_a: QUALO:0000007 ! graduate degree
+property_value: skos:exactMatch wikidata:Q183816 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-08-07"}
+
+[Term]
+id: QUALO:0000005
+name: doctoral degree
+is_a: QUALO:0000007 ! graduate degree
+property_value: skos:exactMatch wikidata:Q849697 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-08-07"}
+
+[Term]
+id: QUALO:0000006
+name: undergraduate degree
+is_a: QUALO:0000023 ! academic degree by progression
+property_value: skos:exactMatch wikidata:Q6008527 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-08-07"}
+
+[Term]
+id: QUALO:0000007
+name: graduate degree
+is_a: QUALO:0000023 ! academic degree by progression
+property_value: skos:exactMatch wikidata:Q23015928 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-08-07"}
+
+[Term]
+id: QUALO:0000008
+name: associate's degree
+is_a: QUALO:0000006 ! undergraduate degree
+property_value: skos:exactMatch wikidata:Q14625016 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-08-07"}
+
+[Term]
+id: QUALO:0000009
+name: academic degree with honors
+is_a: QUALO:0000022 ! academic degree by distinction
+
+[Term]
+id: QUALO:0000010
+name: honarary academic degree
+is_a: QUALO:0000001 ! qualification
+property_value: skos:exactMatch wikidata:Q209896 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-08-07"}
+
+[Term]
+id: QUALO:0000011
+name: bachelor's degree with honors
+is_a: QUALO:0000003 ! bachelor's degree
+is_a: QUALO:0000009 ! academic degree with honors
+property_value: skos:exactMatch wikidata:Q10862985 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-08-07"}
+
+[Term]
+id: QUALO:0000012
+name: honorary bachelor's degree
+is_a: QUALO:0000003 ! bachelor's degree
+is_a: QUALO:0000010 ! honarary academic degree
+property_value: skos:exactMatch wikidata:Q85877890 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-08-07"}
+
+[Term]
+id: QUALO:0000013
+name: honorary master's degree
+is_a: QUALO:0000004 ! master's degree
+is_a: QUALO:0000010 ! honarary academic degree
+property_value: skos:exactMatch wikidata:Q11415560 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-08-07"}
+
+[Term]
+id: QUALO:0000014
+name: honorary doctoral degree
+is_a: QUALO:0000005 ! doctoral degree
+is_a: QUALO:0000010 ! honarary academic degree
+property_value: skos:exactMatch wikidata:Q11415564 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-08-07"}
+
+[Term]
+id: QUALO:0000015
+name: master's degree with honors
+is_a: QUALO:0000004 ! master's degree
+is_a: QUALO:0000009 ! academic degree with honors
+
+[Term]
+id: QUALO:0000016
+name: doctor of philosophy
+synonym: "Doctor (PhD)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctor of Philosophy (Ph.D.)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctor of Philosophy (PhD)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctor of Phylosophy" EXACT OMO:0003006 [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctora" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctorado" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctoral" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctoral Candidate" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctoral Program" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctoral Researcher" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctoral Student" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctorando" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctorant" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctorat" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctorate" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctorate (PhD)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctorate degree" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctorate of Philosophy" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doktor" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doktora" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Dottorato di Ricerca" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doutor" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doutora" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doutorado" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doutoramento" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doutoranda" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doutorando" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "dphil" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Dr" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Dr." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Dr. phil." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Dr. rer. nat." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Dr. rer. nat. (PhD)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Joint PhD" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Magister" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "ph d" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph. D" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph. D." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph.D" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph.D." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph.D. Candidate" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph.D. student" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph.D.," EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph.D./Dr." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph.D/Dr" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD (Dr. rer. nat.)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD (in progress)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "phd candidate" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD degree" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Fellow" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Research Scholar" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "phd researcher" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Scholar" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD student" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD studies" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Thesis" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "RNDr." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "博士研究生" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000005 ! doctoral degree
+property_value: QUALO:1000001 orcid:0000-0003-4423-4370
+property_value: skos:exactMatch wikidata:Q752297 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-08-07"}
+
+[Term]
+id: QUALO:0000017
+name: honorary doctor of philosophy
+is_a: QUALO:0000014 ! honorary doctoral degree
+is_a: QUALO:0000016 ! doctor of philosophy
+property_value: skos:exactMatch wikidata:Q17403203 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-08-07"}
+
+[Term]
+id: QUALO:0000019
+name: doctor of philosophy in mathematics
+synonym: "PhD in Applied Mathematics" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Mathematics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Mathematics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+property_value: skos:exactMatch wikidata:Q11408905 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-08-07"}
+
+[Term]
+id: QUALO:0000020
+name: doctor of philosophy in history
+synonym: "PhD History" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in History" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+property_value: skos:exactMatch wikidata:Q66126198 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-08-07"}
+
+[Term]
+id: QUALO:0000021
+name: academic degree by discipline
+is_a: QUALO:0000002 ! academic degree
+
+[Term]
+id: QUALO:0000022
+name: academic degree by distinction
+is_a: QUALO:0000002 ! academic degree
+
+[Term]
+id: QUALO:0000023
+name: academic degree by progression
+is_a: QUALO:0000002 ! academic degree
+
+[Term]
+id: QUALO:0000024
+name: bachelor of science
+synonym: "B. Sc." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "B.S." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "B.S. degree" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "B.Sc" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bacharel em Ciências Biológicas" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor in Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor of Science (B.Sc.)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor of Science (BSc)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor's of Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelors of Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachlor of Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "bs" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "bs c" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "bsc" EXACT OMO:0003000 [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "bsc candidate" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "BSc." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+is_a: QUALO:0000003 ! bachelor's degree
+
+[Term]
+id: QUALO:0000025
+name: bachelor of nursing
+synonym: "Bacharel em Enfermagem" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bacharelado em Enfermagem" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Graduação em Enfermagem" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Licenciada en Enfermería" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000003 ! bachelor's degree
+
+[Term]
+id: QUALO:0000026
+name: bachelor of veterinary science
+synonym: "BVSc" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000003 ! bachelor's degree
+
+[Term]
+id: QUALO:0000027
+name: bachelor of pharmacy
+synonym: "B. Pharmacy" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "B.Pharm" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "B.Pharmacy" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor in Pharmacy" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000003 ! bachelor's degree
+
+[Term]
+id: QUALO:0000028
+name: bachelor of engineering
+synonym: "B.Eng" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "B.Eng." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor of Engineering (B.E)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor of Engineering (BE)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelors of Engineering" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "BEng" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Dipl.-Ing." RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000003 ! bachelor's degree
+
+[Term]
+id: QUALO:0000029
+name: bachelor of education
+synonym: "B.E." EXACT OMO:0003000 [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "B.Ed" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "B.Ed." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "bachelorofeducation" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachiller en Educación" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Licenciatura em Pedagogia" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "S.Pd" EXACT OMO:0003000 [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "sarjana pendidikan" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000003 ! bachelor's degree
+
+[Term]
+id: QUALO:0000030
+name: bachelor of architecture
+synonym: "B.Arch" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000003 ! bachelor's degree
+
+[Term]
+id: QUALO:0000031
+name: bachelor of arts
+synonym: "A.B." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Artium Baccalaureus" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BA" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor of Arts (B.A.)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelors of Arts" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000003 ! bachelor's degree
+
+[Term]
+id: QUALO:0000032
+name: bachelor of law
+synonym: "Bacharel em Direito" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bacharelado em Direito" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000003 ! bachelor's degree
+
+[Term]
+id: QUALO:0000033
+name: bachelor of medicine; bachelor of surgery
+synonym: "Bachelor of Medicine and Bachelor of Surgery" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor of Medicine, Bachelor of Surgery" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "MBBCh" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MBBS" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MBChB" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000003 ! bachelor's degree
+
+[Term]
+id: QUALO:0000034
+name: bachelor of technology
+synonym: "B.Tech" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000003 ! bachelor's degree
+
+[Term]
+id: QUALO:0000035
+name: bachelor of science in nursing
+synonym: "BScN" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000024 ! bachelor of science
+
+[Term]
+id: QUALO:0000036
+name: bachelor of science in biology
+synonym: "B.S. Biological Sciences" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "B.S. Biology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor in Biological Sciences" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor in Biology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "bachelor of science in biomedical science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor’s degree in Biological Sciences" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc Biological Sciences" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc Biology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc Biomedical Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc Biomedical Sciences" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc in Biology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc Microbiology" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Degree in Biology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Licenciada en Biología" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Licenciado en Biología" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Licenciatura em Ciências Biológicas" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000024 ! bachelor of science
+
+[Term]
+id: QUALO:0000037
+name: bachelor of science in chemistry
+synonym: "B. Sc. in Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "B.S. Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "B.S. in Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "B.Sc. in Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor Degree in Chemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor in Chemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor of Chemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor of Science (Chemistry)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor of Science, Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor's Degree in Chemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelors of Science in Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BS in Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc in Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc. in Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Degree in Chemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Graduate in Chemistry" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Graduation in Chemistry" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Licenciatura em Química" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000024 ! bachelor of science
+property_value: QUALO:1000001 orcid:0000-0003-4423-4370
+
+[Term]
+id: QUALO:0000038
+name: bachelor of science in engineering
+is_a: QUALO:0000024 ! bachelor of science
+
+[Term]
+id: QUALO:0000039
+name: bachelor of science in psychology
+synonym: "B.S. in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "B.Sc. in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bacharel em Psicologia" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor Degree in Psychology" BROAD [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor in Psychology" BROAD [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor of Social Science in Psychology" RELATED [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor of Social Sciences in Psychology" RELATED [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor's Degree in Psychology" BROAD [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor's in Psychology" BROAD [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor's of Science in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelors in Psychology" BROAD [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelors of Science in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor´s Degree in Psychology" BROAD [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor’s Degree in Psychology" BROAD [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "BS in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "BSc in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "BSc Psychology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Degree in Psychology" BROAD [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Graduate in Psychology" RELATED [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Graduated in Psychology" RELATED [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Graduation in Psychology" RELATED [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Licenciada en Psicología" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Licenciado en Psicología" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Licenciatura en Psicología" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370"}
+is_a: QUALO:0000024 ! bachelor of science
+is_a: QUALO:0000198 ! bachelor of psychology
+
+[Term]
+id: QUALO:0000040
+name: bachelor of science in geography
+synonym: "Licenciatura em Geografia" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000024 ! bachelor of science
+
+[Term]
+id: QUALO:0000041
+name: bachelor of science in biochemistry
+synonym: "B.S. Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "B.S. in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "B.S. in Biochemistry and Molecular Biology" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "B.Sc in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "B.Sc. in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor degree in Biochemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor in Biochemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor of Biochemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor of Science (Biochemistry)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor of Science - Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor of Science Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor of Science in Biochemistry and Molecular Biology" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor of Science, Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor's Degree in Biochemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor's in Biochemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor's of Science in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelors in Biochemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelors of Science in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor’s degree in Biochemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "BS Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BS in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "BS in Biochemistry and Molecular Biology" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "BSc Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "BSc in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "BSc in Biochemistry and Molecular Biology" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "BSc. in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Degree in Biochemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Graduate in Biochemistry" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Graduation in Biochemistry" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Licenciatura in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+is_a: QUALO:0000024 ! bachelor of science
+
+[Term]
+id: QUALO:0000042
+name: bachelor of science in physics
+synonym: "B.S. Physics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor in Physics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc in Physics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc Physics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Degree in Physics" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000024 ! bachelor of science
+
+[Term]
+id: QUALO:0000043
+name: bachelor of science in computer science
+synonym: "B.S. Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "B.S. in Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "B.Sc. in Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bacharel em Ciência da Computação" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor Degree in Computer Science" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor in Computer Science" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor of Computer Science" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor of Science (Computer Science)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor's Degree in Computer Science" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor's in Computer Science" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelors in Computer Science" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelors of Science in Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BS Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BS in Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc in Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc. in Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Degree in Computer Science" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000024 ! bachelor of science
+
+[Term]
+id: QUALO:0000044
+name: bachelor of science in geology
+synonym: "B.S. Geology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc Geology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000024 ! bachelor of science
+
+[Term]
+id: QUALO:0000045
+name: bachelor of science in mechanical engineering
+synonym: "B.S. Mechanical Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc Mechanical Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000038 ! bachelor of science in engineering
+
+[Term]
+id: QUALO:0000046
+name: bachelor of science in electrical engineering
+synonym: "BS Electrical Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000038 ! bachelor of science in engineering
+
+[Term]
+id: QUALO:0000047
+name: bachelor of science in neuroscience
+synonym: "B.S. Neuroscience" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000024 ! bachelor of science
+
+[Term]
+id: QUALO:0000048
+name: bachelor of science in microbiology
+is_a: QUALO:0000024 ! bachelor of science
+
+[Term]
+id: QUALO:0000049
+name: bachelor of science in mathematics
+synonym: "BSc Mathematics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Licenciado en Matemáticas" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Licenciatura em Matemática" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000024 ! bachelor of science
+
+[Term]
+id: QUALO:0000050
+name: bachelor of science in chemical engineering
+synonym: "BS Chemical Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000038 ! bachelor of science in engineering
+
+[Term]
+id: QUALO:0000052
+name: combine degree
+is_a: QUALO:0000002 ! academic degree
+
+[Term]
+id: QUALO:0000053
+name: doctor of medicine–doctor of philosophy
+synonym: "MD PhD" EXACT OMO:0003012 [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "MD, PhD" EXACT OMO:0003012 [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "MD/PhD" EXACT OMO:0003012 [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "MD/PhD Candidate" EXACT OMO:0003012 [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+synonym: "Medical Doctor and Doctor of Philosophy" EXACT OMO:0003012 [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-26"}
+is_a: QUALO:0000052 ! combine degree
+
+[Term]
+id: QUALO:0000054
+name: master of law
+synonym: "Executive LL.M." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Executive LLM" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "LL.M." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "LLM" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Mestrado em Direito" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Mestre em Direito" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000004 ! master's degree
+
+[Term]
+id: QUALO:0000055
+name: master of library and information science
+synonym: "MLIS" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000004 ! master's degree
+
+[Term]
+id: QUALO:0000056
+name: master of business administration
+synonym: "Executive MBA" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Master in Business Administration" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-28"}
+synonym: "Master of Business Administration (MBA)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MBA" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000004 ! master's degree
+
+[Term]
+id: QUALO:0000057
+name: master of science
+synonym: "M. Sc." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "M.S. degree" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "M.Sc." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "M.Sc.," EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "M.Si" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Maestro en Ciencias" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Master in Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Master of Science (M.Sc.)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Master of Science (MSc)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Master Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Master's in Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Master's of Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Masters in Science" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Masters of Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Mestre em Ciências" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "ms" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "ms c" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MS Student" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "msc" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "msc candidate" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MSc student" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MSci" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000004 ! master's degree
+property_value: skos:exactMatch wikidata:Q950900 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+
+[Term]
+id: QUALO:0000058
+name: master of education
+synonym: "M.Ed." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Maestría en Educación" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Magister en Educación" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "me" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Mestrado em Educação" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Mestre em Educação" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000004 ! master's degree
+
+[Term]
+id: QUALO:0000059
+name: master of engineering
+synonym: "MEng" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MSc Eng" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000004 ! master's degree
+
+[Term]
+id: QUALO:0000060
+name: master of arts
+synonym: "MA" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Master of Art" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Masters of Arts" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000004 ! master's degree
+
+[Term]
+id: QUALO:0000061
+name: master of public health
+synonym: "Master in Public Health" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Master of Public Health (MPH)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Masters in Public Health" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Masters of Public Health" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "mph" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MPH in Epidemiology" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000004 ! master's degree
+
+[Term]
+id: QUALO:0000062
+name: master of pharmacy
+synonym: "M.Pharm" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000004 ! master's degree
+
+[Term]
+id: QUALO:0000063
+name: doctor of pharmacy
+synonym: "Doctor of Pharmacy (PharmD)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PharmD" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Pharmacy" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Pharmacy" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000005 ! doctoral degree
+property_value: skos:exactMatch wikidata:Q2098180 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+
+[Term]
+id: QUALO:0000064
+name: doctor of engineering
+is_a: QUALO:0000005 ! doctoral degree
+
+[Term]
+id: QUALO:0000065
+name: doctor of science
+synonym: "D.Sc." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctor en Ciencias" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph.D. in Science" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "PhD in Science" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Sciences" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000005 ! doctoral degree
+
+[Term]
+id: QUALO:0000066
+name: doctor of education
+synonym: "Doctor en Ciencias de la Educación" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctor en Educación" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctora en Educación" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctorado en Educación" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doutorado em Educação" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ed.D." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Education" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Education" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000005 ! doctoral degree
+
+[Term]
+id: QUALO:0000067
+name: doctor of law
+synonym: "Doctor en Derecho" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "doctoroflaw" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "J.D." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Juris Doctor" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Law" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000005 ! doctoral degree
+
+[Term]
+id: QUALO:0000068
+name: doctor of medicine
+synonym: "Doctor" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctor degree" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctor en Medicina" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctor of Medicine (MD)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctor's degree" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctora en Medicina" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Dr. med." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "FRCPC" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Graduação em Medicina" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "M.D" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MD Candidate" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Medical Degree" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Medical Doctor" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Medical Doctor (MD)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Medical Student" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Medicina" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Medico" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Médica" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Médico" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Médico Cirujano" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Resident Physician" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000005 ! doctoral degree
+
+[Term]
+id: QUALO:0000069
+name: master of veterinary medicine
+is_a: QUALO:0000004 ! master's degree
+
+[Term]
+id: QUALO:0000070
+name: doctor of veterinary medicine
+synonym: "DVM" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Medicina Veterinária" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Veterinarian" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000005 ! doctoral degree
+
+[Term]
+id: QUALO:0000071
+name: master of nursing
+synonym: "Mestrado em Enfermagem" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000004 ! master's degree
+
+[Term]
+id: QUALO:0000072
+name: master of technology
+synonym: "M.Tech" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Master of Technology (M.Tech.)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000004 ! master's degree
+
+[Term]
+id: QUALO:0000073
+name: master of philosophy
+synonym: "MPhil" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000004 ! master's degree
+
+[Term]
+id: QUALO:0000074
+name: master of applied science
+synonym: "MASc" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000004 ! master's degree
+
+[Term]
+id: QUALO:0000075
+name: master of research
+synonym: "MRes" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000004 ! master's degree
+
+[Term]
+id: QUALO:0000076
+name: bachelor of science with honors
+synonym: "Bachelor of Science (Honours)" EXACT OMO:0003005 [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor of Science (Hons)" EXACT OMO:0003005 [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor of Science with Honours" EXACT OMO:0003005 [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "bsc (honors)" EXACT OMO:0003005 [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "bsc (honours)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc Honours" EXACT OMO:0003005 [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc Hons" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc(Hons)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Honours Bachelor of Science" EXACT OMO:0003005 [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000011 ! bachelor's degree with honors
+is_a: QUALO:0000024 ! bachelor of science
+
+[Term]
+id: QUALO:0000077
+name: doctor of philosophy in chemistry
+synonym: "Doctor en Ciencias Químicas" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctor in Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph.D. in Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD (Chemistry)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Chemical Sciences" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000078
+name: master of science in chemistry
+synonym: "Master in Chemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MChem" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MSc Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000057 ! master of science
+
+[Term]
+id: QUALO:0000079
+name: bachelor of arts with honors
+synonym: "BA (Hons)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BA Honours" EXACT OMO:0003005 [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BA Hons" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor of Arts (Honours)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor of Arts (Hons.)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000011 ! bachelor's degree with honors
+is_a: QUALO:0000031 ! bachelor of arts
+
+[Term]
+id: QUALO:0000080
+name: bachelor of arts in biology
+synonym: "B.A. Biology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BA Biology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000031 ! bachelor of arts
+
+[Term]
+id: QUALO:0000081
+name: doctor of philosophy in computer science
+synonym: "Doctor in Computer Science" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctor of Computer Science" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph.D in Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph.D. in Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD. in Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000082
+name: doctor of philosophy in biology
+synonym: "Doctor en Ciencias Biológicas" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph.D. Biology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph.D. in Biology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Biological Sciences" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Biology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Biomedical Sciences" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Biological Sciences" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Biology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Biomedical Sciences" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Biomedicine" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Microbiology" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Molecular Biology" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Microbiology" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000083
+name: doctor of philosophy in ecology
+synonym: "PhD Ecology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Ecology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000084
+name: doctor of philosophy in immunology
+synonym: "PhD Immunology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Immunology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000085
+name: doctor of philosophy in environmental sciences
+synonym: "PhD Environmental Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Environmental Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Environmental Sciences" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000086
+name: doctor of philosophy in analytical chemistry
+synonym: "PhD in Analytical Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000077 ! doctor of philosophy in chemistry
+
+[Term]
+id: QUALO:0000087
+name: doctor of philosophy in economics
+synonym: "Doctor in Economics" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Dr. rer. pol." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph. D in Economics" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Ph. D. in Economics" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Ph.D in Economics" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Ph.D. in Economics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD (Economics)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Candidate in Economics" RELATED [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "PhD Economics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Economics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD. in Economics" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000088
+name: doctor of philosophy in engineering
+synonym: "Dr. Eng" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Dr.-Ing." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Dr.Eng." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000089
+name: doctor of philosophy in electrical engineering
+synonym: "PhD Electrical Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Electrical Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000088 ! doctor of philosophy in engineering
+
+[Term]
+id: QUALO:0000090
+name: doctor of philosophy in chemical engineering
+synonym: "Ph.D. Chemical Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph.D. in Chemical Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Chemical Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000088 ! doctor of philosophy in engineering
+
+[Term]
+id: QUALO:0000091
+name: doctor of philosophy in electrical and computer engineering
+synonym: "PhD Electrical and Computer Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Electrical and Computer Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000088 ! doctor of philosophy in engineering
+
+[Term]
+id: QUALO:0000092
+name: doctor of philosophy in mechanical engineering
+synonym: "Ph. D. in Mechanical Engineering" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Ph.D in Mechanical Engineering" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Ph.D. in Mechanical Engineering" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "PhD in Mechanical Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Mechanical Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD. in Mechanical Engineering" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+is_a: QUALO:0000088 ! doctor of philosophy in engineering
+
+[Term]
+id: QUALO:0000093
+name: doctor of philosophy in biomedical engineering
+synonym: "Ph.D. in Biomedical Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Biomedical Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Bioengineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Biomedical Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000088 ! doctor of philosophy in engineering
+
+[Term]
+id: QUALO:0000094
+name: doctor of philosophy in physical chemistry
+synonym: "PhD in Physical Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000077 ! doctor of philosophy in chemistry
+
+[Term]
+id: QUALO:0000095
+name: doctor of philosophy in linguistics
+synonym: "PhD in Applied Linguistics" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Linguistics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Linguistics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000096
+name: doctor of philosophy in nursing
+synonym: "Doctor of Nursing Practice" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Nursing" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Nursing" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000097
+name: doctor of philosophy in english literature
+synonym: "PhD in English Literature" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000098
+name: doctor of philosophy in civil engineering
+synonym: "Ph.D. in Civil Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Civil Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Civil Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000088 ! doctor of philosophy in engineering
+
+[Term]
+id: QUALO:0000099
+name: doctor of philosophy in neuroscience
+synonym: "PhD in Neuroscience" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Neurosciences" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Neuroscience" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Neurosciences" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000100
+name: doctor of philosophy in epidemiology
+synonym: "PhD Epidemiology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Epidemiology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000101
+name: doctor of philosophy in geology
+synonym: "PhD Geology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Geology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000102
+name: master of science with honors
+synonym: "msc (honors)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "msc (honours)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000015 ! master's degree with honors
+is_a: QUALO:0000057 ! master of science
+
+[Term]
+id: QUALO:0000103
+name: doctor of philosophy in geography
+synonym: "PhD Geography" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Geography" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000104
+name: doctor of philosophy in biochemistry
+synonym: "Doctor in Biochemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Doctor of Philosophy (Biochemistry)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Ph.D in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Ph.D. Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph.D. in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Ph.D. in Biochemistry and Molecular Biology" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "PhD in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Biochemistry and Molecular Biology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Biochemistry, Molecular Biology and Biomedicine" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000105
+name: doctor of philosophy in industrial engineering
+synonym: "PhD in Industrial Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Industrial Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000088 ! doctor of philosophy in engineering
+
+[Term]
+id: QUALO:0000106
+name: doctor of philosophy in computer engineering
+synonym: "PhD Computer Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Computer Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000088 ! doctor of philosophy in engineering
+
+[Term]
+id: QUALO:0000107
+name: doctor of philosophy in materials engineering
+synonym: "PhD in Material Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Materials Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Materials Science and Engineering" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Material Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Materials Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000088 ! doctor of philosophy in engineering
+
+[Term]
+id: QUALO:0000108
+name: doctor of philosophy in environmental engineering
+synonym: "PhD Environment Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Environmental Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Environment Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Environmental Engineering" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000088 ! doctor of philosophy in engineering
+
+[Term]
+id: QUALO:0000109
+name: doctor of philosophy in physics
+synonym: "Ph. D in Physics" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Ph.D. in Physics" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "PhD (Physics)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Physics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Physics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Physics PhD" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000110
+name: doctor of philosophy in astrophysics
+synonym: "PhD Astrophysics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Astronomy" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Astrophysics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000109 ! doctor of philosophy in physics
+
+[Term]
+id: QUALO:0000111
+name: doctor of philosophy in theoretical physics
+synonym: "PhD in Theoretical Physics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Theoretical Physics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000109 ! doctor of philosophy in physics
+
+[Term]
+id: QUALO:0000112
+name: master of science in physics
+synonym: "M.Sc. Physics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Master in Physics" BROAD [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "MPhys" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MSc in Physics" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "MSc Physics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000057 ! master of science
+
+[Term]
+id: QUALO:0000113
+name: doctor of philosophy in biotechnology
+synonym: "PhD Biotechnology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Biotechnology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000114
+name: doctor of philosophy in public health
+synonym: "PhD in Public Health" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Public Health" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000115
+name: bachelor of arts in economics
+synonym: "BA Economics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelor of Economics" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-28"}
+is_a: QUALO:0000031 ! bachelor of arts
+
+[Term]
+id: QUALO:0000116
+name: master of science in economics
+synonym: "Master in Economics" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "MSc Economics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000057 ! master of science
+
+[Term]
+id: QUALO:0000117
+name: master of science and doctor of philosophy
+synonym: "M.Sc., Ph.D." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MS/PhD" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MS/PhD Student" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000052 ! combine degree
+
+[Term]
+id: QUALO:0000118
+name: doctor of philosophy in psychology
+synonym: "Doctor in Psychology" BROAD [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Doctora en Psicología" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Doctorate in Psychology" BROAD [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Ph. D. in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Ph.D in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Ph.D. in Clinical Psychology" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph.D. in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "PhD Candidate in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "PhD Clinical Psychology" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Clinical Psychology" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Psychology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Psychology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD. in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+is_a: QUALO:0000016 ! doctor of philosophy
+is_a: QUALO:0000199 ! academic degree in psychology
+
+[Term]
+id: QUALO:0000119
+name: master of science in computer science
+synonym: "M.Sc. in Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Master Degree in Computer Science" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Master in Computer Science" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Master of Computer Science" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Master of Science (Computer Science)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Master of Science, Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Master's Degree in Computer Science" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Master's in Computer Science" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Masters in Computer Science" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Masters of Computer Science" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Masters of Science in Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MS in Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MSc Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MSc in Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "MSc. in Computer Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000057 ! master of science
+
+[Term]
+id: QUALO:0000120
+name: doctor of philosophy in sociology
+synonym: "Ph.D. in Sociology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Sociology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Sociology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000121
+name: master of science in biology
+synonym: "MS Biology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000057 ! master of science
+
+[Term]
+id: QUALO:0000122
+name: master of science in biotechnology
+synonym: "MSc Biotechnology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000057 ! master of science
+
+[Term]
+id: QUALO:0000123
+name: doctor of philosophy in organic chemistry
+synonym: "PhD in Organic Chemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000077 ! doctor of philosophy in chemistry
+
+[Term]
+id: QUALO:0000124
+name: doctor of philosophy in political science
+synonym: "PhD in Political Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Political Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000125
+name: doctor of philosophy in philosophy
+synonym: "PhD in Philosophy" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Philosophy" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000126
+name: master of science in philosophy
+synonym: "M.Phil" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000057 ! master of science
+
+[Term]
+id: QUALO:0000127
+name: bachelor of arts in english
+synonym: "BA English" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000031 ! bachelor of arts
+
+[Term]
+id: QUALO:0000128
+name: bachelor of arts in psychology
+synonym: "BA in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "BA Psychology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Bachelors of Arts in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+is_a: QUALO:0000031 ! bachelor of arts
+is_a: QUALO:0000198 ! bachelor of psychology
+
+[Term]
+id: QUALO:0000129
+name: master of science in epidemiology
+synonym: "MSc Epidemiology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000057 ! master of science
+
+[Term]
+id: QUALO:0000130
+name: bachelor of science in biotechnology
+synonym: "B.Sc. in Biotechnology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "BSc Biotechnology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000024 ! bachelor of science
+
+[Term]
+id: QUALO:0000131
+name: doctor of philosophy in anthropology
+synonym: "PhD in Anthropology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000132
+name: doctor of philosophy in finance
+synonym: "Ph.D. in Finance" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Finance" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000133
+name: doctor of philosophy in archeology
+synonym: "doctor of philosophy in archaeology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Archaeology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Archeology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Archaeology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Archeology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000134
+name: doctor of philosophy in accounting
+synonym: "PhD in Accounting" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000135
+name: doctor of philosophy in business administration
+synonym: "Doctor of Business Administration" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Ph.D. in Business Administration" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Business Administration" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000136
+name: doctor of philosophy in architecture
+synonym: "PhD in Architecture" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000137
+name: doctor of philosophy in earth sciences
+synonym: "PhD in Earth Sciences" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000138
+name: doctor of philosophy in medicine
+synonym: "PhD in Medicine" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Medicine" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000139
+name: doctor of philosophy in information technology
+synonym: "PhD in Information Technology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000140
+name: doctor of philosophy in management
+synonym: "Ph.D. in Management" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Management" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000143
+name: doctor of philosophy in philology
+synonym: "PhD in Philology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000144
+name: doctor of philosophy in molecular medicine
+synonym: "PhD in Molecular Medicine" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000145
+name: doctor of philosophy in pharmacology
+synonym: "PhD in Pharmacology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000146
+name: doctor of philosophy in genetics
+synonym: "PhD in Genetics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000147
+name: doctor of philosophy in pharmacy
+synonym: "PhD in Pharmaceutical Sciences" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000148
+name: doctor of philosophy in health sciences
+synonym: "PhD in health sciences" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000149
+name: bachelor of science in accounting
+synonym: "Bacharel em Ciências Contábeis" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000024 ! bachelor of science
+
+[Term]
+id: QUALO:0000151
+name: bachelor of arts in philosophy
+synonym: "Licenciado en Filosofía" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Licenciatura em Filosofia" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000031 ! bachelor of arts
+
+[Term]
+id: QUALO:0000152
+name: bachelor of arts in history
+synonym: "Licenciado en Historia" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "Licenciatura em História" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000031 ! bachelor of arts
+
+[Term]
+id: QUALO:0000153
+name: doctor of philosophy in statistics
+synonym: "PhD in Statistics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Statistics" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000154
+name: doctor of philosophy in communication
+synonym: "PhD in Communication" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000155
+name: doctor of philosophy in marketing
+synonym: "PhD in Marketing" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Marketing" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000156
+name: doctor of philosophy in management
+synonym: "PhD in Management" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000157
+name: doctor of philosophy in materials science
+synonym: "PhD in Materials Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000158
+name: master of philosophy and doctor of philosophy
+synonym: "MPhil/PhD" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000052 ! combine degree
+
+[Term]
+id: QUALO:0000159
+name: doctor of philosophy in social sciences
+synonym: "doctor of philosophy in social science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Social Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in Social Sciences" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Social Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD Social Sciences" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000160
+name: doctor of philosophy in international relations
+synonym: "PhD in International Relation" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD in International Relations" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD International Relation" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+synonym: "PhD International Relations" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-27"}
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000161
+name: doctor of philosophy in medical sciences
+synonym: "PhD in Medical Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-28"}
+synonym: "PhD in Medical Sciences" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-28"}
+synonym: "PhD Medical Science" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-28"}
+synonym: "PhD Medical Sciences" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-28"}
+is_a: QUALO:0000016 ! doctor of philosophy
+property_value: QUALO:1000003 ror:024z2rq82
+
+[Term]
+id: QUALO:0000162
+name: master of science in health psychology
+synonym: "MSc Health Psychology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-28"}
+is_a: QUALO:0000057 ! master of science
+
+[Term]
+id: QUALO:0000163
+name: diplom
+is_a: QUALO:0000007 ! graduate degree
+property_value: skos:exactMatch wikidata:Q5978719 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-28"}
+
+[Term]
+id: QUALO:0000164
+name: vordiplom
+is_a: QUALO:0000006 ! undergraduate degree
+property_value: skos:exactMatch wikidata:Q1227202 {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-28"}
+
+[Term]
+id: QUALO:0000165
+name: bachelor of science in psychology with honors
+synonym: "Bachelor of Science (Honours) in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "BSc (Hons) Psychology" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-28"}
+is_a: QUALO:0000011 ! bachelor's degree with honors
+is_a: QUALO:0000039 ! bachelor of science in psychology
+
+[Term]
+id: QUALO:0000166
+name: bachelor of arts in business administration
+synonym: "Bacharel em Administração" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-28"}
+synonym: "Bachelor of Business Administration" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-28"}
+is_a: QUALO:0000031 ! bachelor of arts
+
+[Term]
+id: QUALO:0000167
+name: bachelor of medicine
+is_a: QUALO:0000003 ! bachelor's degree
+
+[Term]
+id: QUALO:0000168
+name: master of medicine
+is_a: QUALO:0000004 ! master's degree
+
+[Term]
+id: QUALO:0000169
+name: master of science in engineering
+is_a: QUALO:0000057 ! master of science
+
+[Term]
+id: QUALO:0000170
+name: master of architecture
+is_a: QUALO:0000004 ! master's degree
+
+[Term]
+id: QUALO:0000171
+name: bachelor of dental surgery
+is_a: QUALO:0000003 ! bachelor's degree
+
+[Term]
+id: QUALO:0000172
+name: bachelor of arts in chemistry
+is_a: QUALO:0000031 ! bachelor of arts
+
+[Term]
+id: QUALO:0000173
+name: master of science in biochemistry
+synonym: "M. Sc. in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "M.Sc in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "M.Sc. in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Master Degree in Biochemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Master in Biochemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Master in Biochemistry and Molecular Biology" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Master in Biochemistry, Molecular Biology and Biomedicine" RELATED [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Master of Biochemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Master of Science (Biochemistry)" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Master of Science Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Master of Science in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Master of Science, Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Master's degree in Biochemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Master's in Biochemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Masters in Biochemistry" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "MS in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "MS in Biochemistry and Molecular Biology" NARROW [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "MSc in Biochemistry" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+is_a: QUALO:0000057 ! master of science
+
+[Term]
+id: QUALO:0000174
+name: bachelor of arts in biochemistry
+is_a: QUALO:0000031 ! bachelor of arts
+
+[Term]
+id: QUALO:0000176
+name: master of arts in public administration
+synonym: "MA in Public Administration" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Master in Public Administration" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "master of public administration" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Master of Public Administration (MPA)" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Master's in Public Administration" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Master's of Public Administration" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Masters in Public Administration" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Masters of Public Administration" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "MPA" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+is_a: QUALO:0000060 ! master of arts
+
+[Term]
+id: QUALO:0000177
+name: doctor of philosophy in public administration
+synonym: "Doctor in Public Administration" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Doctor of Philosophy in Public Administration" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Doctor of Public Administration" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Ph.D. in Public Administration" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "PhD in Public Administration" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+is_a: QUALO:0000005 ! doctoral degree
+
+[Term]
+id: QUALO:0000178
+name: bachelor of arts in public administration
+synonym: "BA in Public Administration" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor in Public Administration" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+synonym: "Bachelor of Public Administration" BROAD [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-29"}
+is_a: QUALO:0000031 ! bachelor of arts
+
+[Term]
+id: QUALO:0000179
+name: master of science in geology
+is_a: QUALO:0000057 ! master of science
+
+[Term]
+id: QUALO:0000180
+name: bachelor of commerce
+synonym: "Bachelor in Commerce" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor of Commerce (Finance)" NARROW [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor of Commerce in Economics" NARROW [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor of Science in Commerce" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelors in Commerce" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelors of Commerce" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+is_a: QUALO:0000003 ! bachelor's degree
+
+[Term]
+id: QUALO:0000181
+name: bachelor of commerce with honors
+synonym: "Bachelor of Commerce (Accounting)" NARROW [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor of Commerce (Honours)" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor of Commerce (Hons)" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor of Commerce Honours" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+is_a: QUALO:0000003 ! bachelor's degree
+is_a: QUALO:0000011 ! bachelor's degree with honors
+
+[Term]
+id: QUALO:0000182
+name: master of commerce
+synonym: "Master in Commerce" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Master of Commerce (Finance)" NARROW [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Masters in Commerce" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Masters of Commerce" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+is_a: QUALO:0000004 ! master's degree
+
+[Term]
+id: QUALO:0000183
+name: doctor of philosophy in commerce
+is_a: QUALO:0000005 ! doctoral degree
+property_value: oboInOwl:hasExact "Doctor of Commerce" xsd:string {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-30"}
+property_value: oboInOwl:hasExact "PhD in Commerce" xsd:string {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-10-30"}
+
+[Term]
+id: QUALO:0000184
+name: bachelor of science in social work
+is_a: QUALO:0000024 ! bachelor of science
+
+[Term]
+id: QUALO:0000185
+name: bachelor of arts in social work
+is_a: QUALO:0000031 ! bachelor of arts
+
+[Term]
+id: QUALO:0000186
+name: bachelor of science in social work with honors
+is_a: QUALO:0000011 ! bachelor's degree with honors
+is_a: QUALO:0000184 ! bachelor of science in social work
+
+[Term]
+id: QUALO:0000187
+name: master of science in social work
+is_a: QUALO:0000057 ! master of science
+
+[Term]
+id: QUALO:0000188
+name: master of arts in social work
+is_a: QUALO:0000060 ! master of arts
+
+[Term]
+id: QUALO:0000189
+name: doctor of philosophy in social work
+is_a: QUALO:0000016 ! doctor of philosophy
+
+[Term]
+id: QUALO:0000190
+name: bachelor of arts in psychology with honors
+synonym: "BA (Hons) in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "BA Honours in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor of Arts (Honours) in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Bachelor of Arts Honours in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+is_a: QUALO:0000011 ! bachelor's degree with honors
+is_a: QUALO:0000128 ! bachelor of arts in psychology
+
+[Term]
+id: QUALO:0000191
+name: master of arts in psychology
+synonym: "M.A. in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "MA in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Master of Arts in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+is_a: QUALO:0000060 ! master of arts
+is_a: QUALO:0000196 ! master of psychology
+
+[Term]
+id: QUALO:0000192
+name: master of science in psychology
+synonym: "M.Sc. in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Master Degree in Psychology" BROAD [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Master of Science in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "MS in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "MSc in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+is_a: QUALO:0000057 ! master of science
+is_a: QUALO:0000196 ! master of psychology
+
+[Term]
+id: QUALO:0000193
+name: master of philsophy in psychology
+synonym: "Master of Philosophy in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+is_a: QUALO:0000073 ! master of philosophy
+is_a: QUALO:0000196 ! master of psychology
+
+[Term]
+id: QUALO:0000194
+name: master of research in psychology
+synonym: "Master of Research in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+is_a: QUALO:0000075 ! master of research
+is_a: QUALO:0000196 ! master of psychology
+
+[Term]
+id: QUALO:0000196
+name: master of psychology
+synonym: "Master in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Master's Degree in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Master's in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+synonym: "Masters in Psychology" EXACT [] {dcterms:date="2024-10-30", dcterms:contributor="orcid:0000-0003-4423-4370"}
+is_a: QUALO:0000004 ! master's degree
+is_a: QUALO:0000199 ! academic degree in psychology
+
+[Term]
+id: QUALO:0000198
+name: bachelor of psychology
+is_a: QUALO:0000003 ! bachelor's degree
+is_a: QUALO:0000199 ! academic degree in psychology
+
+[Term]
+id: QUALO:0000199
+name: academic degree in psychology
+is_a: QUALO:0000021 ! academic degree by discipline
+relationship: QUALO:1000002 mesh:D011584 ! for discipline Psychology
+
+[Term]
+id: QUALO:0000200
+name: associate in psychology
+is_a: QUALO:0000008 ! associate's degree
+is_a: QUALO:0000199 ! academic degree in psychology
+
+[Term]
+id: QUALO:0000201
+name: associate of arts
+is_a: QUALO:0000008 ! associate's degree
+
+[Term]
+id: QUALO:0000202
+name: associate of arts in psychology
+is_a: QUALO:0000200 ! associate in psychology
+is_a: QUALO:0000201 ! associate of arts
+
+[Term]
+id: QUALO:0000203
+name: habilitation
+synonym: "Abilitazione scientifica nazionale" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-11-05"}
+synonym: "Doctor habilitatus" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-11-05"}
+synonym: "Doktor habilitowany" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-11-05"}
+synonym: "Dr hab." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-11-05"}
+synonym: "Dr. habil." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-11-05"}
+synonym: "Habilitation à diriger des recherches" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-11-05"}
+synonym: "Livre-docência" EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-11-05"}
+synonym: "Priv.-Doz." EXACT [] {dcterms:contributor="orcid:0000-0003-4423-4370", dcterms:date="2024-11-05"}
+is_a: QUALO:0000007 ! graduate degree
+
+[Term]
+id: QUALO:9999990
+name: academic discipline
+
+[Term]
+id: mesh:D011584
+name: Psychology
+is_a: QUALO:9999990 ! academic discipline
+
+[Typedef]
+id: BFO:0000051
+name: has part
+
+[Typedef]
+id: QUALO:1000002
+name: for discipline
+domain: QUALO:0000001 ! qualification
+range: QUALO:9999990 ! academic discipline
+
